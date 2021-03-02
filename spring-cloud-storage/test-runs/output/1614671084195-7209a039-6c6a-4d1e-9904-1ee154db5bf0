@@ -1,0 +1,1 @@
+15:44:48.257 [main] WARN  o.s.c.g.s.GoogleStorageResource - Creating signed URL for non-existing GCS object gs://test-spring/t1/test.png

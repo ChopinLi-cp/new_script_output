@@ -1,0 +1,24 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: org.springframework.cloud.gcp.storage.GoogleStorageTests.testWritable
+CLEANER FILE: /home/lichengpeng/test2/automated_script/spring-cloud/spring-cloud-gcp/spring-cloud-gcp-storage/src/test/java/org/springframework/cloud/gcp/storage/GoogleStorageTests.java
+POLLUTER: N/A
+POLLUTER FILE: N/A
+ORIGINAL CLEANER SIZE: 8
+NEW CLEANER SIZE: 8
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,12 @@
++ {
++     {
++     }
++     WriteChannel writeChannel = mock(WriteChannel.class);
++     when(this.mockStorage.writer(any(BlobInfo.class))).thenReturn(writeChannel);
++     Assert.assertTrue(this.remoteResource instanceof WritableResource);
++     WritableResource writableResource = (WritableResource) this.remoteResource;
++     Assert.assertTrue(writableResource.isWritable());
++     writableResource.getOutputStream();
++     {
++     }
++ }

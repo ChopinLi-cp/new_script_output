@@ -1,0 +1,24 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: org.springframework.cloud.gcp.storage.GoogleStorageTests.testBucketExistsButResourceDoesNot
+CLEANER FILE: /home/lichengpeng/test2/automated_script/spring-cloud/spring-cloud-gcp/spring-cloud-gcp-storage/src/test/java/org/springframework/cloud/gcp/storage/GoogleStorageTests.java
+POLLUTER: N/A
+POLLUTER FILE: N/A
+ORIGINAL CLEANER SIZE: 8
+NEW CLEANER SIZE: 8
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,12 @@
++ {
++     {
++     }
++     GoogleStorageResource resource = new GoogleStorageResource(this.mockStorage, "gs://test-spring/file1");
++     Bucket mockedBucket = mock(Bucket.class);
++     when(this.mockStorage.get("test-spring")).thenReturn(mockedBucket);
++     when(mockedBucket.exists()).thenReturn(true);
++     Assert.assertTrue(resource.bucketExists());
++     Assert.assertFalse(resource.exists());
++     {
++     }
++ }

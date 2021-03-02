@@ -1,0 +1,5 @@
+org.springframework.cloud.gcp.storage.GoogleStorageTests.testValidBucket
+org.springframework.cloud.gcp.storage.GoogleStorageTests.testWritableOutputStreamWithAutoCreateOnNonExistantBlob
+org.springframework.cloud.gcp.storage.GoogleStorageTests.testBucketNoBlobResourceStatuses
+org.springframework.cloud.gcp.storage.GoogleStorageTests.testWritableOutputStream
+org.springframework.cloud.gcp.storage.GoogleStorageTests.testWritableOutputStreamWithAutoCreateOnNullBlob
