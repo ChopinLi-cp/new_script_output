@@ -1,0 +1,1 @@
+{"id":"1614616560955-d90f8976-1543-4962-bf01-20fdc2bf49c2","testOrder":["io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplateForAsync"],"results":{"io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplateForAsync":{"name":"io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplateForAsync","result":"PASS","time":0.017871088,"stackTrace":[]}}}

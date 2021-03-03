@@ -1,0 +1,1 @@
+{"id":"1614628939293-61d08f34-612b-4a13-9a5b-2e6ac814b686","testOrder":["io.github.dddplus.runtime.registry.IntegrationTest.testPolicy"],"results":{"io.github.dddplus.runtime.registry.IntegrationTest.testPolicy":{"name":"io.github.dddplus.runtime.registry.IntegrationTest.testPolicy","result":"PASS","time":0.010165158,"stackTrace":[]}}}

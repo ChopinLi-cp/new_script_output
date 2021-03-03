@@ -1,0 +1,369 @@
+3月 01, 2021 11:00:04 上午 org.springframework.test.context.support.DefaultTestContextBootstrapper getDefaultTestExecutionListenerClassNames
+資訊: Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+3月 01, 2021 11:00:04 上午 org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+資訊: Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+3月 01, 2021 11:00:04 上午 org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+資訊: Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+3月 01, 2021 11:00:04 上午 org.springframework.test.context.support.DefaultTestContextBootstrapper instantiateListeners
+資訊: Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/TransactionDefinition]
+3月 01, 2021 11:00:04 上午 org.springframework.test.context.support.DefaultTestContextBootstrapper getTestExecutionListeners
+資訊: Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15043a2f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4a83a74a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1349883]
+3月 01, 2021 11:00:04 上午 org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+資訊: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@503f91c3: startup date [Mon Mar 01 11:00:04 CST 2021]; root of context hierarchy
+3月 01, 2021 11:00:05 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+資訊: Loading XML bean definitions from class path resource [ability-with-invalid-domain.xml]
+3月 01, 2021 11:00:05 上午 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+資訊: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-03-01 11:00:05,859 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-03-01 11:00:05,963 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-03-01 11:00:05,964 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-03-01 11:00:05,969 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-03-01 11:00:05,973 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-03-01 11:00:05,977 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+2021-03-01 11:00:06,110 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainAbility's ...
+3月 01, 2021 11:00:06 上午 org.springframework.context.support.ClassPathXmlApplicationContext refresh
+警告: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: DomainAbility domain not found: non-exist
+3月 01, 2021 11:00:06 上午 org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+資訊: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3241713e: startup date [Mon Mar 01 11:00:06 CST 2021]; root of context hierarchy
+3月 01, 2021 11:00:06 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+資訊: Loading XML bean definitions from class path resource [pattern-invalid.xml]
+3月 01, 2021 11:00:06 上午 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+資訊: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-03-01 11:00:06,312 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-03-01 11:00:06,315 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-03-01 11:00:06,316 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-03-01 11:00:06,317 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-03-01 11:00:06,318 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-03-01 11:00:06,320 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+2021-03-01 11:00:06,328 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainAbility's ...
+2021-03-01 11:00:06,341 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Policy's ...
+2021-03-01 11:00:06,344 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Partner's ...
+2021-03-01 11:00:06,348 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Pattern's ...
+3月 01, 2021 11:00:06 上午 org.springframework.context.support.ClassPathXmlApplicationContext refresh
+警告: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: io.github.errcase.invalidpattern.InvalidPattern MUST implements IIdentityResolver
+3月 01, 2021 11:00:06 上午 org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+資訊: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@432034a: startup date [Mon Mar 01 11:00:06 CST 2021]; root of context hierarchy
+3月 01, 2021 11:00:06 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+資訊: Loading XML bean definitions from class path resource [dup-partner.xml]
+3月 01, 2021 11:00:06 上午 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+資訊: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-03-01 11:00:06,508 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-03-01 11:00:06,512 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-03-01 11:00:06,512 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-03-01 11:00:06,513 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-03-01 11:00:06,514 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-03-01 11:00:06,516 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+2021-03-01 11:00:06,522 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainAbility's ...
+2021-03-01 11:00:06,533 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Policy's ...
+2021-03-01 11:00:06,535 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Partner's ...
+3月 01, 2021 11:00:06 上午 org.springframework.context.support.ClassPathXmlApplicationContext refresh
+警告: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: duplicated partner code: ddd.cn.ka
+3月 01, 2021 11:00:06 上午 org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+資訊: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@21fdfefc: startup date [Mon Mar 01 11:00:06 CST 2021]; root of context hierarchy
+3月 01, 2021 11:00:06 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+資訊: Loading XML bean definitions from class path resource [dup-pattern.xml]
+3月 01, 2021 11:00:06 上午 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+資訊: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-03-01 11:00:06,684 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-03-01 11:00:06,688 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-03-01 11:00:06,688 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-03-01 11:00:06,689 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-03-01 11:00:06,690 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-03-01 11:00:06,691 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+2021-03-01 11:00:06,697 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainAbility's ...
+2021-03-01 11:00:06,707 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Policy's ...
+2021-03-01 11:00:06,708 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Partner's ...
+2021-03-01 11:00:06,709 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Pattern's ...
+3月 01, 2021 11:00:06 上午 org.springframework.context.support.ClassPathXmlApplicationContext refresh
+警告: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: duplicated pattern code: b2b
+3月 01, 2021 11:00:06 上午 org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+資訊: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@65a5d4f9: startup date [Mon Mar 01 11:00:06 CST 2021]; root of context hierarchy
+3月 01, 2021 11:00:06 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+資訊: Loading XML bean definitions from class path resource [dup-domain.xml]
+3月 01, 2021 11:00:06 上午 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+資訊: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-03-01 11:00:06,845 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-03-01 11:00:06,848 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-03-01 11:00:06,848 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+3月 01, 2021 11:00:06 上午 org.springframework.context.support.ClassPathXmlApplicationContext refresh
+警告: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: duplicated domain code: FooDomain
+3月 01, 2021 11:00:06 上午 org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+資訊: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4fad6218: startup date [Mon Mar 01 11:00:06 CST 2021]; root of context hierarchy
+3月 01, 2021 11:00:06 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+資訊: Loading XML bean definitions from class path resource [dup-policy.xml]
+3月 01, 2021 11:00:06 上午 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+資訊: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-03-01 11:00:06,975 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-03-01 11:00:06,978 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-03-01 11:00:06,978 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-03-01 11:00:06,979 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-03-01 11:00:06,980 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-03-01 11:00:06,981 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+2021-03-01 11:00:06,987 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainAbility's ...
+2021-03-01 11:00:06,996 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Policy's ...
+3月 01, 2021 11:00:06 上午 org.springframework.context.support.ClassPathXmlApplicationContext refresh
+警告: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: 1 Policy decides only 1 Extension:io.github.errcase.policy.DupTriggerPolicy, ext:io.github.dddplus.runtime.registry.mock.ext.ITrigger
+3月 01, 2021 11:00:06 上午 org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+資訊: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@642505c7: startup date [Mon Mar 01 11:00:06 CST 2021]; root of context hierarchy
+3月 01, 2021 11:00:07 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+資訊: Loading XML bean definitions from class path resource [dup-step.xml]
+3月 01, 2021 11:00:07 上午 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+資訊: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-03-01 11:00:07,119 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-03-01 11:00:07,121 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-03-01 11:00:07,121 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-03-01 11:00:07,122 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-03-01 11:00:07,124 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-03-01 11:00:07,125 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+3月 01, 2021 11:00:07 上午 org.springframework.context.support.ClassPathXmlApplicationContext refresh
+警告: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: duplicated step code: Foo
+3月 01, 2021 11:00:07 上午 org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+資訊: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6ff6efdc: startup date [Mon Mar 01 11:00:07 CST 2021]; root of context hierarchy
+3月 01, 2021 11:00:07 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+資訊: Loading XML bean definitions from class path resource [service-with-invalid-domain.xml]
+3月 01, 2021 11:00:07 上午 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+資訊: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-03-01 11:00:07,255 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-03-01 11:00:07,259 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-03-01 11:00:07,259 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-03-01 11:00:07,260 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+3月 01, 2021 11:00:07 上午 org.springframework.context.support.ClassPathXmlApplicationContext refresh
+警告: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'DDDBootstrap' defined in file [/home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-runtime/target/classes/io/github/dddplus/runtime/registry/DDDBootstrap.class]: Initialization of bean failed; nested exception is io.github.dddplus.runtime.registry.BootstrapException: DomainService domain not found: non-exist
+3月 01, 2021 11:00:07 上午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+資訊: Loading XML bean definitions from URL [file:/home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-test/target/test-classes/spring-test.xml]
+3月 01, 2021 11:00:07 上午 org.springframework.context.support.GenericApplicationContext prepareRefresh
+資訊: Refreshing org.springframework.context.support.GenericApplicationContext@4a734c04: startup date [Mon Mar 01 11:00:07 CST 2021]; root of context hierarchy
+3月 01, 2021 11:00:07 上午 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+資訊: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-03-01 11:00:07,788 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [57] - setup the discoverable Spring beans...
+2021-03-01 11:00:07,894 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [45] - starting Spring, register DDD beans...
+2021-03-01 11:00:07,896 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Domain's ...
+2021-03-01 11:00:07,899 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainService's ...
+2021-03-01 11:00:07,902 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Specification's ...
+2021-03-01 11:00:07,906 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Step's ...
+2021-03-01 11:00:08,029 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register DomainAbility's ...
+2021-03-01 11:00:08,059 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Policy's ...
+2021-03-01 11:00:08,062 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Partner's ...
+2021-03-01 11:00:08,065 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Pattern's ...
+2021-03-01 11:00:08,072 [main] INFO  [io.github.dddplus.runtime.registry.RegistryFactory] [32] - register Extension's ...
+2021-03-01 11:00:08,099 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [47] - all DDD beans registered, cost 204ms
+3月 01, 2021 11:00:08 上午 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor initialize
+資訊: Initializing ExecutorService  'asyncStepsExecutor'
+3月 01, 2021 11:00:08 上午 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor initialize
+資訊: Initializing ExecutorService  'asyncStepsExecutorAutoDiscard'
+2021-03-01 11:00:08,141 [main] INFO  [io.github.dddplus.runtime.registry.DDDBootstrap] [55] - Spring started complete!
+2021-03-01 11:00:08,156 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Baz
+2021-03-01 11:00:08,156 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.BazStep] [18] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=true, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-03-01 11:00:08,157 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Foo
+2021-03-01 11:00:08,157 [main] INFO  [io.github.dddplus.runtime.registry.mock.step.FooStep] [20] - submit: FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=true, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-03-01 11:00:08,157 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,157 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,158 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,158 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,158 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,158 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,158 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,158 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,159 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,159 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,159 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,159 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,159 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,159 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,160 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,160 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,160 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,160 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,160 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,160 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,161 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,161 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,161 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,161 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,161 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,161 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,162 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,162 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,162 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,162 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,163 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,163 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,163 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,163 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,163 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,163 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,164 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,164 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,164 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,164 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,164 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,164 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,164 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,165 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,165 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,165 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,165 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,165 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,166 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,166 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,166 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,166 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,166 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,166 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,166 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,167 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,167 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,167 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,167 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,167 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,167 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,168 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,168 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,168 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,168 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,168 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,168 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,169 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,169 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,169 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,169 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,169 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,169 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,169 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,170 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,170 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,170 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,170 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,170 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,170 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,170 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,171 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,171 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,171 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,171 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,171 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,171 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,171 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,172 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,172 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,172 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,172 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,172 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,172 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,172 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,173 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,173 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,173 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,173 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,173 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,173 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,173 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,174 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,174 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,174 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,174 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,174 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,174 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,174 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,175 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,175 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,175 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,175 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,175 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,175 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,176 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,176 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,176 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,176 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,176 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,176 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,177 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,177 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,177 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,177 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,177 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,177 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,177 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,178 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,178 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,178 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,178 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,178 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,178 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,178 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,179 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,179 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,179 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,179 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,179 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,179 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,179 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,180 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,180 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,180 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,180 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,180 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,180 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,180 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,181 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,181 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,181 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,181 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,181 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,181 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,181 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,181 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,182 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,182 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,182 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,182 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,182 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,182 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,182 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,182 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,183 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,183 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,183 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,183 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,183 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,183 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,183 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,184 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,184 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,184 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,184 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,184 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,184 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,184 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,185 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,185 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,185 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,185 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,185 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,185 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,186 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,186 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,186 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,186 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,186 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,186 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,186 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,187 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,187 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,187 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,187 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,187 [main] INFO  [io.github.dddplus.runtime.registry.mock.interceptor.DomainProfilerAspect] [21] - AROUND step:Submit.Bar
+2021-03-01 11:00:08,187 [main] INFO  [io.github.dddplus.runtime.StepsExecTemplate] [94] - revised steps:[Bar]
+2021-03-01 11:00:08,187 [main] ERROR [io.github.dddplus.runtime.StepsExecTemplate] [99] - Steps revision seem to encounter dead loop, abort after 100 model:FooModel(partnerCode=ddd.cn.ka, b2c=false, letFooThrowException=false, willSleepLong=false, willThrowRuntimeException=false, willThrowOOM=false, redecide=false, redecideDeadLoop=true, stepsRevised=false, willRollback=false, willRollbackInvalid=false, sleepExtTimeout=false, foo=0)
+2021-03-01 11:00:08,188 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [17] - Hello
+2021-03-01 11:00:08,215 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [20] - World
+2021-03-01 11:00:08,215 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [24] - DDDplus Framework
+2021-03-01 11:00:08,215 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [27] - a
+2021-03-01 11:00:08,216 [main] INFO  [io.github.dddplus.testing.LogAssertTest] [28] - b
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.dupPartner
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.serviceWithInvalidDomain
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.invalidPattern
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.dupDomain
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.dupPolicy
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.dupPattern
+[ERROR] Unexpected test executed: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.abilityWithInvalidDomain

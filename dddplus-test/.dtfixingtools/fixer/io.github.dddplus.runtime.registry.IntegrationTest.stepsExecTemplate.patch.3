@@ -1,0 +1,36 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplateWithRollback
+CLEANER FILE: /home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/IntegrationTest.java
+POLLUTER: io.github.dddplus.runtime.registry.IntegrationTest.testPolicy
+POLLUTER FILE: /home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/IntegrationTest.java
+ORIGINAL CLEANER SIZE: 9
+NEW CLEANER SIZE: 9
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,24 @@
++ {
++     {
++         fooModel = new FooModel();
++         fooModel.setPartnerCode(FooPartner.CODE);
++         fooModel.setB2c(true);
++         // ExtensionInvocationHandler.extInvokeTimerExecutor的线程池缩小到10，方便并发测试
++         System.setProperty("invokeExtMaxPoolSize", "10");
++     }
++     fooModel.setB2c(false);
++     fooModel.setWillRollback(true);
++     List<String> steps = DDD.findAbility(DecideStepsAbility.class).decideSteps(fooModel, Steps.Submit.Activity);
++     // Baz, Foo, Bar
++     log.info("steps: {}", steps);
++     try {
++         submitStepsExec.execute(Steps.Submit.Activity, steps, fooModel);
++         fail();
++     } catch (FooException expected) {
++         assertEquals(BarStep.rollbackReason, expected.getMessage());
++     }
++     // BarStep执行时抛异常，确保 FooStep, BazStep 的rollback被调用
++     LogAssert.assertContains("foo rollback, cause", "baz rollback for");
++     {
++     }
++ }

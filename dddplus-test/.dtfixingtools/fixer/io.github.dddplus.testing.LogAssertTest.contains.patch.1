@@ -1,0 +1,35 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: io.github.dddplus.runtime.registry.IntegrationTest.extThrowException
+CLEANER FILE: /home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/IntegrationTest.java
+POLLUTER: io.github.dddplus.runtime.registry.ErrorOnPurposeTest.dupStep
+POLLUTER FILE: /home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/ErrorOnPurposeTest.java
+ORIGINAL CLEANER SIZE: 7
+NEW CLEANER SIZE: 7
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,23 @@
++ {
++     {
++     }
++     {
++         fooModel = new FooModel();
++         fooModel.setPartnerCode(FooPartner.CODE);
++         fooModel.setB2c(true);
++         // ExtensionInvocationHandler.extInvokeTimerExecutor的线程池缩小到10，方便并发测试
++         System.setProperty("invokeExtMaxPoolSize", "10");
++     }
++     try {
++         // B2BExt
++         fooModel.setPartnerCode("");
++         fooModel.setB2c(false);
++         fooDomainService.submitOrder(fooModel);
++     } catch (Throwable ex) {
++     } finally {
++     }
++     {
++     }
++     {
++     }
++ }

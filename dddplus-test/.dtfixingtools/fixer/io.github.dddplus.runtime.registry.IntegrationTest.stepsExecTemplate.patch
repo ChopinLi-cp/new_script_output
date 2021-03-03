@@ -1,0 +1,35 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: io.github.dddplus.runtime.registry.IntegrationTest.stepsRevisionDeadLoop
+CLEANER FILE: /home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/IntegrationTest.java
+POLLUTER: io.github.dddplus.runtime.registry.IntegrationTest.testPolicy
+POLLUTER FILE: /home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/IntegrationTest.java
+ORIGINAL CLEANER SIZE: 8
+NEW CLEANER SIZE: 8
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,23 @@
++ {
++     {
++         fooModel = new FooModel();
++         fooModel.setPartnerCode(FooPartner.CODE);
++         fooModel.setB2c(true);
++         // ExtensionInvocationHandler.extInvokeTimerExecutor的线程池缩小到10，方便并发测试
++         System.setProperty("invokeExtMaxPoolSize", "10");
++     }
++     fooModel.setB2c(false);
++     // dead loop on purpose
++     fooModel.setRedecideDeadLoop(true);
++     fooModel.setStepsRevised(false);
++     List<String> steps = DDD.findAbility(DecideStepsAbility.class).decideSteps(fooModel, Steps.Submit.Activity);
++     // B2BDecideStepsExt: FooStep -> BarStep(if redecideDeadLoop then add BarStep)
++     try {
++         submitStepsExec.execute(Steps.Submit.Activity, steps, fooModel);
++         fail();
++     } catch (RuntimeException expected) {
++         assertEquals("Seems steps dead loop, abort after 100", expected.getMessage());
++     }
++     {
++     }
++ }

@@ -1,0 +1,36 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: io.github.dddplus.runtime.registry.DDDBootstrapTest.reload
+CLEANER FILE: /home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/DDDBootstrapTest.java
+POLLUTER: io.github.dddplus.runtime.registry.BadOnPurposeTest.notExtButAnnotatedWithExtension
+POLLUTER FILE: /home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/BadOnPurposeTest.java
+ORIGINAL CLEANER SIZE: 18
+NEW CLEANER SIZE: 18
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,24 @@
++ {
++     {
++     }
++     {
++     }
++     final String expectedLogEvent = "register applicationContext more than once, ignored!";
++     ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-test.xml");
++     assertNotNull(DDDBootstrap.applicationContext());
++     assertSame(applicationContext, DDDBootstrap.applicationContext());
++     LogAssert.assertNotContains(expectedLogEvent, "Spring reloaded complete!");
++     DDDBootstrap dddBootstrap = applicationContext.getBean(DDDBootstrap.class);
++     dddBootstrap.setApplicationContext(applicationContext);
++     LogAssert.assertContains(expectedLogEvent);
++     GenericApplicationContext genericApplicationContext = new GenericApplicationContext();
++     genericApplicationContext.setParent(applicationContext);
++     ContextRefreshedEvent contextRefreshedEvent = new ContextRefreshedEvent(genericApplicationContext);
++     dddBootstrap.onApplicationEvent(contextRefreshedEvent);
++     LogAssert.assertContains("Spring reloaded complete!");
++     applicationContext.close();
++     {
++     }
++     {
++     }
++ }

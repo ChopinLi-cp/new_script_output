@@ -1,0 +1,18 @@
+STATUS: INLINE SUCCESSFUL
+MODIFIED: io.github.dddplus.runtime.registry.IntegrationTest.testPolicy
+MODIFIED FILE: /home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/IntegrationTest.java
+CLEANER: io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplateOneStepTimeoutWillNotRollback
+CLEANER FILE: /home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/IntegrationTest.java
+POLLUTER: io.github.dddplus.runtime.registry.BadOnPurposeTest.badDomainAbility
+POLLUTER FILE: /home/ecelrc/students/cli7/tool/automated_script/funkygao/cp-ddd-framework/dddplus-test/src/test/java/io/github/dddplus/runtime/registry/BadOnPurposeTest.java
+ORIGINAL CLEANER SIZE: 9
+NEW CLEANER SIZE: 4
+ELAPSED TIME: 1596.0019998550415
+==========================
+@@ -204,0 +204,6 @@
++ {
++     fooModel.setB2c(false);
++     fooModel.setSleepExtTimeout(true);
++     List<String> steps = DDD.findAbility(DecideStepsAbility.class).decideSteps(fooModel, Steps.Submit.Activity);
++     submitStepsExec.execute(Steps.Submit.Activity, steps, fooModel);
++ }

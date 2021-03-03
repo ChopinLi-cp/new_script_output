@@ -1,0 +1,5 @@
+io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplateForAsync
+io.github.dddplus.testing.LogAssertTest.contains
+io.github.dddplus.runtime.registry.ContainerTest.jarNotExist
+io.github.dddplus.runtime.registry.IntegrationTest.testPolicy
+io.github.dddplus.runtime.registry.IntegrationTest.stepsExecTemplate
