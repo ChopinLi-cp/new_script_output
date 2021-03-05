@@ -1,0 +1,1 @@
+{"id":"1614668871928-e87ee5af-8f4c-4fdd-b927-d640c00070e8","testOrder":["io.jboot.test.cache.caffeine.CaffeineTester.testGet"],"results":{"io.jboot.test.cache.caffeine.CaffeineTester.testGet":{"name":"io.jboot.test.cache.caffeine.CaffeineTester.testGet","result":"PASS","time":0.928152014,"stackTrace":[]}},"diffs":{}}

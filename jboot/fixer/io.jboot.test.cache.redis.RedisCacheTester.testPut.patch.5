@@ -1,0 +1,15 @@
+STATUS: INLINE SUCCESSFUL SETUPTEARDOWN
+MODIFIED: io.jboot.test.cache.redis.RedisCacheTester.testPut
+MODIFIED FILE: /home/lichengpeng/test2/automated_script/yangfuhai/jboot/src/test/java/io/jboot/test/cache/redis/RedisCacheTester.java
+CLEANER: io.jboot.test.cache.caffeine.CaffeineTester.testGet
+CLEANER FILE: /home/lichengpeng/test2/automated_script/yangfuhai/jboot/src/test/java/io/jboot/test/cache/caffeine/CaffeineTester.java
+POLLUTER: N/A
+POLLUTER FILE: N/A
+ORIGINAL CLEANER SIZE: 9
+NEW CLEANER SIZE: 1
+ELAPSED TIME: 45.60600018501282
+==========================
+@@ -28,0 +28,3 @@
++ {
++     JbootApplication.setBootArg("jboot.cache.type", "caffeine");
++ }

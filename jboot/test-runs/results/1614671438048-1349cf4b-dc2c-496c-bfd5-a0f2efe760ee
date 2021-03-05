@@ -1,0 +1,1 @@
+{"id":"1614671438048-1349cf4b-dc2c-496c-bfd5-a0f2efe760ee","testOrder":["io.jboot.test.cache.j2cache.J2CacheTester.testGet"],"results":{"io.jboot.test.cache.j2cache.J2CacheTester.testGet":{"name":"io.jboot.test.cache.j2cache.J2CacheTester.testGet","result":"PASS","time":0.929005424,"stackTrace":[]}},"diffs":{}}

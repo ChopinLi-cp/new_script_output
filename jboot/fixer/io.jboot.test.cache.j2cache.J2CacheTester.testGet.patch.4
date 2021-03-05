@@ -1,0 +1,15 @@
+STATUS: INLINE SUCCESSFUL SETUPTEARDOWN
+MODIFIED: io.jboot.test.cache.j2cache.J2CacheTester.testGet
+MODIFIED FILE: /home/lichengpeng/test2/automated_script/yangfuhai/jboot/src/test/java/io/jboot/test/cache/j2cache/J2CacheTester.java
+CLEANER: io.jboot.test.cache.caffeine.CaffeineTester.testGet
+CLEANER FILE: /home/lichengpeng/test2/automated_script/yangfuhai/jboot/src/test/java/io/jboot/test/cache/caffeine/CaffeineTester.java
+POLLUTER: N/A
+POLLUTER FILE: N/A
+ORIGINAL CLEANER SIZE: 9
+NEW CLEANER SIZE: 1
+ELAPSED TIME: 46.2279999256134
+==========================
+@@ -21,0 +21,3 @@
++ {
++     JbootApplication.setBootArg("jboot.cache.type", "caffeine");
++ }

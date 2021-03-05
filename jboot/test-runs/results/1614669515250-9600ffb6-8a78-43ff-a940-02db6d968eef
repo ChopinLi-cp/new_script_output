@@ -1,0 +1,1 @@
+{"id":"1614669515250-9600ffb6-8a78-43ff-a940-02db6d968eef","testOrder":["io.jboot.test.cache.redis.RedisCacheTester.testCacheType"],"results":{"io.jboot.test.cache.redis.RedisCacheTester.testCacheType":{"name":"io.jboot.test.cache.redis.RedisCacheTester.testCacheType","result":"PASS","time":1.102174562,"stackTrace":[]}},"diffs":{}}

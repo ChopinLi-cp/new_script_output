@@ -1,0 +1,11 @@
+io.jboot.test.cache.redis.RedisCacheTester.testPut
+io.jboot.test.cache.caffeine.CaffeineTester.testPut
+io.jboot.test.cache.j2cache.J2CacheTester.testPut
+io.jboot.test.cache.ehcache.EhCacheTester.testPut
+io.jboot.test.cache.ehcache.EhCacheTester.testGet
+io.jboot.test.cache.caffeine.CaffeineTester.testTtl
+io.jboot.test.cache.j2cache.J2CacheTester.testGet
+io.jboot.test.cache.caffeine.CaffeineTester.testGet
+io.jboot.test.cache.redis.RedisCacheTester.testGet
+io.jboot.test.cache.redis.RedisCacheTester.testCacheType
+io.jboot.test.cache.caffeine.CaffeineTester.testDue
