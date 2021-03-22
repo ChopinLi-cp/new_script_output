@@ -1,0 +1,3 @@
+Module is not using a supported test framework (probably not JUnit).
+
+org.apache.cayenne:cayenne-parent:4.2.M3-SNAPSHOT

@@ -1,0 +1,36 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: io.cloudslang.fortest.SensitiveValueTest.testSensitiveValueEncryptDecrypt
+CLEANER FILE: /Users/chopinli/Documents/UT-Austin/test/automated_script/CloudSlang/cloud-slang/cloudslang-entities/src/test/java/io/cloudslang/fortest/SensitiveValueTest.java
+POLLUTER: N/A
+POLLUTER FILE: N/A
+ORIGINAL CLEANER SIZE: 18
+NEW CLEANER SIZE: 18
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,24 @@
++ {
++     {
++     }
++     {
++     }
++     final String originalValue = "OriginalSensitiveValue";
++     final String expectedEncryptedString = "{Encrypted}rO0ABXQAFk9yaWdpbmFsU2Vuc2l0aXZlVmFsdWU=";
++     SensitiveValue value = (SensitiveValue) ValueFactory.create(originalValue, true);
++     verifyEncrypted(value, originalValue, expectedEncryptedString);
++     value.encrypt();
++     verifyEncrypted(value, originalValue, expectedEncryptedString);
++     value.decrypt();
++     verifyDecrypted(value, originalValue);
++     value.decrypt();
++     verifyDecrypted(value, originalValue);
++     value.encrypt();
++     verifyEncrypted(value, originalValue, expectedEncryptedString);
++     value.encrypt();
++     verifyEncrypted(value, originalValue, expectedEncryptedString);
++     {
++     }
++     {
++     }
++ }
