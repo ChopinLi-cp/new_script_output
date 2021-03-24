@@ -1,0 +1,37 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: io.cloudslang.lang.runtime.env.RunEnvironmentSensitiveTest.testRunEnvironmentOnlyCallArgsSensitive
+CLEANER FILE: /home/lichengpeng/test2/automated_script/CloudSlang/cloud-slang/cloudslang-runtime/src/test/java/io/cloudslang/lang/runtime/env/RunEnvironmentSensitiveTest.java
+POLLUTER: N/A
+POLLUTER FILE: N/A
+ORIGINAL CLEANER SIZE: 18
+NEW CLEANER SIZE: 18
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,25 @@
++ {
++     {
++     }
++     {
++     }
++     // everything is empty
++     Set<SystemProperty> sp = Sets.newHashSet();
++     sp.add(new SystemProperty("a.b", "key", "value", ""));
++     RunEnvironment runEnvironment = new RunEnvironment(sp);
++     assertFalse(runEnvironment.containsSensitiveData());
++     Map<String, Value> callArguments = Maps.newHashMap();
++     callArguments.put("arg", ValueFactory.create("val", true));
++     runEnvironment.putCallArguments(callArguments);
++     assertTrue(runEnvironment.containsSensitiveData());
++     runEnvironment.putReturnValues(null);
++     assertTrue(runEnvironment.containsSensitiveData());
++     Map<String, Value> outputs = Maps.newHashMap();
++     ReturnValues returnValues = new ReturnValues(outputs, "result");
++     runEnvironment.putReturnValues(returnValues);
++     assertTrue(runEnvironment.containsSensitiveData());
++     {
++     }
++     {
++     }
++ }

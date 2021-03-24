@@ -1,0 +1,58 @@
+STATUS: CLEANER DOES NOT FIX
+MODIFIED: N/A
+MODIFIED FILE: N/A
+CLEANER: io.cloudslang.lang.runtime.env.RunEnvironmentSensitiveTest.testRunEnvironmentAllSensitive
+CLEANER FILE: /home/lichengpeng/test2/automated_script/CloudSlang/cloud-slang/cloudslang-runtime/src/test/java/io/cloudslang/lang/runtime/env/RunEnvironmentSensitiveTest.java
+POLLUTER: N/A
+POLLUTER FILE: N/A
+ORIGINAL CLEANER SIZE: 39
+NEW CLEANER SIZE: 39
+ELAPSED TIME: 0.0
+==========================
+@@ -0,0 +0,46 @@
++ {
++     {
++     }
++     {
++     }
++     // everything is empty
++     Set<SystemProperty> sp = Sets.newHashSet();
++     SystemProperty systemProperty1 = new SystemProperty("a.b", "sp1", ValueFactory.createEncryptedString("systemProperty1"), "");
++     sp.add(systemProperty1);
++     SystemProperty systemProperty2 = new SystemProperty("a.b", "sp2", ValueFactory.createEncryptedString("systemProperty2"), "");
++     sp.add(systemProperty2);
++     RunEnvironment runEnvironment = new RunEnvironment(sp);
++     assertTrue(runEnvironment.containsSensitiveData());
++     Map<String, Value> callArguments = Maps.newHashMap();
++     Value callValue1 = ValueFactory.create("callValue1", true);
++     callArguments.put("callValue1", callValue1);
++     Value callValue2 = ValueFactory.create("callValue2", true);
++     callArguments.put("callValue2", callValue2);
++     runEnvironment.putCallArguments(callArguments);
++     assertTrue(runEnvironment.containsSensitiveData());
++     Map<String, Value> outputs = Maps.newHashMap();
++     Value output1 = ValueFactory.create("output1", true);
++     outputs.put("output1", output1);
++     Value output2 = ValueFactory.create("output2", true);
++     outputs.put("output2", output2);
++     ReturnValues returnValues = new ReturnValues(outputs, "result");
++     runEnvironment.putReturnValues(returnValues);
++     assertTrue(runEnvironment.containsSensitiveData());
++     testEncrypted(systemProperty1, systemProperty2, callValue1, callValue2, output1, output2, true);
++     runEnvironment.encryptSensitiveData();
++     assertTrue(runEnvironment.containsSensitiveData());
++     testEncrypted(systemProperty1, systemProperty2, callValue1, callValue2, output1, output2, true);
++     runEnvironment.decryptSensitiveData();
++     assertTrue(runEnvironment.containsSensitiveData());
++     testEncrypted(systemProperty1, systemProperty2, callValue1, callValue2, output1, output2, false);
++     runEnvironment.decryptSensitiveData();
++     assertTrue(runEnvironment.containsSensitiveData());
++     testEncrypted(systemProperty1, systemProperty2, callValue1, callValue2, output1, output2, false);
++     runEnvironment.encryptSensitiveData();
++     assertTrue(runEnvironment.containsSensitiveData());
++     testEncrypted(systemProperty1, systemProperty2, callValue1, callValue2, output1, output2, true);
++     {
++     }
++     {
++     }
++ }

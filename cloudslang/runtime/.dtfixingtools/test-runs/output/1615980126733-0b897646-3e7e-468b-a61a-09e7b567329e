@@ -1,0 +1,34 @@
+19:22:11.714 [Time-limited test] ERROR io.cloudslang.lang.runtime.steps.ActionExecutionData - java.lang.RuntimeException: Method [doJavaNumberAsString] invocation of class [io.cloudslang.lang.runtime.steps.ContentTestActions] failed: Parameter type mismatch for action doJavaNumberAsString of class io.cloudslang.lang.runtime.steps.ContentTestActions. Parameter port expects type java.lang.String. Actual type is java.lang.Integer
+19:22:11.733 [Time-limited test] ERROR io.cloudslang.lang.runtime.steps.ActionExecutionData - java.lang.RuntimeException: Method [doJavaActionMissingAnnotation] invocation of class [io.cloudslang.lang.runtime.steps.ContentTestActions] failed: All action arguments should be annotated with @Param
+19:22:11.764 [Time-limited test] ERROR io.cloudslang.lang.runtime.steps.ActionExecutionData - java.lang.RuntimeException: Method [doJavaActionExceptionMethod] invocation of class [io.cloudslang.lang.runtime.steps.ContentTestActions] failed: null
+19:22:11.956 [main] ERROR io.cloudslang.lang.runtime.steps.ActionExecutionData - java.lang.RuntimeException: Error executing python script: java.lang.RuntimeException: Non-serializable values are not allowed in the output context of a Python script:
+	Conversion failed for 'current_time' (datetime.datetime(2021, 3, 17, 11, 22, 11, 952000)),
+	The error can be solved by removing the variable from the context in the script: e.g. 'del current_time'.
+
+19:22:11.971 [Time-limited test] ERROR io.cloudslang.lang.runtime.steps.ActionExecutionData - java.lang.RuntimeException: Python script not found in action data
+19:22:12.016 [Time-limited test] ERROR io.cloudslang.lang.runtime.steps.ActionExecutionData - java.lang.RuntimeException: Python script not found in action data
+19:22:12.049 [Time-limited test] ERROR io.cloudslang.lang.runtime.steps.ActionExecutionData - java.lang.RuntimeException: Method [doJavaSampleAction] invocation of class [MissingClassName] failed: Class name MissingClassName was not found
+19:22:12.106 [Time-limited test] ERROR io.cloudslang.lang.runtime.steps.ActionExecutionData - java.lang.RuntimeException: Error executing python script: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+TypeError: cannot concatenate 'str' and 'int' objects
+
+19:22:12.170 [Time-limited test] ERROR io.cloudslang.lang.runtime.steps.ActionExecutionData - java.lang.RuntimeException: Action method did not return Map<String,String>
+localhost
+8080
+PING localhost (127.0.0.1) 56(84) bytes of data.
+64 bytes from localhost (127.0.0.1): icmp_seq=1 ttl=64 time=0.056 ms
+
+--- localhost ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.056/0.056/0.056/0.000 ms
+http://localhost:8080
+19:22:12.422 [Time-limited test] ERROR io.cloudslang.lang.runtime.steps.ActionExecutionData - java.lang.RuntimeException: Method [wrongMethodName] invocation of class [io.cloudslang.lang.runtime.steps.ContentTestActions] failed: null
+19:22:12.454 [Time-limited test] ERROR io.cloudslang.lang.runtime.steps.ActionExecutionData - java.lang.RuntimeException: Error executing python script: Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+NameError: name 'host' is not defined
+
+19:22:12.469 [Time-limited test] ERROR io.cloudslang.lang.runtime.steps.ActionExecutionData - java.lang.RuntimeException: Method [doJavaSampleAction_NOT_FOUND] invocation of class [io.cloudslang.lang.runtime.steps.ContentTestActions] failed: null
+19:22:12.630 [MainThread] ERROR io.cloudslang.lang.runtime.steps.StepExecutionData - There was an error running the endStep execution step of: 'Step1'. Error is: Step: Step1 has no matching navigation for the executable result: CUSTOM
+19:22:12.684 [MainThread] ERROR io.cloudslang.lang.runtime.steps.ParallelLoopExecutionData - There was an error running branch: null Error is: Exception details placeholder
+19:22:12.685 [MainThread] ERROR io.cloudslang.lang.runtime.steps.ParallelLoopExecutionData - There was an error running the joinBranches execution step of: 'nodeName'. Error is: Error running branch: 
+Exception details placeholder
