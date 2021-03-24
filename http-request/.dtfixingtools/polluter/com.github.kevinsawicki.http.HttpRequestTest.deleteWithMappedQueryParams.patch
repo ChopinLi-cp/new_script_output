@@ -1,0 +1,23 @@
+STATUS: INLINE SUCCESSFUL SETUPTEARDOWN
+MODIFIED: com.github.kevinsawicki.http.HttpRequestTest.deleteWithMappedQueryParams
+MODIFIED FILE: /home/lichengpeng/test2/tool/test/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+POLLUTER: com.github.kevinsawicki.http.HttpRequestTest.customConnectionFactory
+POLLUTER FILE: /home/lichengpeng/test2/tool/test/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+ORIGINAL POLLUTER SIZE: 7
+NEW POLLUTER SIZE: 2
+ELAPSED TIME: 55.17900013923645
+==========================
+@@ -2705,0 +2705,13 @@
++ {
++     ConnectionFactory factory = new ConnectionFactory() {
++ 
++         public HttpURLConnection create(URL otherUrl) throws IOException {
++             return (HttpURLConnection) new URL(url).openConnection();
++         }
++ 
++         public HttpURLConnection create(URL url, Proxy proxy) throws IOException {
++             throw new IOException();
++         }
++     };
++     HttpRequest.setConnectionFactory(factory);
++ }

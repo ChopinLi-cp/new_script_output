@@ -1,0 +1,23 @@
+STATUS: INLINE SUCCESSFUL SETUPTEARDOWN
+MODIFIED: com.github.kevinsawicki.http.HttpRequestTest.getWithEscapedMappedQueryParams
+MODIFIED FILE: /home/lichengpeng/test2/tool/test/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+POLLUTER: com.github.kevinsawicki.http.HttpRequestTest.customConnectionFactory
+POLLUTER FILE: /home/lichengpeng/test2/tool/test/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+ORIGINAL POLLUTER SIZE: 7
+NEW POLLUTER SIZE: 2
+ELAPSED TIME: 55.31599998474121
+==========================
+@@ -2650,0 +2650,13 @@
++ {
++     ConnectionFactory factory = new ConnectionFactory() {
++ 
++         public HttpURLConnection create(URL otherUrl) throws IOException {
++             return (HttpURLConnection) new URL(url).openConnection();
++         }
++ 
++         public HttpURLConnection create(URL url, Proxy proxy) throws IOException {
++             throw new IOException();
++         }
++     };
++     HttpRequest.setConnectionFactory(factory);
++ }
