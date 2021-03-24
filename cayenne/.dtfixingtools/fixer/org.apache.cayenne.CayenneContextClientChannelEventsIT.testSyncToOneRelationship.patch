@@ -1,0 +1,21 @@
+STATUS: INLINE FAIL
+MODIFIED: org.apache.cayenne.CayenneContextClientChannelEventsIT.testSyncSimpleProperty
+MODIFIED FILE: /home/lichengpeng/test2/automated_script/apache/cayenne/cayenne-client/src/test/java/org/apache/cayenne/CayenneContextClientChannelEventsIT.java
+CLEANER: org.apache.cayenne.CayenneContextClientChannelEventsIT.testSyncToManyRelationship
+CLEANER FILE: /home/lichengpeng/test2/automated_script/apache/cayenne/cayenne-client/src/test/java/org/apache/cayenne/CayenneContextClientChannelEventsIT.java
+POLLUTER: org.apache.cayenne.CayenneContextClientChannelEventsIT.testSyncSimpleProperty
+POLLUTER FILE: /home/lichengpeng/test2/automated_script/apache/cayenne/cayenne-client/src/test/java/org/apache/cayenne/CayenneContextClientChannelEventsIT.java
+ORIGINAL CLEANER SIZE: 19
+NEW CLEANER SIZE: 7
+ELAPSED TIME: 1000.4449999332428
+==========================
+@@ -188,0 +188,9 @@
++ {
++     setUpLifecycleManager();
++     cleanUpDB();
++     tMtTable1 = new TableHelper(dbHelper, "MT_TABLE1");
++     tMtTable1.setColumns("TABLE1_ID", "GLOBAL_ATTRIBUTE1", "SERVER_ATTRIBUTE1");
++     tMtTable1.insert(1, "g1", "s1");
++     CayenneContext c1 = (CayenneContext) runtime.newContext();
++     ClientMtTable1 o1 = (ClientMtTable1) Cayenne.objectForQuery(c1, new ObjectIdQuery(ObjectId.of("MtTable1", "TABLE1_ID", 1)));
++ }
