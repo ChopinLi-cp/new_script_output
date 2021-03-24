@@ -1,0 +1,1 @@
+{"id":"1616587200874-0b67c167-0f0f-40ab-9f29-6e370d247001","testOrder":["com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithPercent"],"results":{"com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithPercent":{"name":"com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithPercent","result":"PASS","time":1.048113723,"stackTrace":[]}},"diffs":{}}

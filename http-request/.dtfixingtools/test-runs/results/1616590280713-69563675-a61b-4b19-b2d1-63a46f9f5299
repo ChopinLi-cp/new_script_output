@@ -1,0 +1,1 @@
+{"id":"1616590280713-69563675-a61b-4b19-b2d1-63a46f9f5299","testOrder":["com.github.kevinsawicki.http.HttpRequestTest.putWithMappedQueryParams"],"results":{"com.github.kevinsawicki.http.HttpRequestTest.putWithMappedQueryParams":{"name":"com.github.kevinsawicki.http.HttpRequestTest.putWithMappedQueryParams","result":"PASS","time":1.040555803,"stackTrace":[]}},"diffs":{}}

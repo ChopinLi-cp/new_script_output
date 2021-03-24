@@ -1,0 +1,1 @@
+{"id":"1616589407357-82d82f61-917e-498e-942e-dacd66b4a102","testOrder":["com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithSpace"],"results":{"com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithSpace":{"name":"com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithSpace","result":"PASS","time":1.043996017,"stackTrace":[]}},"diffs":{}}

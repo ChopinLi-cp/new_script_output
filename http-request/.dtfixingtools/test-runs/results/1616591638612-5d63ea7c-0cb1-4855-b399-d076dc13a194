@@ -1,0 +1,1 @@
+{"id":"1616591638612-5d63ea7c-0cb1-4855-b399-d076dc13a194","testOrder":["com.github.kevinsawicki.http.HttpRequestTest.singleVerifier"],"results":{"com.github.kevinsawicki.http.HttpRequestTest.singleVerifier":{"name":"com.github.kevinsawicki.http.HttpRequestTest.singleVerifier","result":"PASS","time":0.645785361,"stackTrace":[]}},"diffs":{}}

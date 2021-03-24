@@ -1,0 +1,1 @@
+{"id":"1616590302835-6d0bc3b6-38b3-4166-8e29-1f92320059e3","testOrder":["com.github.kevinsawicki.http.HttpRequestTest.deleteWithVarargsQueryParams"],"results":{"com.github.kevinsawicki.http.HttpRequestTest.deleteWithVarargsQueryParams":{"name":"com.github.kevinsawicki.http.HttpRequestTest.deleteWithVarargsQueryParams","result":"PASS","time":1.0482395,"stackTrace":[]}},"diffs":{}}

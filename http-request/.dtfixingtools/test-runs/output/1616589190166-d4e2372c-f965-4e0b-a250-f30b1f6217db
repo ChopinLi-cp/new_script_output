@@ -1,0 +1,6 @@
+2021-03-24 20:33:10.944:INFO:oejs.Server:jetty-8.1.9.v20130131
+2021-03-24 20:33:10.982:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:45977
+2021-03-24 20:33:11.006:INFO:oejs.Server:jetty-8.1.9.v20130131
+2021-03-24 20:33:11.028:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:37666
+2021-03-24 20:33:11.697:WARN:oejut.QueuedThreadPool:1 threads could not be stopped
+2021-03-24 20:33:11.698:INFO:oejut.QueuedThreadPool:Couldn't stop Thread[qtp665188480-102,5,]

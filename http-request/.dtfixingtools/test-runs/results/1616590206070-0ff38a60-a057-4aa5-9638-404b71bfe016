@@ -1,0 +1,1 @@
+{"id":"1616590206070-0ff38a60-a057-4aa5-9638-404b71bfe016","testOrder":["com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithUnicode"],"results":{"com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithUnicode":{"name":"com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithUnicode","result":"PASS","time":1.03788738,"stackTrace":[]}},"diffs":{}}
