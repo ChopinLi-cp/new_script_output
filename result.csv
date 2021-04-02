@@ -28,8 +28,8 @@ yangfuhai/jboot,io.jboot.test.cache.caffeine.CaffeineTester.testGet,doublevictim
 yangfuhai/jboot,io.jboot.test.cache.redis.RedisCacheTester.testGet,passorder,AfterOneSuccess,404.008,847,847,976,976,15
 yangfuhai/jboot,io.jboot.test.cache.redis.RedisCacheTester.testCacheType,wrongjsonfail2,null,null,null,null,null
 yangfuhai/jboot,io.jboot.test.cache.caffeine.CaffeineTester.testDue,doublevictim,AfterOneSuccess,325.28,847,847,977,977,15
-jenkinsci/remoting,org.jenkinsci.remoting.protocol.ProtocolStackImplTest.pipeFullProtocolNIO,wrongjsonpass2,null,null,null,null,null
-jenkinsci/remoting,hudson.remoting.ChannelTest.testGetSetProperty,doublevictim,AfterOneFail,637.741,86,86,1761,1754,20
+jenkinsci/remoting,org.jenkinsci.remoting.protocol.ProtocolStackImplTest.pipeFullProtocolNIO,doublevictim,AfterOneFail,6761.394,1262,1262,1806,1799,37
+jenkinsci/remoting,hudson.remoting.ChannelTest.testGetSetProperty,doublevictim,AfterOneFail,894.47,86,86,1761,1754,20
 jenkinsci/remoting,hudson.remoting.PrefetchingTest.testGetResource,1213.022,null,null,null,null,null
 jenkinsci/remoting,hudson.remoting.RemoteInvocationHandlerTest.testExportPrimary,419.796,null,null,null,null,null
 jenkinsci/remoting,hudson.remoting.ChannelTest.testShouldNotAcceptUserRequestsWhenIsBeingClosed,null,null,null,null,null
