@@ -1,0 +1,209 @@
+*************************reflection on diffFieldAfter************************
+hudson.remoting.Channel.CURRENT set
+########hudson.remoting.Channel.CURRENT made test fail######
+hudson.remoting.RemoteInvocationHandler.logger deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########hudson.remoting.RemoteInvocationHandler.logger made test fail######
+hudson.remoting.Request.nextId set
+########hudson.remoting.Request.nextId made test fail######
+hudson.remoting.ChannelBuilder.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########hudson.remoting.ChannelBuilder.LOGGER made test fail######
+hudson.remoting.SynchronousCommandTransport.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########hudson.remoting.SynchronousCommandTransport.LOGGER made test fail######
+hudson.remoting.Request.logger deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########hudson.remoting.Request.logger made test fail######
+hudson.remoting.Channel.logger deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########hudson.remoting.Channel.logger made test fail######
+hudson.remoting.PipeWindow.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########hudson.remoting.PipeWindow.LOGGER made test fail######
+hudson.remoting.SingleLaneExecutorService.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########hudson.remoting.SingleLaneExecutorService.LOGGER made test fail######
+hudson.remoting.Channel.jarLoaderProxy set
+########hudson.remoting.Channel.jarLoaderProxy made test fail######
+hudson.remoting.Request.CURRENT set
+########hudson.remoting.Request.CURRENT made test fail######
+hudson.remoting.DaemonThreadFactory.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########hudson.remoting.DaemonThreadFactory.LOGGER made test fail######
+hudson.remoting.FlightRecorderInputStream.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########hudson.remoting.FlightRecorderInputStream.LOGGER made test fail######
+hudson.remoting.JarLoaderImpl.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########hudson.remoting.JarLoaderImpl.LOGGER made test fail######

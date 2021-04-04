@@ -1,0 +1,967 @@
+*************************reflection on diffFieldAfter************************
+org.apache.logging.log4j.core.appender.AbstractManager.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.AbstractManager.LOGGER made test fail######
+org.apache.logging.log4j.core.appender.rolling.action.IfLastModified.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.rolling.action.IfLastModified.LOGGER made test fail######
+org.springframework.beans.factory.support.DefaultListableBeanFactory.serializableFactories set
+########org.springframework.beans.factory.support.DefaultListableBeanFactory.serializableFactories made test fail######
+org.apache.logging.log4j.core.appender.rolling.action.IfFileName.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.rolling.action.IfFileName.LOGGER made test fail######
+org.apache.logging.log4j.core.jmx.LoggerContextAdmin.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.jmx.LoggerContextAdmin.LOGGER made test fail######
+org.apache.logging.log4j.core.util.WatchManager.logger deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.util.WatchManager.logger made test fail######
+org.apache.logging.log4j.core.jmx.Server.executor deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : io.cloudslang.score.lang.ExecutionRuntimeServices$$EnhancerByMockitoWithCGLIB$$79196067
+class               : org.mockito.internal.invocation.InvocationImpl
+required-type       : org.mockito.internal.invocation.InvocationImpl
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /java.util.concurrent.ThreadPoolExecutor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.mockito.internal.invocation.InvocationMatcher
+required-type[1]    : org.mockito.internal.invocation.InvocationMatcher
+class[2]            : org.mockito.internal.stubbing.InvocationContainerImpl
+required-type[2]    : org.mockito.internal.stubbing.InvocationContainerImpl
+class[3]            : org.mockito.internal.stubbing.OngoingStubbingImpl
+required-type[3]    : org.mockito.internal.stubbing.OngoingStubbingImpl
+class[4]            : org.mockito.internal.progress.MockingProgressImpl
+required-type[4]    : org.mockito.internal.progress.MockingProgressImpl
+class[5]            : java.lang.ThreadLocal$ThreadLocalMap$Entry
+required-type[5]    : java.lang.ThreadLocal$ThreadLocalMap$Entry
+class[6]            : [Ljava.lang.ThreadLocal$ThreadLocalMap$Entry;
+required-type[6]    : [Ljava.lang.ThreadLocal$ThreadLocalMap$Entry;
+converter-type[1]   : com.thoughtworks.xstream.converters.collections.ArrayConverter
+class[7]            : java.lang.ThreadLocal$ThreadLocalMap
+required-type[7]    : java.lang.ThreadLocal$ThreadLocalMap
+class[8]            : java.lang.ref.Finalizer$FinalizerThread
+required-type[8]    : java.lang.ref.Finalizer$FinalizerThread
+class[9]            : [Ljava.lang.Thread;
+required-type[9]    : [Ljava.lang.Thread;
+class[10]           : java.lang.ThreadGroup
+required-type[10]   : java.lang.ThreadGroup
+class[11]           : org.apache.logging.log4j.core.util.Log4jThreadFactory
+required-type[11]   : org.apache.logging.log4j.core.util.Log4jThreadFactory
+class[12]           : java.util.concurrent.ThreadPoolExecutor
+required-type[12]   : java.util.concurrent.ThreadPoolExecutor
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.jmx.Server.executor made test fail######
+org.springframework.core.annotation.TypeMappedAnnotation.EMPTY_ARRAYS set
+########org.springframework.core.annotation.TypeMappedAnnotation.EMPTY_ARRAYS made test fail######
+org.apache.logging.log4j.core.appender.db.jdbc.AbstractDriverManagerConnectionSource.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.db.jdbc.AbstractDriverManagerConnectionSource.LOGGER made test fail######
+org.springframework.cglib.core.AbstractClassGenerator.CACHE set
+########org.springframework.cglib.core.AbstractClassGenerator.CACHE made test fail######
+org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileSize.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileSize.LOGGER made test fail######
+org.apache.logging.log4j.core.jmx.Server.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.jmx.Server.LOGGER made test fail######
+org.springframework.beans.factory.support.ConstructorResolver.currentInjectionPoint set
+########org.springframework.beans.factory.support.ConstructorResolver.currentInjectionPoint made test fail######
+org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.defaultContextCache deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Failed calling method
+method              : org.springframework.test.context.cache.DefaultContextCache$LruCache.readObject()
+class               : org.springframework.test.context.cache.DefaultContextCache$LruCache
+required-type       : org.springframework.test.context.cache.DefaultContextCache$LruCache
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.springframework.test.context.cache.DefaultContextCache/contextMap/java.util.Collections$SynchronizedMap/default/m/map/org.springframework.context.support.GenericApplicationContext/applicationEventMulticaster/beanClassLoader/parent/pdcache/entry/key/java.security.CodeSource
+class[1]            : java.util.Collections$SynchronizedMap
+required-type[1]    : java.util.Collections$SynchronizedMap
+class[2]            : org.springframework.test.context.cache.DefaultContextCache
+required-type[2]    : org.springframework.test.context.cache.DefaultContextCache
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.defaultContextCache made test fail######
+io.cloudslang.runtime.impl.python.PythonExecutor.GLOBAL_INTERPRETER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : org.python.core.PyException
+cause-message       : AttributeError: 'module' object has no attribute 'Quitter'
+method              : org.python.core.PyType$TypeResolver.readResolve()
+class               : org.python.core.PyType$TypeResolver
+required-type       : org.python.core.PyType$TypeResolver
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /io.cloudslang.runtime.impl.python.PythonExecutor$ThreadSafePythonInterpreter/globals/table/entry/value/__dict__/table/entry[35]/value/objtype
+class[1]            : org.python.core.PyObjectDerived
+required-type[1]    : org.python.core.PyObjectDerived
+class[2]            : java.util.concurrent.ConcurrentHashMap
+required-type[2]    : java.util.concurrent.ConcurrentHashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[3]            : org.python.core.PyStringMap
+required-type[3]    : org.python.core.PyStringMap
+class[4]            : org.python.core.PyModule
+required-type[4]    : org.python.core.PyModule
+class[5]            : io.cloudslang.runtime.impl.python.PythonExecutor$ThreadSafePythonInterpreter
+required-type[5]    : io.cloudslang.runtime.impl.python.PythonExecutor$ThreadSafePythonInterpreter
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.cloudslang.runtime.impl.python.PythonExecutor.GLOBAL_INTERPRETER made test fail######
+org.apache.logging.log4j.core.layout.MarkerPatternSelector.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.layout.MarkerPatternSelector.LOGGER made test fail######
+org.apache.logging.log4j.core.appender.rolling.AbstractRolloverStrategy.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.rolling.AbstractRolloverStrategy.LOGGER made test fail######
+org.springframework.util.ClassUtils.primitiveTypeToWrapperMap set
+########org.springframework.util.ClassUtils.primitiveTypeToWrapperMap made test fail######
+org.springframework.context.annotation.BeanAnnotationHelper.scopedProxyCache set
+########org.springframework.context.annotation.BeanAnnotationHelper.scopedProxyCache made test fail######
+org.apache.logging.log4j.core.appender.db.ColumnMapping.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.db.ColumnMapping.LOGGER made test fail######
+org.springframework.cglib.core.ReflectUtils.defaultLoader deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.lang.IndexOutOfBoundsException
+cause-message       : Index: 2, Size: 2
+method              : java.security.CodeSource.readObject()
+class               : java.security.CodeSource
+required-type       : java.security.CodeSource
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /sun.misc.Launcher$AppClassLoader/parent/pdcache/entry/key/java.security.CodeSource
+class[1]            : java.util.HashMap
+required-type[1]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[2]            : sun.misc.Launcher$ExtClassLoader
+required-type[2]    : sun.misc.Launcher$ExtClassLoader
+converter-type[2]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[3]            : sun.misc.Launcher$AppClassLoader
+required-type[3]    : sun.misc.Launcher$AppClassLoader
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.springframework.cglib.core.ReflectUtils.defaultLoader made test fail######
+org.apache.logging.log4j.core.async.ThreadNameCachingStrategy.THREADLOCAL_NAME set
+########org.apache.logging.log4j.core.async.ThreadNameCachingStrategy.THREADLOCAL_NAME made test fail######
+org.apache.logging.log4j.core.appender.rewrite.PropertiesRewritePolicy.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.rewrite.PropertiesRewritePolicy.LOGGER made test fail######
+org.apache.logging.log4j.core.layout.AbstractLayout.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.layout.AbstractLayout.LOGGER made test fail######
+org.springframework.core.convert.support.ByteBufferConverter.CONVERTIBLE_PAIRS set
+########org.springframework.core.convert.support.ByteBufferConverter.CONVERTIBLE_PAIRS made test fail######
+io.cloudslang.runtime.impl.python.external.ExternalPythonExecutorScheduledExecutorTimeout.testThreadFactory deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : io.cloudslang.score.lang.ExecutionRuntimeServices$$EnhancerByMockitoWithCGLIB$$79196067
+class               : org.mockito.internal.invocation.InvocationImpl
+required-type       : org.mockito.internal.invocation.InvocationImpl
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /com.google.common.util.concurrent.ThreadFactoryBuilder$1/val$backingThreadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.mockito.internal.invocation.InvocationMatcher
+required-type[1]    : org.mockito.internal.invocation.InvocationMatcher
+class[2]            : org.mockito.internal.stubbing.InvocationContainerImpl
+required-type[2]    : org.mockito.internal.stubbing.InvocationContainerImpl
+class[3]            : org.mockito.internal.stubbing.OngoingStubbingImpl
+required-type[3]    : org.mockito.internal.stubbing.OngoingStubbingImpl
+class[4]            : org.mockito.internal.progress.MockingProgressImpl
+required-type[4]    : org.mockito.internal.progress.MockingProgressImpl
+class[5]            : java.lang.ThreadLocal$ThreadLocalMap$Entry
+required-type[5]    : java.lang.ThreadLocal$ThreadLocalMap$Entry
+class[6]            : [Ljava.lang.ThreadLocal$ThreadLocalMap$Entry;
+required-type[6]    : [Ljava.lang.ThreadLocal$ThreadLocalMap$Entry;
+converter-type[1]   : com.thoughtworks.xstream.converters.collections.ArrayConverter
+class[7]            : java.lang.ThreadLocal$ThreadLocalMap
+required-type[7]    : java.lang.ThreadLocal$ThreadLocalMap
+class[8]            : java.lang.ref.Finalizer$FinalizerThread
+required-type[8]    : java.lang.ref.Finalizer$FinalizerThread
+class[9]            : [Ljava.lang.Thread;
+required-type[9]    : [Ljava.lang.Thread;
+class[10]           : java.lang.ThreadGroup
+required-type[10]   : java.lang.ThreadGroup
+class[11]           : java.util.concurrent.Executors$DefaultThreadFactory
+required-type[11]   : java.util.concurrent.Executors$DefaultThreadFactory
+class[12]           : com.google.common.util.concurrent.ThreadFactoryBuilder$1
+required-type[12]   : com.google.common.util.concurrent.ThreadFactoryBuilder$1
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.cloudslang.runtime.impl.python.external.ExternalPythonExecutorScheduledExecutorTimeout.testThreadFactory made test fail######
+org.springframework.core.annotation.AnnotationsScanner.declaredAnnotationCache set
+########org.springframework.core.annotation.AnnotationsScanner.declaredAnnotationCache made test fail######
+org.springframework.util.ClassUtils.primitiveWrapperTypeMap set
+########org.springframework.util.ClassUtils.primitiveWrapperTypeMap made test fail######
+org.apache.logging.log4j.core.config.AppenderRef.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.config.AppenderRef.LOGGER made test fail######
+org.springframework.util.ReflectionUtils.declaredMethodsCache set
+########org.springframework.util.ReflectionUtils.declaredMethodsCache made test fail######
+org.apache.logging.log4j.core.pattern.AbstractPatternConverter.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.pattern.AbstractPatternConverter.LOGGER made test fail######
+org.apache.logging.log4j.core.util.NetUtils.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.util.NetUtils.LOGGER made test fail######
+org.apache.logging.log4j.core.appender.AppenderSet.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.AppenderSet.LOGGER made test fail######
+org.apache.logging.log4j.core.config.ConfigurationScheduler.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.config.ConfigurationScheduler.LOGGER made test fail######
+org.apache.logging.log4j.core.appender.rolling.action.ScriptCondition.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.rolling.action.ScriptCondition.LOGGER made test fail######
+org.apache.logging.log4j.core.script.AbstractScript.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.script.AbstractScript.LOGGER made test fail######
+org.springframework.beans.factory.BeanFactoryUtils.transformedBeanNameCache set
+########org.springframework.beans.factory.BeanFactoryUtils.transformedBeanNameCache made test fail######
+org.springframework.core.annotation.OrderUtils.orderCache set
+########org.springframework.core.annotation.OrderUtils.orderCache made test fail######
+org.springframework.cglib.core.ClassEmitter.hookCounter set
+########org.springframework.cglib.core.ClassEmitter.hookCounter made test fail######
+org.springframework.core.BridgeMethodResolver.cache set
+########org.springframework.core.BridgeMethodResolver.cache made test fail######
+org.apache.logging.log4j.core.layout.ScriptPatternSelector.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.layout.ScriptPatternSelector.LOGGER made test fail######
+org.apache.logging.log4j.core.config.ConfigurationFactory.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.config.ConfigurationFactory.LOGGER made test fail######
+org.springframework.util.ClassUtils.javaLanguageInterfaces set
+########org.springframework.util.ClassUtils.javaLanguageInterfaces made test fail######
+org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileCount.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileCount.LOGGER made test fail######
+org.apache.logging.log4j.core.filter.ScriptFilter.logger deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.filter.ScriptFilter.logger made test fail######
+org.springframework.context.annotation.AnnotationBeanNameGenerator.INSTANCE set
+########org.springframework.context.annotation.AnnotationBeanNameGenerator.INSTANCE made test fail######
+org.apache.logging.log4j.core.layout.LevelPatternSelector.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.layout.LevelPatternSelector.LOGGER made test fail######
+org.apache.logging.log4j.core.appender.routing.Routes.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.routing.Routes.LOGGER made test fail######
+org.apache.logging.log4j.core.appender.DefaultErrorHandler.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.DefaultErrorHandler.LOGGER made test fail######
+org.apache.logging.log4j.core.appender.routing.Route.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.routing.Route.LOGGER made test fail######
+org.apache.logging.log4j.core.util.OptionConverter.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.util.OptionConverter.LOGGER made test fail######
+org.apache.logging.log4j.core.lookup.ResourceBundleLookup.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.lookup.ResourceBundleLookup.LOGGER made test fail######
+org.apache.logging.log4j.core.layout.GelfLayout.timestampStringBuilder set
+########org.apache.logging.log4j.core.layout.GelfLayout.timestampStringBuilder made test fail######
+org.springframework.context.annotation.BeanAnnotationHelper.beanNameCache set
+########org.springframework.context.annotation.BeanAnnotationHelper.beanNameCache made test fail######
+org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource.LOGGER made test fail######
+org.springframework.core.convert.support.DefaultConversionService.sharedInstance set
+########org.springframework.core.convert.support.DefaultConversionService.sharedInstance made test fail######
+org.apache.logging.log4j.core.net.MulticastDnsAdvertiser.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.net.MulticastDnsAdvertiser.LOGGER made test fail######
+org.springframework.core.annotation.AttributeMethods.cache set
+########org.springframework.core.annotation.AttributeMethods.cache made test fail######
+org.springframework.util.ClassUtils.interfaceMethodCache set
+########org.springframework.util.ClassUtils.interfaceMethodCache made test fail######
+org.apache.logging.log4j.core.appender.rolling.action.AbstractAction.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.rolling.action.AbstractAction.LOGGER made test fail######
+org.apache.logging.log4j.core.config.plugins.util.PluginManager.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.config.plugins.util.PluginManager.LOGGER made test fail######
+org.mockito.internal.progress.SequenceNumber.sequenceNumber set
+########org.mockito.internal.progress.SequenceNumber.sequenceNumber made test fail######
+org.springframework.core.annotation.RepeatableContainers$StandardRepeatableContainers.cache set
+########org.springframework.core.annotation.RepeatableContainers$StandardRepeatableContainers.cache made test fail######
+org.apache.logging.log4j.core.async.AsyncLoggerConfig.ASYNC_LOGGER_ENTERED set
+########org.apache.logging.log4j.core.async.AsyncLoggerConfig.ASYNC_LOGGER_ENTERED made test fail######
+com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_ISO8601 set
+########com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_ISO8601 made test fail######
+org.springframework.beans.factory.support.SimpleInstantiationStrategy.currentlyInvokedFactoryMethod set
+########org.springframework.beans.factory.support.SimpleInstantiationStrategy.currentlyInvokedFactoryMethod made test fail######
+org.mockito.internal.util.Primitives.PRIMITIVE_OR_WRAPPER_DEFAULT_VALUES set
+########org.mockito.internal.util.Primitives.PRIMITIVE_OR_WRAPPER_DEFAULT_VALUES made test fail######
+io.cloudslang.runtime.impl.python.external.ExternalPythonExecutorScheduledExecutorTimeout.timeoutScheduledExecutor deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : io.cloudslang.score.lang.ExecutionRuntimeServices$$EnhancerByMockitoWithCGLIB$$79196067
+class               : org.mockito.internal.invocation.InvocationImpl
+required-type       : org.mockito.internal.invocation.InvocationImpl
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /java.util.concurrent.ScheduledThreadPoolExecutor/threadFactory/val$backingThreadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.mockito.internal.invocation.InvocationMatcher
+required-type[1]    : org.mockito.internal.invocation.InvocationMatcher
+class[2]            : org.mockito.internal.stubbing.InvocationContainerImpl
+required-type[2]    : org.mockito.internal.stubbing.InvocationContainerImpl
+class[3]            : org.mockito.internal.stubbing.OngoingStubbingImpl
+required-type[3]    : org.mockito.internal.stubbing.OngoingStubbingImpl
+class[4]            : org.mockito.internal.progress.MockingProgressImpl
+required-type[4]    : org.mockito.internal.progress.MockingProgressImpl
+class[5]            : java.lang.ThreadLocal$ThreadLocalMap$Entry
+required-type[5]    : java.lang.ThreadLocal$ThreadLocalMap$Entry
+class[6]            : [Ljava.lang.ThreadLocal$ThreadLocalMap$Entry;
+required-type[6]    : [Ljava.lang.ThreadLocal$ThreadLocalMap$Entry;
+converter-type[1]   : com.thoughtworks.xstream.converters.collections.ArrayConverter
+class[7]            : java.lang.ThreadLocal$ThreadLocalMap
+required-type[7]    : java.lang.ThreadLocal$ThreadLocalMap
+class[8]            : java.lang.ref.Finalizer$FinalizerThread
+required-type[8]    : java.lang.ref.Finalizer$FinalizerThread
+class[9]            : [Ljava.lang.Thread;
+required-type[9]    : [Ljava.lang.Thread;
+class[10]           : java.lang.ThreadGroup
+required-type[10]   : java.lang.ThreadGroup
+class[11]           : java.util.concurrent.Executors$DefaultThreadFactory
+required-type[11]   : java.util.concurrent.Executors$DefaultThreadFactory
+class[12]           : com.google.common.util.concurrent.ThreadFactoryBuilder$1
+required-type[12]   : com.google.common.util.concurrent.ThreadFactoryBuilder$1
+class[13]           : java.util.concurrent.ScheduledThreadPoolExecutor
+required-type[13]   : java.util.concurrent.ScheduledThreadPoolExecutor
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.cloudslang.runtime.impl.python.external.ExternalPythonExecutorScheduledExecutorTimeout.timeoutScheduledExecutor made test fail######
+org.springframework.cglib.core.AbstractClassGenerator.CURRENT set
+########org.springframework.cglib.core.AbstractClassGenerator.CURRENT made test fail######
+org.springframework.core.convert.TypeDescriptor.commonTypesCache set
+########org.springframework.core.convert.TypeDescriptor.commonTypesCache made test fail######
+org.apache.logging.log4j.core.appender.AbstractManager.MAP deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Failed calling method
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /map/entry/value/layout/configuration/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.LoggerContext/propertyChangeListeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.LoggerContextAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.core.config.DefaultConfiguration
+required-type[1]    : org.apache.logging.log4j.core.config.DefaultConfiguration
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : org.apache.logging.log4j.core.layout.PatternLayout
+required-type[2]    : org.apache.logging.log4j.core.layout.PatternLayout
+class[3]            : org.apache.logging.log4j.core.appender.OutputStreamManager
+required-type[3]    : org.apache.logging.log4j.core.appender.OutputStreamManager
+class[4]            : java.util.HashMap
+required-type[4]    : java.util.HashMap
+converter-type[2]   : edu.illinois.cs.diaper.CustomMapConverter
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.AbstractManager.MAP made test fail######
+org.springframework.util.ReflectionUtils.declaredFieldsCache set
+########org.springframework.util.ReflectionUtils.declaredFieldsCache made test fail######
+org.apache.logging.log4j.core.pattern.PatternParser.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.pattern.PatternParser.LOGGER made test fail######
+org.apache.logging.log4j.core.async.ThreadNameCachingStrategy.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.async.ThreadNameCachingStrategy.LOGGER made test fail######
+org.apache.logging.log4j.core.appender.rewrite.MapRewritePolicy.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.rewrite.MapRewritePolicy.LOGGER made test fail######
+org.apache.logging.log4j.core.appender.db.jdbc.DataSourceConnectionSource.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.db.jdbc.DataSourceConnectionSource.LOGGER made test fail######
+org.apache.logging.log4j.core.net.ssl.SslConfiguration.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.net.ssl.SslConfiguration.LOGGER made test fail######
+org.mockito.internal.util.Primitives.PRIMITIVE_TYPES set
+########org.mockito.internal.util.Primitives.PRIMITIVE_TYPES made test fail######
+org.springframework.core.convert.support.StreamConverter.CONVERTIBLE_TYPES set
+########org.springframework.core.convert.support.StreamConverter.CONVERTIBLE_TYPES made test fail######
+com.fasterxml.jackson.databind.util.StdDateFormat.CALENDAR set
+########com.fasterxml.jackson.databind.util.StdDateFormat.CALENDAR made test fail######
+org.apache.logging.log4j.core.layout.AbstractStringLayout.threadLocal set
+########org.apache.logging.log4j.core.layout.AbstractStringLayout.threadLocal made test fail######
+org.apache.logging.log4j.core.pattern.RegexReplacement.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.pattern.RegexReplacement.LOGGER made test fail######
+com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_RFC1123 set
+########com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_RFC1123 made test fail######
+org.apache.logging.log4j.core.appender.db.jdbc.ColumnConfig.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.db.jdbc.ColumnConfig.LOGGER made test fail######
+org.springframework.beans.BeanUtils.DEFAULT_TYPE_VALUES set
+########org.springframework.beans.BeanUtils.DEFAULT_TYPE_VALUES made test fail######
+org.apache.logging.log4j.core.util.BasicAuthorizationProvider.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.util.BasicAuthorizationProvider.LOGGER made test fail######
+org.apache.logging.log4j.core.appender.FailoversPlugin.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.appender.FailoversPlugin.LOGGER made test fail######
+org.apache.logging.log4j.core.net.ssl.StoreConfiguration.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.net.ssl.StoreConfiguration.LOGGER made test fail######
+org.apache.logging.log4j.core.layout.GelfLayout.messageStringBuilder set
+########org.apache.logging.log4j.core.layout.GelfLayout.messageStringBuilder made test fail######
+org.apache.logging.log4j.core.config.plugins.util.PluginRegistry.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.config.plugins.util.PluginRegistry.LOGGER made test fail######
+org.apache.logging.log4j.core.filter.StructuredDataFilter.threadLocalStringBuilder set
+########org.apache.logging.log4j.core.filter.StructuredDataFilter.threadLocalStringBuilder made test fail######
+org.apache.logging.log4j.core.script.ScriptManager.logger deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : 
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.logging.log4j.status.StatusLogger/org.apache.logging.log4j.status.StatusLogger/default/listeners/java.util.concurrent.CopyOnWriteArrayList/org.apache.logging.log4j.core.jmx.StatusLoggerAdmin/executor/threadFactory/group/parent/threads/java.lang.ref.Finalizer$FinalizerThread/threadLocals/table/java.lang.ThreadLocal$ThreadLocalMap$Entry/value/iOngoingStubbing/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.apache.logging.log4j.status.StatusLogger
+required-type[1]    : org.apache.logging.log4j.status.StatusLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.script.ScriptManager.logger made test fail######
+org.springframework.util.ClassUtils.primitiveTypeNameMap set
+########org.springframework.util.ClassUtils.primitiveTypeNameMap made test fail######

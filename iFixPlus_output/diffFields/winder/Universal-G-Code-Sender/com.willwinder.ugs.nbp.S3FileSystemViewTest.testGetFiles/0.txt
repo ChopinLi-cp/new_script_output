@@ -1,0 +1,10 @@
+com.willwinder.ugs.nbp.S3FileSystemViewTest.api
+com.google.api.client.util.FieldInfo.CACHE
+org.joda.time.format.DateTimeFormat.cPatternCache
+com.typesafe.config.impl.ConfigImpl$SystemPropertiesHolder.systemProperties
+okio.SegmentPool.next
+com.google.api.client.util.ClassInfo.CACHE
+akka.stream.scaladsl.TLSPlacebo$.MODULE$
+com.typesafe.config.impl.ConfigImpl$LoaderCacheHolder.cache
+org.joda.time.DateTimeZone.cProvider
+okhttp3.ConnectionPool.executor

@@ -1,0 +1,49 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Detecting the operating system and CPU architecture
+[INFO] ------------------------------------------------------------------------
+[INFO] os.detected.name: linux
+[INFO] os.detected.arch: x86_64
+[INFO] os.detected.version: 3.10
+[INFO] os.detected.version.major: 3
+[INFO] os.detected.version.minor: 10
+[INFO] os.detected.release: centos
+[INFO] os.detected.release.version: 7
+[INFO] os.detected.release.like.centos: true
+[INFO] os.detected.release.like.rhel: true
+[INFO] os.detected.release.like.fedora: true
+[INFO] os.detected.classifier: linux-x86_64
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/codehaus/mojo/findbugs-maven-plugin/3.0.0/findbugs-maven-plugin-3.0.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.0/findbugs-maven-plugin-3.0.0.pom
+Progress (1): 2.7/19 kBProgress (1): 5.5/19 kBProgress (1): 8.2/19 kBProgress (1): 11/19 kB Progress (1): 14/19 kBProgress (1): 16/19 kBProgress (1): 19 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.0/findbugs-maven-plugin-3.0.0.pom (19 kB at 22 kB/s)
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/codehaus/mojo/findbugs-maven-plugin/3.0.0/findbugs-maven-plugin-3.0.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.0/findbugs-maven-plugin-3.0.0.jar
+Progress (1): 2.7/133 kBProgress (1): 5.5/133 kBProgress (1): 8.2/133 kBProgress (1): 11/133 kB Progress (1): 14/133 kBProgress (1): 16/133 kBProgress (1): 19/133 kBProgress (1): 22/133 kBProgress (1): 25/133 kBProgress (1): 27/133 kBProgress (1): 30/133 kBProgress (1): 33/133 kBProgress (1): 36/133 kBProgress (1): 38/133 kBProgress (1): 41/133 kBProgress (1): 44/133 kBProgress (1): 47/133 kBProgress (1): 49/133 kBProgress (1): 52/133 kBProgress (1): 55/133 kBProgress (1): 58/133 kBProgress (1): 60/133 kBProgress (1): 63/133 kBProgress (1): 66/133 kBProgress (1): 69/133 kBProgress (1): 71/133 kBProgress (1): 74/133 kBProgress (1): 77/133 kBProgress (1): 80/133 kBProgress (1): 82/133 kBProgress (1): 85/133 kBProgress (1): 88/133 kBProgress (1): 90/133 kBProgress (1): 93/133 kBProgress (1): 96/133 kBProgress (1): 99/133 kBProgress (1): 101/133 kBProgress (1): 104/133 kBProgress (1): 107/133 kBProgress (1): 110/133 kBProgress (1): 112/133 kBProgress (1): 115/133 kBProgress (1): 118/133 kBProgress (1): 121/133 kBProgress (1): 123/133 kBProgress (1): 126/133 kBProgress (1): 129/133 kBProgress (1): 132/133 kBProgress (1): 133 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/findbugs-maven-plugin/3.0.0/findbugs-maven-plugin-3.0.0.jar (133 kB at 192 kB/s)
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/maven/plugins/maven-pdf-plugin/1.2/maven-pdf-plugin-1.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pdf-plugin/1.2/maven-pdf-plugin-1.2.pom
+Progress (1): 2.7/17 kBProgress (1): 5.5/17 kBProgress (1): 8.2/17 kBProgress (1): 11/17 kB Progress (1): 14/17 kBProgress (1): 16/17 kBProgress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pdf-plugin/1.2/maven-pdf-plugin-1.2.pom (17 kB at 52 kB/s)
+Downloading from apache.snapshots: https://repository.apache.org/snapshots/org/apache/maven/plugins/maven-pdf-plugin/1.2/maven-pdf-plugin-1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pdf-plugin/1.2/maven-pdf-plugin-1.2.jar
+Progress (1): 2.7/63 kBProgress (1): 5.5/63 kBProgress (1): 8.2/63 kBProgress (1): 11/63 kB Progress (1): 14/63 kBProgress (1): 16/63 kBProgress (1): 19/63 kBProgress (1): 22/63 kBProgress (1): 25/63 kBProgress (1): 27/63 kBProgress (1): 30/63 kBProgress (1): 33/63 kBProgress (1): 36/63 kBProgress (1): 38/63 kBProgress (1): 41/63 kBProgress (1): 44/63 kBProgress (1): 47/63 kBProgress (1): 49/63 kBProgress (1): 52/63 kBProgress (1): 55/63 kBProgress (1): 58/63 kBProgress (1): 60/63 kBProgress (1): 63/63 kBProgress (1): 63 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-pdf-plugin/1.2/maven-pdf-plugin-1.2.jar (63 kB at 183 kB/s)
+[INFO] 
+[INFO] -------------------< org.apache.ratis:ratis-hadoop >--------------------
+[INFO] Building Apache Ratis Hadoop Support 1.1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) > test-compile @ ratis-hadoop >>>
+[WARNING] The POM for org.apache.ratis:ratis-thirdparty-misc:jar:0.6.0-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for org.apache.ratis:ratis-server:jar:1.1.0-20201211.091727-2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[WARNING] The POM for org.apache.ratis:ratis-server:jar:tests:1.1.0-20201211.091727-2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.782 s
+[INFO] Finished at: 2021-03-28T19:33:57+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project ratis-hadoop: Could not resolve dependencies for project org.apache.ratis:ratis-hadoop:jar:1.1.0-SNAPSHOT: Failure to find org.apache.ratis:ratis-thirdparty-misc:jar:0.6.0-SNAPSHOT in https://repository.apache.org/content/repositories/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache.snapshots.https has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

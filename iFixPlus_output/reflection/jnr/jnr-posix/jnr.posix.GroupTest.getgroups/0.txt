@@ -1,0 +1,78 @@
+*************************reflection on diffFieldAfter************************
+jnr.constants.platform.Pathconf.resolver set
+########jnr.constants.platform.Pathconf.resolver made test fail######
+jnr.constants.platform.Sysconf.resolver set
+########jnr.constants.platform.Sysconf.resolver made test fail######
+jnr.ffi.provider.jffi.NativeRuntime$SingletonHolder.INSTANCE set
+########jnr.ffi.provider.jffi.NativeRuntime$SingletonHolder.INSTANCE made test fail######
+jnr.posix.POSIXFactory$DefaultLibCProvider$SingletonHolder.libc deserializeError: com.thoughtworks.xstream.mapper.CannotResolveClassException: jnr.posix.LinuxLibC$jnr$ffi$0
+########jnr.posix.POSIXFactory$DefaultLibCProvider$SingletonHolder.libc made test fail######
+jnr.ffi.provider.jffi.ToNativeOp.operations set
+########jnr.ffi.provider.jffi.ToNativeOp.operations made test fail######
+jnr.posix.GroupTest.posix deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : jnr.posix.Crypt$jnr$ffi$1
+class               : jnr.posix.LinuxPOSIX
+required-type       : jnr.posix.LinuxPOSIX
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /jnr.posix.LazyPOSIX/posix/posix/crypt
+class[1]            : jnr.posix.CheckedPOSIX
+required-type[1]    : jnr.posix.CheckedPOSIX
+class[2]            : jnr.posix.LazyPOSIX
+required-type[2]    : jnr.posix.LazyPOSIX
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########jnr.posix.GroupTest.posix made test fail######
+jnr.ffi.provider.jffi.AbstractFastNumericMethodGenerator.STRATEGY_ADDRESS_METHODS set
+########jnr.ffi.provider.jffi.AbstractFastNumericMethodGenerator.STRATEGY_ADDRESS_METHODS made test fail######
+com.kenai.jffi.Type.ULONG set
+########com.kenai.jffi.Type.ULONG made test fail######
+jnr.ffi.provider.FFIProvider$SystemProviderSingletonHolder.INSTANCE set
+########jnr.ffi.provider.FFIProvider$SystemProviderSingletonHolder.INSTANCE made test fail######
+com.kenai.jffi.CallContextCache$SingletonHolder.INSTANCE set
+########com.kenai.jffi.CallContextCache$SingletonHolder.INSTANCE made test fail######
+com.kenai.jffi.Type.SINT32 set
+########com.kenai.jffi.Type.SINT32 made test fail######
+jnr.posix.WString.runtime set
+########jnr.posix.WString.runtime made test fail######
+jnr.posix.LinuxFileStat64.layout set
+########jnr.posix.LinuxFileStat64.layout made test fail######
+com.kenai.jffi.Type.VOID set
+########com.kenai.jffi.Type.VOID made test fail######
+com.kenai.jffi.Type.UINT set
+########com.kenai.jffi.Type.UINT made test fail######
+com.kenai.jffi.Library$DefaultLibrary.INSTANCE set
+########com.kenai.jffi.Library$DefaultLibrary.INSTANCE made test fail######
+com.kenai.jffi.Type.SSHORT set
+########com.kenai.jffi.Type.SSHORT made test fail######
+jnr.posix.NativeTimes.layout set
+########jnr.posix.NativeTimes.layout made test fail######
+jnr.ffi.provider.jffi.InvokerUtil.jffiTypes set
+########jnr.ffi.provider.jffi.InvokerUtil.jffiTypes made test fail######
+com.kenai.jffi.NativeMethods.registeredMethods set
+########com.kenai.jffi.NativeMethods.registeredMethods made test fail######
+jnr.posix.POSIXFactory$DefaultLibCProvider$SingletonHolder.crypt deserializeError: com.thoughtworks.xstream.mapper.CannotResolveClassException: jnr.posix.Crypt$jnr$ffi$1
+########jnr.posix.POSIXFactory$DefaultLibCProvider$SingletonHolder.crypt made test fail######
+com.kenai.jffi.Type.SLONG_LONG set
+########com.kenai.jffi.Type.SLONG_LONG made test fail######
+com.kenai.jffi.Type.SLONG set
+########com.kenai.jffi.Type.SLONG made test fail######
+com.kenai.jffi.Type.UINT32 set
+########com.kenai.jffi.Type.UINT32 made test fail######
+jnr.ffi.provider.jffi.AsmLibraryLoader.nextClassID set
+########jnr.ffi.provider.jffi.AsmLibraryLoader.nextClassID made test fail######
+com.kenai.jffi.Type.SINT set
+########com.kenai.jffi.Type.SINT made test fail######
+com.kenai.jffi.Type.SINT16 set
+########com.kenai.jffi.Type.SINT16 made test fail######
+jnr.ffi.Runtime$SingletonHolder.SYSTEM_RUNTIME set
+########jnr.ffi.Runtime$SingletonHolder.SYSTEM_RUNTIME made test fail######
+com.kenai.jffi.Type.POINTER set
+########com.kenai.jffi.Type.POINTER made test fail######
+com.kenai.jffi.Type.SINT64 set
+########com.kenai.jffi.Type.SINT64 made test fail######
+jnr.constants.platform.Confstr.resolver set
+########jnr.constants.platform.Confstr.resolver made test fail######
+jnr.ffi.provider.jffi.AbstractX86StubCompiler$StaticDataHolder.PAGES set
+########jnr.ffi.provider.jffi.AbstractX86StubCompiler$StaticDataHolder.PAGES made test fail######

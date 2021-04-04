@@ -1,0 +1,47 @@
+*************************reflection on diffFieldAfter************************
+org.jenkinsci.remoting.nio.SelectableFileChannelFactory.LOGGER set
+########org.jenkinsci.remoting.nio.SelectableFileChannelFactory.LOGGER made test fail######
+hudson.remoting.RemoteInvocationHandler.UNEXPORTER set
+########hudson.remoting.RemoteInvocationHandler.UNEXPORTER made test fail######
+hudson.remoting.AbstractByteArrayCommandTransport.LOGGER set
+########hudson.remoting.AbstractByteArrayCommandTransport.LOGGER made test fail######
+hudson.remoting.NioSocketRunner.LOGGER set
+########hudson.remoting.NioSocketRunner.LOGGER made test fail######
+hudson.remoting.Channel.CURRENT set
+########hudson.remoting.Channel.CURRENT made test fail######
+hudson.remoting.RemoteInvocationHandler.logger set
+########hudson.remoting.RemoteInvocationHandler.logger made test fail######
+org.jenkinsci.remoting.nio.NioChannelHub.LOGGER set
+########org.jenkinsci.remoting.nio.NioChannelHub.LOGGER made test fail######
+hudson.remoting.Request.nextId set
+########hudson.remoting.Request.nextId made test fail######
+hudson.remoting.ChannelBuilder.LOGGER set
+########hudson.remoting.ChannelBuilder.LOGGER made test fail######
+hudson.remoting.SynchronousCommandTransport.LOGGER set
+########hudson.remoting.SynchronousCommandTransport.LOGGER made test fail######
+hudson.remoting.Request.logger set
+########hudson.remoting.Request.logger made test fail######
+hudson.remoting.Channel.ACTIVE_CHANNELS set
+########hudson.remoting.Channel.ACTIVE_CHANNELS made test fail######
+hudson.remoting.Channel.logger set
+########hudson.remoting.Channel.logger made test fail######
+hudson.remoting.ProxyOutputStream.LOGGER set
+########hudson.remoting.ProxyOutputStream.LOGGER made test fail######
+hudson.remoting.PipeWindow.LOGGER set
+########hudson.remoting.PipeWindow.LOGGER made test fail######
+hudson.remoting.SingleLaneExecutorService.LOGGER set
+########hudson.remoting.SingleLaneExecutorService.LOGGER made test fail######
+hudson.remoting.Channel.jarLoaderProxy set
+########hudson.remoting.Channel.jarLoaderProxy made test fail######
+hudson.remoting.Request.CURRENT set
+########hudson.remoting.Request.CURRENT made test fail######
+hudson.remoting.DaemonThreadFactory.LOGGER set
+########hudson.remoting.DaemonThreadFactory.LOGGER made test fail######
+hudson.remoting.FlightRecorderInputStream.LOGGER set
+########hudson.remoting.FlightRecorderInputStream.LOGGER made test fail######
+hudson.remoting.NioPipeRunner.LOGGER set
+########hudson.remoting.NioPipeRunner.LOGGER made test fail######
+org.jenkinsci.remoting.util.AnonymousClassWarnings.LOGGER set
+########org.jenkinsci.remoting.util.AnonymousClassWarnings.LOGGER made test fail######
+hudson.remoting.JarLoaderImpl.LOGGER set
+########hudson.remoting.JarLoaderImpl.LOGGER made test fail######

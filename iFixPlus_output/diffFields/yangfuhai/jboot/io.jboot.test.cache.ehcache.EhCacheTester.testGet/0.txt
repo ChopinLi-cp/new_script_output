@@ -1,0 +1,13 @@
+com.google.common.cache.LocalCache.logger
+com.alibaba.nacos.client.monitor.MetricsMonitor.NACOS_CLIENT_REQUEST_HISTOGRAM
+io.prometheus.client.Striped64.rng
+com.google.common.cache.CacheBuilder.logger
+com.google.common.collect.Platform.logger
+io.prometheus.client.CollectorRegistry.defaultRegistry
+com.fasterxml.jackson.databind.util.StdDateFormat.CALENDAR
+com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_RFC1123
+com.alibaba.nacos.client.config.impl.ServerListManager$ServerAddressIterator$RandomizedServerAddress.random
+io.jboot.app.config.JbootConfigManager.argMap
+com.google.common.util.concurrent.AbstractFuture.log
+com.google.common.base.Platform.logger
+io.jboot.utils.StrUtil.log

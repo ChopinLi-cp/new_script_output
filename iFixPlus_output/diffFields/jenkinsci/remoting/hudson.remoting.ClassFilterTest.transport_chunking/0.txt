@@ -1,0 +1,14 @@
+hudson.remoting.Channel.CURRENT
+hudson.remoting.RemoteInvocationHandler.logger
+hudson.remoting.Request.nextId
+hudson.remoting.ChannelBuilder.LOGGER
+hudson.remoting.SynchronousCommandTransport.LOGGER
+hudson.remoting.Request.logger
+hudson.remoting.Channel.logger
+hudson.remoting.PipeWindow.LOGGER
+hudson.remoting.SingleLaneExecutorService.LOGGER
+hudson.remoting.Channel.jarLoaderProxy
+hudson.remoting.Request.CURRENT
+hudson.remoting.DaemonThreadFactory.LOGGER
+hudson.remoting.FlightRecorderInputStream.LOGGER
+hudson.remoting.JarLoaderImpl.LOGGER

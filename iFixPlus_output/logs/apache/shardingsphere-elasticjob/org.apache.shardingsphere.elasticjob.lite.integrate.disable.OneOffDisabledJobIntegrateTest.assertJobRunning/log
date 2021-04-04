@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----< org.apache.shardingsphere.elasticjob:elasticjob-lite-core >------
+[INFO] Building elasticjob-lite-core 3.0.0-RC1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) > test-compile @ elasticjob-lite-core >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-maven-version) @ elasticjob-lite-core ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-banned-dependencies) @ elasticjob-lite-core ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:check (validate) @ elasticjob-lite-core ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ elasticjob-lite-core ---
+[INFO] argLine set to -javaagent:/home/lichengpeng/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/apache/shardingsphere-elasticjob/elasticjob-lite/elasticjob-lite-core/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-remote-resources-plugin:1.5:process (process-resource-bundles) @ elasticjob-lite-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ elasticjob-lite-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/apache/shardingsphere-elasticjob/elasticjob-lite/elasticjob-lite-core/src/main/resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.5:flatten (flatten) @ elasticjob-lite-core ---
+[INFO] Generating flattened POM of project org.apache.shardingsphere.elasticjob:elasticjob-lite-core:jar:3.0.0-RC1-SNAPSHOT...
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ elasticjob-lite-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ elasticjob-lite-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ elasticjob-lite-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) < test-compile @ elasticjob-lite-core <<<
+[INFO] 
+[INFO] 
+[INFO] --- testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) @ elasticjob-lite-core ---
+xmlFileName: 0
+replyPath: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/dtjsons_new/org.apache.shardingsphere.elasticjob.lite.integrate.disable.OneOffDisabledJobIntegrateTest.assertJobRunning/flaky-lists.json
+module: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/apache/shardingsphere-elasticjob/elasticjob-lite/elasticjob-lite-core
+tests!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+phase 0 begin
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/apache/shardingsphere-elasticjob/elasticjob-lite/elasticjob-lite-core
+expection in reading json!!!!!
+original json file wrong!!
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.753 s
+[INFO] Finished at: 2021-03-28T20:11:41+08:00
+[INFO] ------------------------------------------------------------------------

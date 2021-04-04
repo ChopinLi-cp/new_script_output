@@ -1,0 +1,89 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.jenkins-ci.main:remoting:jar:4.7-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jarsigner-plugin is missing. @ org.jenkins-ci.main:remoting:${revision}${changelist}, /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting/pom.xml, line 285, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/edu/illinois/cs/testrunner-maven-plugin/1.2-SNAPSHOT/maven-metadata.xml
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/edu/illinois/cs/testrunner/1.2-SNAPSHOT/maven-metadata.xml
+[INFO] 
+[INFO] --------------------< org.jenkins-ci.main:remoting >--------------------
+[INFO] Building Jenkins remoting layer 4.7-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) > test-compile @ remoting >>>
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.2.0:timestamp-property (timestamp-property) @ remoting ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.2.0:regex-property (user.name) @ remoting ---
+[INFO] No match to regex '([$\\])' found in 'lichengpeng'. The initial value 'lichengpeng' is left as-is...
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.2.0:regex-property (version-property) @ remoting ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M3:display-info (display-info) @ remoting ---
+[INFO] Maven Version: 3.6.3
+[INFO] JDK Version: 1.8.0_281 normalized as: 1.8.0-281
+[INFO] OS Info: Arch: amd64 Family: unix Name: linux Version: 3.10.0-514.26.2.el7.x86_64
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M3:enforce (display-info) @ remoting ---
+[INFO] Adding ignore: module-info
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.2.0:add-source (add-source) @ remoting ---
+[INFO] Source directory: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting/target/generated-sources/localizer added.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ remoting ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.2.5:flatten (flatten) @ remoting ---
+[INFO] Generating flattened POM of project org.jenkins-ci.main:remoting:jar:4.7-SNAPSHOT...
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ remoting ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 185 source files to /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting/target/classes
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting/src/main/java/hudson/remoting/jnlp/MainDialog.java: Some input files use or override a deprecated API.
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting/src/main/java/hudson/remoting/jnlp/MainDialog.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting/src/main/java/hudson/remoting/Request.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting/src/main/java/hudson/remoting/Request.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ remoting ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ remoting ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 110 source files to /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting/target/test-classes
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting/src/test/java/org/jenkinsci/remoting/engine/JnlpProtocolHandlerTest.java: Some input files use or override a deprecated API.
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting/src/test/java/org/jenkinsci/remoting/engine/JnlpProtocolHandlerTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting/src/test/java/org/jenkinsci/remoting/protocol/cert/KeyPairRule.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting/src/test/java/org/jenkinsci/remoting/protocol/cert/KeyPairRule.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] <<< testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) < test-compile @ remoting <<<
+[INFO] 
+[INFO] 
+[INFO] --- testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) @ remoting ---
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/edu/illinois/cs/testrunner-core-plugin/1.2-SNAPSHOT/maven-metadata.xml
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/edu/illinois/cs/testrunner-running/1.2-SNAPSHOT/maven-metadata.xml
+Downloading from repo.jenkins-ci.org: https://repo.jenkins-ci.org/public/com/thoughtworks/xstream/xstream/1.5.0-SNAPSHOT/maven-metadata.xml
+xmlFileName: 0
+replyPath: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/dtjsons_new/hudson.remoting.ClassFilterTest.capabilityRead/flaky-lists.json
+module: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting
+tests!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+phase 0 begin
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/jenkinsci/remoting
+expection in reading json!!!!!
+original json file wrong!!
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.089 s
+[INFO] Finished at: 2021-03-28T21:05:48+08:00
+[INFO] ------------------------------------------------------------------------

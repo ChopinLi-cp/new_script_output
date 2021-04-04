@@ -1,0 +1,28 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -----------------------< com.networknt:handler >------------------------
+[INFO] Building handler 2.0.22-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) > test-compile @ handler >>>
+[WARNING] The POM for com.networknt:config:jar:2.0.22-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for com.networknt:utility:jar:2.0.22-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for com.networknt:http-string:jar:2.0.22-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for com.networknt:status:jar:2.0.22-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for com.networknt:common:jar:2.0.22-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.782 s
+[INFO] Finished at: 2021-03-28T19:35:54+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project handler: Could not resolve dependencies for project com.networknt:handler:jar:2.0.22-SNAPSHOT: The following artifacts could not be resolved: com.networknt:config:jar:2.0.22-SNAPSHOT, com.networknt:utility:jar:2.0.22-SNAPSHOT, com.networknt:http-string:jar:2.0.22-SNAPSHOT, com.networknt:status:jar:2.0.22-SNAPSHOT, com.networknt:common:jar:2.0.22-SNAPSHOT: Could not find artifact com.networknt:config:jar:2.0.22-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

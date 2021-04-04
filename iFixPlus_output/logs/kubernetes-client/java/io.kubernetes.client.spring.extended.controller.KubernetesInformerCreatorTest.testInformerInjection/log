@@ -1,0 +1,48 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------< io.kubernetes:client-java-spring-integration >------------
+[INFO] Building client-java-spring-integration 10.0.1-SNAPSHOT
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] >>> testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) > test-compile @ client-java-spring-integration >>>
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (jacoco-initialize) @ client-java-spring-integration ---
+[INFO] argLine set to -javaagent:/home/lichengpeng/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/kubernetes-client/java/spring/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ client-java-spring-integration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ client-java-spring-integration ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ client-java-spring-integration ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ client-java-spring-integration ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) < test-compile @ client-java-spring-integration <<<
+[INFO] 
+[INFO] 
+[INFO] --- testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) @ client-java-spring-integration ---
+xmlFileName: 0
+replyPath: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/dtjsons_new/io.kubernetes.client.spring.extended.controller.KubernetesInformerCreatorTest.testInformerInjection/flaky-lists.json
+module: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/kubernetes-client/java/spring
+tests!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+phase 0 begin
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/kubernetes-client/java/spring
+expection in reading json!!!!!
+original json file wrong!!
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.319 s
+[INFO] Finished at: 2021-03-29T01:30:48+08:00
+[INFO] ------------------------------------------------------------------------

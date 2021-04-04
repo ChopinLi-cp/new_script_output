@@ -1,0 +1,11 @@
+org.apache.logging.log4j.core.async.AsyncLoggerConfig.ASYNC_LOGGER_ENTERED
+org.apache.logging.log4j.core.layout.GelfLayout.messageStringBuilder
+org.apache.logging.log4j.core.LoggerContext.NULL_CONFIGURATION
+org.apache.logging.log4j.core.util.CronExpression.MIN_DATE
+org.apache.logging.log4j.core.util.CronExpression.MIN_CAL
+org.apache.logging.log4j.core.filter.StructuredDataFilter.threadLocalStringBuilder
+org.apache.logging.log4j.core.config.status.StatusConfiguration.DEFAULT_STREAM
+org.apache.logging.log4j.core.config.plugins.convert.TypeConverterRegistry.INSTANCE
+org.apache.logging.log4j.status.StatusLogger.PROPS
+org.apache.logging.log4j.util.PropertiesUtil.LOG4J_PROPERTIES
+org.apache.logging.log4j.core.layout.GelfLayout.timestampStringBuilder

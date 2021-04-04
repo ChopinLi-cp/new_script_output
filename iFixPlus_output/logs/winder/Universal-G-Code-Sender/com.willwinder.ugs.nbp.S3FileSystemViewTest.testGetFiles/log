@@ -1,0 +1,1065 @@
+[INFO] No suitable configuration file found, using defaults
+[INFO] Using jgitver-maven-plugin [1.5.1] (sha1: e45d1669b39cedb98720dd33cc14d0185b455ca1)
+[INFO]     version '2.0.7-SNAPSHOT' computed in 470 ms
+[INFO] 
+[INFO] Scanning for projects...
+[INFO] jgitver-maven-plugin is about to change project(s) version(s)
+[INFO]     com.willwinder::ugs-platform-plugin-cloud-storage::2.0-SNAPSHOT -> 2.0.7-SNAPSHOT
+[INFO]     com.willwinder::ugs-platform-parent::2.0-SNAPSHOT -> 2.0.7-SNAPSHOT
+[INFO]     com.willwinder.universalgcodesender::ugs-parent::2.0-SNAPSHOT -> 2.0.7-SNAPSHOT
+[INFO] 
+[INFO] ----------< com.willwinder:ugs-platform-plugin-cloud-storage >----------
+[INFO] Building ugs-platform-plugin-cloud-storage 2.0.7-SNAPSHOT
+[INFO] --------------------------------[ nbm ]---------------------------------
+[INFO] 
+[INFO] >>> testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) > test-compile @ ugs-platform-plugin-cloud-storage >>>
+[INFO] 
+[INFO] --- build-helper-maven-plugin:1.8:parse-version (parse-version) @ ugs-platform-plugin-cloud-storage ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:copy-resources (generate-modules-xml) @ ugs-platform-plugin-cloud-storage ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ ugs-platform-plugin-cloud-storage ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 15 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (compile) @ ugs-platform-plugin-cloud-storage ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- nbm-maven-plugin:4.4:manifest (default-manifest) @ ugs-platform-plugin-cloud-storage ---
+[INFO] NBM Plugin generates manifest
+[INFO] Adding on module's Class-Path:
+[INFO]     io.minio:minio:jar:6.0.11
+[INFO]     com.google.http-client:google-http-client-xml:jar:1.24.1
+[INFO]     com.google.http-client:google-http-client:jar:1.24.1
+[INFO]     org.apache.httpcomponents:httpclient:jar:4.5.3
+[INFO]     org.apache.httpcomponents:httpcore:jar:4.4.6
+[INFO]     commons-codec:commons-codec:jar:1.9
+[INFO]     xpp3:xpp3:jar:1.1.4c
+[INFO]     com.google.guava:guava:jar:25.1-jre
+[INFO]     org.checkerframework:checker-qual:jar:2.0.0
+[INFO]     com.google.errorprone:error_prone_annotations:jar:2.1.3
+[INFO]     com.google.j2objc:j2objc-annotations:jar:1.1
+[INFO]     org.codehaus.mojo:animal-sniffer-annotations:jar:1.14
+[INFO]     com.squareup.okhttp3:okhttp:jar:3.13.1
+[INFO]     com.squareup.okio:okio:jar:1.17.2
+[INFO]     joda-time:joda-time:jar:2.7
+[INFO]     com.fasterxml.jackson.core:jackson-annotations:jar:2.9.6
+[INFO]     com.fasterxml.jackson.core:jackson-core:jar:2.9.6
+[INFO]     com.fasterxml.jackson.core:jackson-databind:jar:2.9.6
+[INFO]     com.google.code.findbugs:annotations:jar:3.0.1
+[INFO]     net.jcip:jcip-annotations:jar:1.0
+[INFO]     com.google.code.findbugs:jsr305:jar:3.0.2
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ ugs-platform-plugin-cloud-storage ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (testCompile) @ ugs-platform-plugin-cloud-storage ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) < test-compile @ ugs-platform-plugin-cloud-storage <<<
+[INFO] 
+[INFO] 
+[INFO] --- testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) @ ugs-platform-plugin-cloud-storage ---
+xmlFileName: 0
+replyPath: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/dtjsons_new/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/flaky-lists.json
+module: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+tests!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+phase 0 begin
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+$$$$$$$$$$$testPassOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+downloadFile
+testStarted end!!
+getFiles
+java.lang.AssertionError: 
+Expected size:<2> but was:<3> in:
+<[/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/rootfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/testfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/dir1]>
+	at com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles(S3FileSystemViewTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:263)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:331)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[INFO] [03/31/2021 21:02:14.575] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+Failing order results: ERROR
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+downloadFile
+testStarted end!!
+getFiles
+java.lang.AssertionError: 
+Expected size:<2> but was:<3> in:
+<[/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/rootfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/testfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/dir1]>
+	at com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles(S3FileSystemViewTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:263)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:331)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[INFO] [03/31/2021 21:02:18.413] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+Failing order results: ERROR
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+downloadFile
+testStarted end!!
+getFiles
+java.lang.AssertionError: 
+Expected size:<2> but was:<3> in:
+<[/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/rootfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/testfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/dir1]>
+	at com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles(S3FileSystemViewTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:263)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:331)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[INFO] [03/31/2021 21:02:22.195] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+Failing order results: ERROR
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+downloadFile
+testStarted end!!
+getFiles
+java.lang.AssertionError: 
+Expected size:<2> but was:<3> in:
+<[/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/rootfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/testfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/dir1]>
+	at com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles(S3FileSystemViewTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:263)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:331)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[INFO] [03/31/2021 21:02:26.074] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+Failing order results: ERROR
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+downloadFile
+testStarted end!!
+getFiles
+java.lang.AssertionError: 
+Expected size:<2> but was:<3> in:
+<[/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/rootfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/testfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/dir1]>
+	at com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles(S3FileSystemViewTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:263)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:331)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[INFO] [03/31/2021 21:02:29.842] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+Failing order results: ERROR
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+downloadFile
+testStarted end!!
+getFiles
+java.lang.AssertionError: 
+Expected size:<2> but was:<3> in:
+<[/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/rootfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/testfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/dir1]>
+	at com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles(S3FileSystemViewTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:263)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:331)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[INFO] [03/31/2021 21:02:33.617] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+Failing order results: ERROR
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+downloadFile
+testStarted end!!
+getFiles
+java.lang.AssertionError: 
+Expected size:<2> but was:<3> in:
+<[/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/rootfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/testfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/dir1]>
+	at com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles(S3FileSystemViewTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:263)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:331)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[INFO] [03/31/2021 21:02:37.352] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+Failing order results: ERROR
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+downloadFile
+testStarted end!!
+getFiles
+java.lang.AssertionError: 
+Expected size:<2> but was:<3> in:
+<[/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/rootfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/testfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/dir1]>
+	at com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles(S3FileSystemViewTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:263)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:331)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[INFO] [03/31/2021 21:02:41.160] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+Failing order results: ERROR
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+downloadFile
+testStarted end!!
+getFiles
+java.lang.AssertionError: 
+Expected size:<2> but was:<3> in:
+<[/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/rootfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/testfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/dir1]>
+	at com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles(S3FileSystemViewTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:263)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:331)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[INFO] [03/31/2021 21:02:44.955] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+Failing order results: ERROR
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+downloadFile
+testStarted end!!
+getFiles
+java.lang.AssertionError: 
+Expected size:<2> but was:<3> in:
+<[/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/rootfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/testfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/dir1]>
+	at com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles(S3FileSystemViewTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:263)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:331)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[INFO] [03/31/2021 21:02:48.758] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+Failing order results: ERROR
+$$$$$$$$$$$testPassOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+testStarted end!!
+getFiles
+[INFO] [03/31/2021 21:02:52.543] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+passing order results: PASS
+$$$$$$$$$$$testPassOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+testStarted end!!
+getFiles
+[INFO] [03/31/2021 21:02:56.167] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+passing order results: PASS
+$$$$$$$$$$$testPassOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+testStarted end!!
+getFiles
+[INFO] [03/31/2021 21:02:59.850] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+passing order results: PASS
+$$$$$$$$$$$testPassOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+testStarted end!!
+getFiles
+[INFO] [03/31/2021 21:03:03.461] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+passing order results: PASS
+$$$$$$$$$$$testPassOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+testStarted end!!
+getFiles
+[INFO] [03/31/2021 21:03:07.129] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+passing order results: PASS
+$$$$$$$$$$$testPassOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+testStarted end!!
+getFiles
+[INFO] [03/31/2021 21:03:10.813] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+passing order results: PASS
+$$$$$$$$$$$testPassOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+testStarted end!!
+getFiles
+[INFO] [03/31/2021 21:03:14.466] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+passing order results: PASS
+$$$$$$$$$$$testPassOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+testStarted end!!
+getFiles
+[INFO] [03/31/2021 21:03:18.164] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+passing order results: PASS
+$$$$$$$$$$$testPassOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+testStarted end!!
+getFiles
+[INFO] [03/31/2021 21:03:21.880] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+passing order results: PASS
+$$$$$$$$$$$testPassOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+testStarted end!!
+getFiles
+[INFO] [03/31/2021 21:03:25.510] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+passing order results: PASS
+phase 0 ends
+phase 1!!!
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+testStarted end!!
+getFiles
+testStarted end!!
+getFiles
+[INFO] [03/31/2021 21:03:29.319] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+PASS
+phase 1 results: {com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles:1=TestResult(com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,PASS,0.105973725,[Ljava.lang.StackTraceElement;@3ec9f8d), com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles:0=TestResult(com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,PASS,0.970514876,[Ljava.lang.StackTraceElement;@7e0f9528)}
+finished phase 1!!
+enter phase 2!!!
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+testStarted end!!
+getFiles
+MainAgent.targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles fullTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+phase: 2
+*****************fn: null
+*****************fn: null
+test listener at after !!!!!!!!! Capturing the states!!!!!!!!!!!!!
+xmlFileName: 0
+xmlFold: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+@@@@@@@@@@testname:com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+capture_real done!!
+[INFO] [03/31/2021 21:03:41.143] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+xmlFileName: 1
+enter phase 4 before!!
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+downloadFile
+*****************fn: null
+*****************fn: null
+MainAgent.targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles fullTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+phase: 4
+test listener!!!!!!!!! Capturing the states!!!!!!!!!!!!!
+xmlFileName: 1
+xmlFold: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+@@@@@@@@@@testname:com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+capture_real done!!
+testStarted end!!
+getFiles
+java.lang.AssertionError: 
+Expected size:<2> but was:<3> in:
+<[/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/rootfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/testfile.nc,
+    /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage/s3:/test-files/dir1]>
+	at com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles(S3FileSystemViewTest.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.execute(JUnitTestExecutor.java:263)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.executeWithJUnit4Runner(JUnitTestExecutor.java:331)
+	at edu.illinois.cs.testrunner.execution.JUnitTestExecutor.runOrder(JUnitTestExecutor.java:53)
+	at edu.illinois.cs.testrunner.execution.Executor$.$anonfun$run$1(Executor.scala:30)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at edu.illinois.cs.testrunner.execution.Executor$.run(Executor.scala:28)
+	at edu.illinois.cs.testrunner.execution.Executor$.main(Executor.scala:18)
+	at edu.illinois.cs.testrunner.execution.Executor.main(Executor.scala)
+[ERROR]: No running time measured for test name 'Test mechanism.null'
+[ERROR]: No running time measured for test name 'Test mechanism.null'
+[INFO] [03/31/2021 21:03:53.005] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook
+finish phase 4 before!!
+enter phase 5!!!
+xmlFileNum: 2
+begining diff!!!!!!!!!!
+doublevictim!!
+args: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/xmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subxmls/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/roots/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/pkg/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/package-filter,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/output/result.csv,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/allFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/subdiffs/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/tmp,/home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/reflection/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+testStarted end!!
+getFiles
+*****************fn: null
+*****************fn: null
+MainAgent.targetTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles fullTestName: com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+phase: 5doublevic
+test listener!!!!!!!!! diffing the fields in doublevictim order!!!!!!!!!!!!!
+xmlFileName: 2
+afterroot name in diffFields_filetered: com.willwinder.ugs.nbp.S3FileSystemViewTest.api
+reflection begin!!
+
+$$$$$$$$$$$testFailOrder_full: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/winder/Universal-G-Code-Sender/ugs-platform/ugs-platform-plugin-cloud-storage
+dtl!!!!!!!!!!!
+testFailOrder_full1 : com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles
+[ERROR] 
+java.io.FileNotFoundException: /home/lichengpeng/spring-holiday/iFixPlus/scripts_ifixplus/diffFields/winder/Universal-G-Code-Sender/com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles/0.txt (No such file or directory)
+    at java.io.FileInputStream.open0 (Native Method)
+    at java.io.FileInputStream.open (FileInputStream.java:195)
+    at java.io.FileInputStream.<init> (FileInputStream.java:138)
+    at java.io.FileInputStream.<init> (FileInputStream.java:93)
+    at java.io.FileReader.<init> (FileReader.java:58)
+    at edu.illinois.cs.dt.tools.utility.iFixPlusPlugin.reflectEachField (iFixPlusPlugin.java:326)
+    at edu.illinois.cs.dt.tools.utility.iFixPlusPlugin.execute (iFixPlusPlugin.java:277)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at edu.illinois.cs.testrunner.mavenplugin.TestPluginPlugin.execute (TestPluginPlugin.scala:59)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:498)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:18 min
+[INFO] Finished at: 2021-03-31T21:04:24+08:00
+[INFO] ------------------------------------------------------------------------
+finish** afterroot name in diffFields_filetered!!!!
+afterroot name in diffFields_filetered: okhttp3.ConnectionPool.executor
+finish** afterroot name in diffFields_filetered!!!!
+the field name org.joda.time.format.ISODateTimeFormat$Constants.bwdtx exists in the afterRoot but does not exist in the beforeRoot
+the field name com.amazonaws.util.DateUtils.rfc822DateFormat exists in the afterRoot but does not exist in the beforeRoot
+the field name akka.http.scaladsl.model.headers.Accept$minusRanges$.MODULE$ exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.convert.ReadablePeriodConverter.INSTANCE exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.chrono.BuddhistChronology.INSTANCE_UTC exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.hmsf exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.wdtx exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.hmsl exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.convert.NullConverter.INSTANCE exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.bttx exists in the afterRoot but does not exist in the beforeRoot
+afterroot name in diffFields_filetered: com.google.api.client.util.ClassInfo.CACHE
+finish** afterroot name in diffFields_filetered!!!!
+the field name org.joda.time.format.ISODateTimeFormat$Constants.ye exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.ym exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.ze exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.we exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.ww exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.tt exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.tp exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.tx exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dhmsf exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dhmsl exists in the afterRoot but does not exist in the beforeRoot
+afterroot name in diffFields_filetered: com.typesafe.config.impl.ConfigImpl$LoaderCacheHolder.cache
+finish** afterroot name in diffFields_filetered!!!!
+the field name org.joda.time.format.ISODateTimeFormat$Constants.mye exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dye exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.btx exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.btt exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.bwd exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.convert.ReadablePartialConverter.INSTANCE exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dotp exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.convert.StringConverter.INSTANCE exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.sme exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dpe exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.bod exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.wwd exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.wwe exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dtx exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.ldotp exists in the afterRoot but does not exist in the beforeRoot
+the field name akka.http.scaladsl.server.directives.RespondWithDirectives$.MODULE$ exists in the afterRoot but does not exist in the beforeRoot
+afterroot name in diffFields_filetered: org.joda.time.format.DateTimeFormat.cPatternCache
+finish** afterroot name in diffFields_filetered!!!!
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dtp exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dwe exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.mhe exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.bdt exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dhm exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.t exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.chrono.GJChronology.DEFAULT_CUTOVER exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.chrono.BuddhistChronology.ERA_FIELD exists in the afterRoot but does not exist in the beforeRoot
+the field name com.amazonaws.util.DateUtils.iso8601DateFormat exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.bodt exists in the afterRoot but does not exist in the beforeRoot
+the field name com.amazonaws.util.DateUtils.alternateIso8601DateFormat exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dme exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.convert.ReadableDurationConverter.INSTANCE exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.odt exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.fse exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.chrono.JulianChronology.INSTANCE_UTC exists in the afterRoot but does not exist in the beforeRoot
+the field name akka.http.scaladsl.server.directives.RangeDirectives$.MODULE$ exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.bdtx exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.wdt exists in the afterRoot but does not exist in the beforeRoot
+afterroot name in diffFields_filetered: akka.stream.scaladsl.TLSPlacebo$.MODULE$
+finish** afterroot name in diffFields_filetered!!!!
+the field name org.joda.time.convert.ReadableIntervalConverter.INSTANCE exists in the afterRoot but does not exist in the beforeRoot
+afterroot name in diffFields_filetered: com.google.api.client.util.FieldInfo.CACHE
+finish** afterroot name in diffFields_filetered!!!!
+afterroot name in diffFields_filetered: com.typesafe.config.impl.ConfigImpl$SystemPropertiesHolder.systemProperties
+finish** afterroot name in diffFields_filetered!!!!
+the field name org.joda.time.chrono.BuddhistChronology.cCache exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.ltp exists in the afterRoot but does not exist in the beforeRoot
+the field name com.amazonaws.util.DateUtils.compressedIso8601DateFormat exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.ymd exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.lte exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.convert.LongConverter.INSTANCE exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.hms exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.odtx exists in the afterRoot but does not exist in the beforeRoot
+the field name com.amazonaws.util.DateUtils.GMT exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.convert.CalendarConverter.INSTANCE exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.convert.ReadableInstantConverter.INSTANCE exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.od exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.bwdt exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.hde exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.chrono.GJChronology.cCache exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.chrono.JulianChronology.cCache exists in the afterRoot but does not exist in the beforeRoot
+afterroot name in diffFields_filetered: org.joda.time.DateTimeZone.cProvider
+finish** afterroot name in diffFields_filetered!!!!
+the field name org.joda.time.format.ISODateTimeFormat$Constants.hm exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.tpe exists in the afterRoot but does not exist in the beforeRoot
+afterroot name in diffFields_filetered: okio.SegmentPool.next
+finish** afterroot name in diffFields_filetered!!!!
+the field name org.joda.time.convert.DateConverter.INSTANCE exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.bodtx exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.convert.ConverterManager.INSTANCE exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dh exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dt exists in the afterRoot but does not exist in the beforeRoot
+the field name akka.http.scaladsl.model.headers.Last$minusModified$.MODULE$ exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dp exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.ttx exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.ldp exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.bd exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.bt exists in the afterRoot but does not exist in the beforeRoot
+the field name org.joda.time.format.ISODateTimeFormat$Constants.dhms exists in the afterRoot but does not exist in the beforeRoot
+creating diff file!!!!!!!!!!!!!
+finish creating diff file!!!!!!!!!!!!!
+diffing done!!
+[INFO] [03/31/2021 21:05:34.512] [s3mock-shutdown-hook-1] [CoordinatedShutdown(akka://s3mock)] Starting coordinated shutdown from JVM shutdown hook

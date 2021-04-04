@@ -1,0 +1,243 @@
+*************************reflection on diffFieldAfter************************
+org.springframework.beans.factory.support.DefaultListableBeanFactory.serializableFactories set
+########org.springframework.beans.factory.support.DefaultListableBeanFactory.serializableFactories made test fail######
+org.python.core.ThreadStateMapping.inCallThreadState set
+########org.python.core.ThreadStateMapping.inCallThreadState made test fail######
+org.python.core.PyJavaType.immutableClasses set
+########org.python.core.PyJavaType.immutableClasses made test fail######
+org.springframework.core.annotation.TypeMappedAnnotation.EMPTY_ARRAYS set
+########org.springframework.core.annotation.TypeMappedAnnotation.EMPTY_ARRAYS made test fail######
+org.springframework.core.annotation.AttributeMethods.cache set
+########org.springframework.core.annotation.AttributeMethods.cache made test fail######
+org.springframework.cglib.core.AbstractClassGenerator.CACHE deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : org.springframework.cglib.proxy.Enhancer$EnhancerKey$$KeyFactoryByCGLIB$$4ce19e8f
+class               : java.util.concurrent.ConcurrentHashMap
+required-type       : java.util.concurrent.ConcurrentHashMap
+converter-type      : edu.illinois.cs.diaper.CustomMapConverter
+path                : /java.util.WeakHashMap/table/java.util.WeakHashMap$Entry/value/generatedClasses/map/entry/key
+class[1]            : org.springframework.cglib.core.internal.LoadingCache
+required-type[1]    : org.springframework.cglib.core.internal.LoadingCache
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData
+required-type[2]    : org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData
+class[3]            : java.util.WeakHashMap$Entry
+required-type[3]    : java.util.WeakHashMap$Entry
+class[4]            : [Ljava.util.WeakHashMap$Entry;
+required-type[4]    : [Ljava.util.WeakHashMap$Entry;
+converter-type[2]   : com.thoughtworks.xstream.converters.collections.ArrayConverter
+class[5]            : java.util.WeakHashMap
+required-type[5]    : java.util.WeakHashMap
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.springframework.cglib.core.AbstractClassGenerator.CACHE made test fail######
+org.springframework.beans.factory.support.ConstructorResolver.currentInjectionPoint set
+########org.springframework.beans.factory.support.ConstructorResolver.currentInjectionPoint made test fail######
+org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.defaultContextCache deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : org.springframework.test.context.cache.DefaultContextCache$LruCache.readObject()
+class               : org.springframework.test.context.cache.DefaultContextCache$LruCache
+required-type       : org.springframework.test.context.cache.DefaultContextCache$LruCache
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.springframework.test.context.cache.DefaultContextCache/contextMap/java.util.Collections$SynchronizedMap/default/m/map/org.springframework.context.support.GenericApplicationContext/applicationEventMulticaster/beanClassLoader/parent/ucp/lmap/entry[4]/value/jar/zc/enc/charset
+class[1]            : java.util.Collections$SynchronizedMap
+required-type[1]    : java.util.Collections$SynchronizedMap
+class[2]            : org.springframework.test.context.cache.DefaultContextCache
+required-type[2]    : org.springframework.test.context.cache.DefaultContextCache
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.defaultContextCache made test fail######
+org.springframework.util.ClassUtils.primitiveTypeToWrapperMap set
+########org.springframework.util.ClassUtils.primitiveTypeToWrapperMap made test fail######
+org.springframework.core.annotation.RepeatableContainers$StandardRepeatableContainers.cache set
+########org.springframework.core.annotation.RepeatableContainers$StandardRepeatableContainers.cache made test fail######
+org.springframework.beans.factory.support.SimpleInstantiationStrategy.currentlyInvokedFactoryMethod set
+########org.springframework.beans.factory.support.SimpleInstantiationStrategy.currentlyInvokedFactoryMethod made test fail######
+org.springframework.cglib.core.ReflectUtils.defaultLoader deserializeError: com.thoughtworks.xstream.converters.ConversionException: Invalid reference
+---- Debugging information ----
+message             : Invalid reference
+reference           : /sun.misc.Launcher_-AppClassLoader/parent/ucp/lmap/entry[4]/value/jar/zc/cs
+referenced-type     : java.nio.charset.Charset
+referenceable       : false
+class               : sun.nio.cs.UTF_8$Encoder
+required-type       : sun.nio.cs.UTF_8$Encoder
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /sun.misc.Launcher$AppClassLoader/parent/ucp/lmap/entry[4]/value/jar/zc/enc/charset
+class[1]            : java.util.zip.ZipCoder
+required-type[1]    : java.util.zip.ZipCoder
+class[2]            : java.util.jar.JarFile
+required-type[2]    : java.util.jar.JarFile
+class[3]            : sun.misc.URLClassPath$JarLoader
+required-type[3]    : sun.misc.URLClassPath$JarLoader
+class[4]            : java.util.HashMap
+required-type[4]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[5]            : sun.misc.URLClassPath
+required-type[5]    : sun.misc.URLClassPath
+class[6]            : sun.misc.Launcher$ExtClassLoader
+required-type[6]    : sun.misc.Launcher$ExtClassLoader
+class[7]            : sun.misc.Launcher$AppClassLoader
+required-type[7]    : sun.misc.Launcher$AppClassLoader
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.springframework.cglib.core.ReflectUtils.defaultLoader made test fail######
+org.springframework.cglib.core.AbstractClassGenerator.CURRENT set
+########org.springframework.cglib.core.AbstractClassGenerator.CURRENT made test fail######
+org.python.core.PyObject.primitiveMap set
+########org.python.core.PyObject.primitiveMap made test fail######
+org.python.core.PrePy.importLogger deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.python.core.PrePy.importLogger made test fail######
+org.springframework.util.ReflectionUtils.declaredFieldsCache set
+########org.springframework.util.ReflectionUtils.declaredFieldsCache made test fail######
+org.python.core.PyJavaType$Modular.accessibleMH deserializeError: com.thoughtworks.xstream.converters.ConversionException: Cannot load java class java.lang.invoke.LambdaForm$DMH/1940030785
+---- Debugging information ----
+message             : Cannot load java class java.lang.invoke.LambdaForm$DMH/1940030785
+class               : java.lang.Class
+required-type       : java.lang.Class
+converter-type      : com.thoughtworks.xstream.converters.SingleValueConverterWrapper
+wrapped-converter   : com.thoughtworks.xstream.converters.extended.JavaClassConverter
+path                : /java.lang.invoke.BoundMethodHandle$Species_I/form/names/java.lang.invoke.LambdaForm$Name/constraint/constructor/java.lang.invoke.DirectMethodHandle/form/names/java.lang.invoke.LambdaForm$Name[5]/function/resolvedHandle/form/vmentry/clazz
+class[1]            : java.lang.invoke.MemberName
+required-type[1]    : java.lang.invoke.MemberName
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.lang.invoke.LambdaForm
+required-type[2]    : java.lang.invoke.LambdaForm
+class[3]            : java.lang.invoke.DirectMethodHandle
+required-type[3]    : java.lang.invoke.DirectMethodHandle
+class[4]            : java.lang.invoke.LambdaForm$NamedFunction
+required-type[4]    : java.lang.invoke.LambdaForm$NamedFunction
+class[5]            : java.lang.invoke.LambdaForm$Name
+required-type[5]    : java.lang.invoke.LambdaForm$Name
+class[6]            : [Ljava.lang.invoke.LambdaForm$Name;
+required-type[6]    : [Ljava.lang.invoke.LambdaForm$Name;
+converter-type[2]   : com.thoughtworks.xstream.converters.collections.ArrayConverter
+class[7]            : [Ljava.lang.invoke.MethodHandle;
+required-type[7]    : [Ljava.lang.invoke.MethodHandle;
+class[8]            : java.lang.invoke.BoundMethodHandle$SpeciesData
+required-type[8]    : java.lang.invoke.BoundMethodHandle$SpeciesData
+class[9]            : java.lang.invoke.BoundMethodHandle$Species_I
+required-type[9]    : java.lang.invoke.BoundMethodHandle$Species_I
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.python.core.PyJavaType$Modular.accessibleMH made test fail######
+org.python.core.PyJavaType$CollectionsProxiesHolder.proxies set
+########org.python.core.PyJavaType$CollectionsProxiesHolder.proxies made test fail######
+org.python.core.Py.adapter set
+########org.python.core.Py.adapter made test fail######
+org.python.core.PyType$MethodCache.methodCache set
+########org.python.core.PyType$MethodCache.methodCache made test fail######
+org.python.core.PrePy.logger deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/kids/java.util.logging.LogManager$LoggerWeakRef/queue/head/next/next/next/next/next/next/next/outer-class/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.LogManager$LoggerWeakRef
+required-type[3]    : java.util.logging.LogManager$LoggerWeakRef
+class[4]            : java.lang.ref.ReferenceQueue
+required-type[4]    : java.lang.ref.ReferenceQueue
+class[5]            : java.util.ArrayList
+required-type[5]    : java.util.ArrayList
+converter-type[2]   : com.thoughtworks.xstream.converters.collections.CollectionConverter
+class[6]            : java.util.logging.Logger
+required-type[6]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.python.core.PrePy.logger made test fail######
+javassist.util.proxy.DefineClassHelper.privileged deserializeError: com.thoughtworks.xstream.converters.ConversionException: Cannot load java class java.lang.invoke.LambdaForm$DMH/1940030785
+---- Debugging information ----
+message             : Cannot load java class java.lang.invoke.LambdaForm$DMH/1940030785
+class               : java.lang.Class
+required-type       : java.lang.Class
+converter-type      : com.thoughtworks.xstream.converters.SingleValueConverterWrapper
+wrapped-converter   : com.thoughtworks.xstream.converters.extended.JavaClassConverter
+path                : /javassist.util.proxy.DefineClassHelper$Java7/defineClass/asTypeCache/argL1/argL0/form/names/java.lang.invoke.LambdaForm$Name[4]/function/resolvedHandle/form/vmentry/clazz
+class[1]            : java.lang.invoke.MemberName
+required-type[1]    : java.lang.invoke.MemberName
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.lang.invoke.LambdaForm
+required-type[2]    : java.lang.invoke.LambdaForm
+class[3]            : java.lang.invoke.DirectMethodHandle
+required-type[3]    : java.lang.invoke.DirectMethodHandle
+class[4]            : java.lang.invoke.LambdaForm$NamedFunction
+required-type[4]    : java.lang.invoke.LambdaForm$NamedFunction
+class[5]            : java.lang.invoke.LambdaForm$Name
+required-type[5]    : java.lang.invoke.LambdaForm$Name
+class[6]            : [Ljava.lang.invoke.LambdaForm$Name;
+required-type[6]    : [Ljava.lang.invoke.LambdaForm$Name;
+converter-type[2]   : com.thoughtworks.xstream.converters.collections.ArrayConverter
+class[7]            : java.lang.invoke.BoundMethodHandle$Species_LL
+required-type[7]    : java.lang.invoke.BoundMethodHandle$Species_LL
+class[8]            : java.lang.invoke.BoundMethodHandle$Species_L7
+required-type[8]    : java.lang.invoke.BoundMethodHandle$Species_L7
+class[9]            : javassist.util.proxy.DefineClassHelper$Java7
+required-type[9]    : javassist.util.proxy.DefineClassHelper$Java7
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########javassist.util.proxy.DefineClassHelper.privileged made test fail######
+org.springframework.core.annotation.AnnotationsScanner.declaredAnnotationCache set
+########org.springframework.core.annotation.AnnotationsScanner.declaredAnnotationCache made test fail######
+org.springframework.util.ClassUtils.primitiveWrapperTypeMap set
+########org.springframework.util.ClassUtils.primitiveWrapperTypeMap made test fail######
+javassist.util.proxy.ProxyFactory.nameGenerator set
+########javassist.util.proxy.ProxyFactory.nameGenerator made test fail######
+org.springframework.util.ReflectionUtils.declaredMethodsCache set
+########org.springframework.util.ReflectionUtils.declaredMethodsCache made test fail######
+io.cloudslang.lang.entities.bindings.values.PyObjectValueProxyFactory.proxyClasses deserializeError: com.thoughtworks.xstream.converters.ConversionException: Cannot load java class org.python.core.PyUnicode_$$_jvstdc7_0
+---- Debugging information ----
+message             : Cannot load java class org.python.core.PyUnicode_$$_jvstdc7_0
+class               : java.lang.reflect.Constructor
+required-type       : java.lang.reflect.Constructor
+converter-type      : com.thoughtworks.xstream.converters.extended.JavaMethodConverter
+path                : /concurrent-hash-map/entry/value/constructor/class
+class[1]            : io.cloudslang.lang.entities.bindings.values.PyObjectValueProxyClass
+required-type[1]    : io.cloudslang.lang.entities.bindings.values.PyObjectValueProxyClass
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.concurrent.ConcurrentHashMap
+required-type[2]    : java.util.concurrent.ConcurrentHashMap
+converter-type[2]   : edu.illinois.cs.diaper.CustomMapConverter
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.cloudslang.lang.entities.bindings.values.PyObjectValueProxyFactory.proxyClasses made test fail######
+org.springframework.beans.factory.BeanFactoryUtils.transformedBeanNameCache set
+########org.springframework.beans.factory.BeanFactoryUtils.transformedBeanNameCache made test fail######
+org.springframework.core.annotation.OrderUtils.orderCache set
+########org.springframework.core.annotation.OrderUtils.orderCache made test fail######
+org.springframework.cglib.core.ClassEmitter.hookCounter set
+########org.springframework.cglib.core.ClassEmitter.hookCounter made test fail######
+org.springframework.beans.BeanUtils.DEFAULT_TYPE_VALUES set
+########org.springframework.beans.BeanUtils.DEFAULT_TYPE_VALUES made test fail######
+org.springframework.util.ClassUtils.javaLanguageInterfaces set
+########org.springframework.util.ClassUtils.javaLanguageInterfaces made test fail######

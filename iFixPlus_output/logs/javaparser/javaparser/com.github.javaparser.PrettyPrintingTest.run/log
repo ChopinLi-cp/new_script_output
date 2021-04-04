@@ -1,0 +1,74 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< com.github.javaparser:javaparser-core-testing-bdd >----------
+[INFO] Building javaparser-core-testing-bdd 3.18.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) > test-compile @ javaparser-core-testing-bdd >>>
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (jacoco-initialize) @ javaparser-core-testing-bdd ---
+[INFO] argLine set to -javaagent:/home/lichengpeng/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ javaparser-core-testing-bdd ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ javaparser-core-testing-bdd ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ javaparser-core-testing-bdd ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ javaparser-core-testing-bdd ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 19 source files to /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/target/test-classes
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/CommentParsingSteps.java: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/CommentParsingSteps.java uses or overrides a deprecated API.
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/CommentParsingSteps.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/SharedSteps.java: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/SharedSteps.java uses unchecked or unsafe operations.
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/SharedSteps.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/CommentParsingSteps.java:[34,37] cannot find symbol
+  symbol:   class PrettyPrinterConfiguration
+  location: package com.github.javaparser.printer
+[ERROR] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/CommentParsingSteps.java:[35,37] cannot find symbol
+  symbol:   class Printable
+  location: package com.github.javaparser.printer
+[ERROR] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/CommentParsingSteps.java:[66,13] cannot find symbol
+  symbol:   class Printable
+  location: class com.github.javaparser.steps.CommentParsingSteps
+[ERROR] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/CommentParsingSteps.java:[66,61] cannot find symbol
+  symbol:   class PrettyPrinterConfiguration
+  location: class com.github.javaparser.steps.CommentParsingSteps
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.768 s
+[INFO] Finished at: 2021-03-28T19:35:24+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile (default-testCompile) on project javaparser-core-testing-bdd: Compilation failure: Compilation failure: 
+[ERROR] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/CommentParsingSteps.java:[34,37] cannot find symbol
+[ERROR]   symbol:   class PrettyPrinterConfiguration
+[ERROR]   location: package com.github.javaparser.printer
+[ERROR] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/CommentParsingSteps.java:[35,37] cannot find symbol
+[ERROR]   symbol:   class Printable
+[ERROR]   location: package com.github.javaparser.printer
+[ERROR] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/CommentParsingSteps.java:[66,13] cannot find symbol
+[ERROR]   symbol:   class Printable
+[ERROR]   location: class com.github.javaparser.steps.CommentParsingSteps
+[ERROR] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/javaparser/javaparser/javaparser-core-testing-bdd/src/test/java/com/github/javaparser/steps/CommentParsingSteps.java:[66,61] cannot find symbol
+[ERROR]   symbol:   class PrettyPrinterConfiguration
+[ERROR]   location: class com.github.javaparser.steps.CommentParsingSteps
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

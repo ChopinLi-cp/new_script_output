@@ -1,0 +1,26 @@
+*************************reflection on diffFieldAfter************************
+com.google.common.base.Platform.logger set
+########com.google.common.base.Platform.logger made test fail######
+ch.qos.logback.core.util.StatusPrinter.cachingDateFormat set
+########ch.qos.logback.core.util.StatusPrinter.cachingDateFormat made test fail######
+org.apache.shardingsphere.elasticjob.cloud.scheduler.env.BootstrapEnvironment.INSTANCE set
+########org.apache.shardingsphere.elasticjob.cloud.scheduler.env.BootstrapEnvironment.INSTANCE made test success#######
+ch.qos.logback.core.util.StatusPrinter.ps deserializeError: com.thoughtworks.xstream.converters.ConversionException: Invalid reference
+---- Debugging information ----
+message             : Invalid reference
+reference           : /java.io.PrintStream/charOut/se/cs
+referenced-type     : java.nio.charset.Charset
+referenceable       : false
+class               : sun.nio.cs.UTF_8$Encoder
+required-type       : sun.nio.cs.UTF_8$Encoder
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /java.io.PrintStream/charOut/se/encoder/charset
+class[1]            : sun.nio.cs.StreamEncoder
+required-type[1]    : sun.nio.cs.StreamEncoder
+class[2]            : java.io.OutputStreamWriter
+required-type[2]    : java.io.OutputStreamWriter
+class[3]            : java.io.PrintStream
+required-type[3]    : java.io.PrintStream
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########ch.qos.logback.core.util.StatusPrinter.ps made test fail######

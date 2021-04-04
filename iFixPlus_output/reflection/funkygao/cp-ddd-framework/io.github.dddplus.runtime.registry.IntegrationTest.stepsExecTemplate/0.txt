@@ -1,0 +1,316 @@
+*************************reflection on diffFieldAfter************************
+org.springframework.core.annotation.AnnotationUtils.metaPresentCache set
+########org.springframework.core.annotation.AnnotationUtils.metaPresentCache made test fail######
+org.springframework.core.annotation.AnnotationUtils.synthesizableCache set
+########org.springframework.core.annotation.AnnotationUtils.synthesizableCache made test fail######
+org.springframework.beans.factory.support.DefaultListableBeanFactory.serializableFactories set
+########org.springframework.beans.factory.support.DefaultListableBeanFactory.serializableFactories made test fail######
+io.github.dddplus.testing.LogAssert.reader set
+########io.github.dddplus.testing.LogAssert.reader made test fail######
+org.springframework.core.annotation.AnnotationUtils.attributeAliasesCache set
+########org.springframework.core.annotation.AnnotationUtils.attributeAliasesCache made test fail######
+org.springframework.aop.framework.CglibAopProxy.validatedClasses set
+########org.springframework.aop.framework.CglibAopProxy.validatedClasses made test fail######
+org.springframework.core.convert.Property.annotationCache set
+########org.springframework.core.convert.Property.annotationCache made test fail######
+org.aspectj.lang.reflect.AjTypeSystem.ajTypes set
+########org.aspectj.lang.reflect.AjTypeSystem.ajTypes made test fail######
+org.springframework.cglib.core.AbstractClassGenerator.CACHE set
+########org.springframework.cglib.core.AbstractClassGenerator.CACHE made test fail######
+org.springframework.aop.aspectj.AspectJExpressionPointcut.SUPPORTED_PRIMITIVES set
+########org.springframework.aop.aspectj.AspectJExpressionPointcut.SUPPORTED_PRIMITIVES made test fail######
+org.springframework.beans.factory.support.ConstructorResolver.currentInjectionPoint set
+########org.springframework.beans.factory.support.ConstructorResolver.currentInjectionPoint made test fail######
+org.springframework.util.ClassUtils.primitiveTypeToWrapperMap set
+########org.springframework.util.ClassUtils.primitiveTypeToWrapperMap made test fail######
+org.apache.logging.log4j.core.LoggerContext.NULL_CONFIGURATION set
+########org.apache.logging.log4j.core.LoggerContext.NULL_CONFIGURATION made test fail######
+io.github.dddplus.runtime.registry.InternalIndexer.sortedPatternMap set
+########io.github.dddplus.runtime.registry.InternalIndexer.sortedPatternMap made test fail######
+org.springframework.cglib.core.ReflectUtils.defaultLoader deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.lang.IndexOutOfBoundsException
+cause-message       : Index: 2, Size: 2
+method              : java.security.CodeSource.readObject()
+class               : java.security.CodeSource
+required-type       : java.security.CodeSource
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /sun.misc.Launcher$AppClassLoader/parent/pdcache/entry/key/java.security.CodeSource
+class[1]            : java.util.HashMap
+required-type[1]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[2]            : sun.misc.Launcher$ExtClassLoader
+required-type[2]    : sun.misc.Launcher$ExtClassLoader
+converter-type[2]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[3]            : sun.misc.Launcher$AppClassLoader
+required-type[3]    : sun.misc.Launcher$AppClassLoader
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.springframework.cglib.core.ReflectUtils.defaultLoader made test fail######
+org.aspectj.weaver.reflect.ReflectionBasedReferenceTypeDelegate.bootClassLoader deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.lang.IndexOutOfBoundsException
+cause-message       : Index: 2, Size: 2
+method              : java.security.CodeSource.readObject()
+class               : java.security.CodeSource
+required-type       : java.security.CodeSource
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.net.URLClassLoader/parent/parent/pdcache/entry/key/java.security.CodeSource
+class[1]            : java.util.HashMap
+required-type[1]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[2]            : sun.misc.Launcher$ExtClassLoader
+required-type[2]    : sun.misc.Launcher$ExtClassLoader
+converter-type[2]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[3]            : sun.misc.Launcher$AppClassLoader
+required-type[3]    : sun.misc.Launcher$AppClassLoader
+class[4]            : java.net.URLClassLoader
+required-type[4]    : java.net.URLClassLoader
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.aspectj.weaver.reflect.ReflectionBasedReferenceTypeDelegate.bootClassLoader made test fail######
+org.springframework.core.Conventions.IGNORED_INTERFACES set
+########org.springframework.core.Conventions.IGNORED_INTERFACES made test fail######
+io.github.dddplus.runtime.registry.InternalIndexer.partnerDefMap set
+########io.github.dddplus.runtime.registry.InternalIndexer.partnerDefMap made test fail######
+io.github.dddplus.runtime.registry.RegistryFactory.validPrepareEntries set
+########io.github.dddplus.runtime.registry.RegistryFactory.validPrepareEntries made test fail######
+org.springframework.aop.interceptor.ExposeInvocationInterceptor.invocation set
+########org.springframework.aop.interceptor.ExposeInvocationInterceptor.invocation made test fail######
+org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory$AspectJAnnotation.annotationTypes set
+########org.springframework.aop.aspectj.annotation.AbstractAspectJAdvisorFactory$AspectJAnnotation.annotationTypes made test fail######
+org.springframework.util.ClassUtils.primitiveWrapperTypeMap set
+########org.springframework.util.ClassUtils.primitiveWrapperTypeMap made test fail######
+org.springframework.core.annotation.AnnotationUtils.attributeMethodsCache set
+########org.springframework.core.annotation.AnnotationUtils.attributeMethodsCache made test fail######
+org.aspectj.weaver.Shadow.nextShadowID set
+########org.aspectj.weaver.Shadow.nextShadowID made test fail######
+org.springframework.util.ReflectionUtils.declaredMethodsCache set
+########org.springframework.util.ReflectionUtils.declaredMethodsCache made test fail######
+org.apache.logging.log4j.message.ParameterFormatter.threadLocalSimpleDateFormat set
+########org.apache.logging.log4j.message.ParameterFormatter.threadLocalSimpleDateFormat made test fail######
+org.springframework.aop.framework.autoproxy.ProxyCreationContext.currentProxiedBeanName set
+########org.springframework.aop.framework.autoproxy.ProxyCreationContext.currentProxiedBeanName made test fail######
+io.github.dddplus.runtime.registry.DomainArtifacts.instance set
+########io.github.dddplus.runtime.registry.DomainArtifacts.instance made test fail######
+org.apache.commons.logging.LogFactory.factories set
+########org.apache.commons.logging.LogFactory.factories made test fail######
+org.aspectj.bridge.IMessageHandler.SYSTEM_ERR deserializeError: com.thoughtworks.xstream.converters.ConversionException: Invalid reference
+---- Debugging information ----
+message             : Invalid reference
+reference           : /org.aspectj.bridge.MessageWriter/writer/lock/lock/lock/charOut/se/cs
+referenced-type     : java.nio.charset.Charset
+referenceable       : false
+class               : sun.nio.cs.UTF_8$Encoder
+required-type       : sun.nio.cs.UTF_8$Encoder
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /org.aspectj.bridge.MessageWriter/writer/lock/lock/lock/charOut/se/encoder/charset
+class[1]            : sun.nio.cs.StreamEncoder
+required-type[1]    : sun.nio.cs.StreamEncoder
+class[2]            : java.io.OutputStreamWriter
+required-type[2]    : java.io.OutputStreamWriter
+class[3]            : java.io.PrintStream
+required-type[3]    : java.io.PrintStream
+class[4]            : java.io.BufferedWriter
+required-type[4]    : java.io.BufferedWriter
+class[5]            : java.io.PrintWriter
+required-type[5]    : java.io.PrintWriter
+class[6]            : org.aspectj.bridge.MessageWriter
+required-type[6]    : org.aspectj.bridge.MessageWriter
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.aspectj.bridge.IMessageHandler.SYSTEM_ERR made test fail######
+org.apache.commons.logging.LogFactory.thisClassLoader deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.lang.IndexOutOfBoundsException
+cause-message       : Index: 2, Size: 2
+method              : java.security.CodeSource.readObject()
+class               : java.security.CodeSource
+required-type       : java.security.CodeSource
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /sun.misc.Launcher$AppClassLoader/parent/pdcache/entry/key/java.security.CodeSource
+class[1]            : java.util.HashMap
+required-type[1]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[2]            : sun.misc.Launcher$ExtClassLoader
+required-type[2]    : sun.misc.Launcher$ExtClassLoader
+converter-type[2]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[3]            : sun.misc.Launcher$AppClassLoader
+required-type[3]    : sun.misc.Launcher$AppClassLoader
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.commons.logging.LogFactory.thisClassLoader made test fail######
+org.apache.logging.log4j.core.util.CronExpression.MIN_DATE set
+########org.apache.logging.log4j.core.util.CronExpression.MIN_DATE made test fail######
+org.apache.logging.log4j.core.util.CronExpression.MIN_CAL set
+########org.apache.logging.log4j.core.util.CronExpression.MIN_CAL made test fail######
+org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscoverer.nonReferencePointcutTokens set
+########org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscoverer.nonReferencePointcutTokens made test fail######
+org.apache.logging.log4j.util.PropertiesUtil.LOG4J_PROPERTIES set
+########org.apache.logging.log4j.util.PropertiesUtil.LOG4J_PROPERTIES made test fail######
+org.apache.logging.log4j.core.layout.GelfLayout.timestampStringBuilder set
+########org.apache.logging.log4j.core.layout.GelfLayout.timestampStringBuilder made test fail######
+org.springframework.core.ResolvableType.cache set
+########org.springframework.core.ResolvableType.cache made test fail######
+org.aspectj.weaver.World.trace deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.aspectj.weaver.tools.Jdk14Trace/logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+class[4]            : org.aspectj.weaver.tools.Jdk14Trace
+required-type[4]    : org.aspectj.weaver.tools.Jdk14Trace
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.aspectj.weaver.World.trace made test fail######
+org.apache.logging.log4j.core.async.AsyncLoggerConfig.ASYNC_LOGGER_ENTERED set
+########org.apache.logging.log4j.core.async.AsyncLoggerConfig.ASYNC_LOGGER_ENTERED made test fail######
+org.springframework.beans.factory.support.SimpleInstantiationStrategy.currentlyInvokedFactoryMethod set
+########org.springframework.beans.factory.support.SimpleInstantiationStrategy.currentlyInvokedFactoryMethod made test fail######
+org.springframework.core.annotation.AnnotationUtils.annotatedInterfaceCache set
+########org.springframework.core.annotation.AnnotationUtils.annotatedInterfaceCache made test fail######
+org.springframework.cglib.core.AbstractClassGenerator.CURRENT set
+########org.springframework.cglib.core.AbstractClassGenerator.CURRENT made test fail######
+org.springframework.beans.CachedIntrospectionResults.strongClassCache set
+########org.springframework.beans.CachedIntrospectionResults.strongClassCache made test fail######
+org.aspectj.bridge.IMessageHandler.SYSTEM_OUT deserializeError: com.thoughtworks.xstream.converters.ConversionException: Invalid reference
+---- Debugging information ----
+message             : Invalid reference
+reference           : /org.aspectj.bridge.MessageWriter/writer/lock/lock/lock/charOut/se/cs
+referenced-type     : java.nio.charset.Charset
+referenceable       : false
+class               : sun.nio.cs.UTF_8$Encoder
+required-type       : sun.nio.cs.UTF_8$Encoder
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /org.aspectj.bridge.MessageWriter/writer/lock/lock/lock/charOut/se/encoder/charset
+class[1]            : sun.nio.cs.StreamEncoder
+required-type[1]    : sun.nio.cs.StreamEncoder
+class[2]            : java.io.OutputStreamWriter
+required-type[2]    : java.io.OutputStreamWriter
+class[3]            : java.io.PrintStream
+required-type[3]    : java.io.PrintStream
+class[4]            : java.io.BufferedWriter
+required-type[4]    : java.io.BufferedWriter
+class[5]            : java.io.PrintWriter
+required-type[5]    : java.io.PrintWriter
+class[6]            : org.aspectj.bridge.MessageWriter
+required-type[6]    : org.aspectj.bridge.MessageWriter
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.aspectj.bridge.IMessageHandler.SYSTEM_OUT made test fail######
+org.apache.logging.log4j.status.StatusLogger.PROPS set
+########org.apache.logging.log4j.status.StatusLogger.PROPS made test fail######
+io.github.dddplus.runtime.registry.DDDBootstrap.applicationContext deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.lang.IndexOutOfBoundsException
+cause-message       : Index: 2, Size: 2
+method              : java.security.CodeSource.readObject()
+class               : java.security.CodeSource
+required-type       : java.security.CodeSource
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.springframework.context.support.GenericApplicationContext/applicationEventMulticaster/beanClassLoader/parent/pdcache/entry/key/java.security.CodeSource
+class[1]            : java.util.HashMap
+required-type[1]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[2]            : sun.misc.Launcher$ExtClassLoader
+required-type[2]    : sun.misc.Launcher$ExtClassLoader
+converter-type[2]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[3]            : sun.misc.Launcher$AppClassLoader
+required-type[3]    : sun.misc.Launcher$AppClassLoader
+class[4]            : org.springframework.context.event.SimpleApplicationEventMulticaster
+required-type[4]    : org.springframework.context.event.SimpleApplicationEventMulticaster
+class[5]            : org.springframework.context.support.GenericApplicationContext
+required-type[5]    : org.springframework.context.support.GenericApplicationContext
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.github.dddplus.runtime.registry.DDDBootstrap.applicationContext made test fail######
+org.springframework.core.convert.TypeDescriptor.commonTypesCache set
+########org.springframework.core.convert.TypeDescriptor.commonTypesCache made test fail######
+org.springframework.util.ReflectionUtils.declaredFieldsCache set
+########org.springframework.util.ReflectionUtils.declaredFieldsCache made test fail######
+org.springframework.core.SerializableTypeWrapper.cache set
+########org.springframework.core.SerializableTypeWrapper.cache made test fail######
+org.springframework.core.annotation.AnnotationUtils.findAnnotationCache set
+########org.springframework.core.annotation.AnnotationUtils.findAnnotationCache made test fail######
+org.springframework.aop.framework.ObjenesisCglibAopProxy.objenesis set
+########org.springframework.aop.framework.ObjenesisCglibAopProxy.objenesis made test fail######
+org.apache.logging.log4j.core.config.plugins.convert.TypeConverterRegistry.INSTANCE set
+########org.apache.logging.log4j.core.config.plugins.convert.TypeConverterRegistry.INSTANCE made test fail######
+org.springframework.util.NumberUtils.STANDARD_NUMBER_TYPES set
+########org.springframework.util.NumberUtils.STANDARD_NUMBER_TYPES made test fail######
+org.apache.logging.log4j.core.layout.GelfLayout.messageStringBuilder set
+########org.apache.logging.log4j.core.layout.GelfLayout.messageStringBuilder made test fail######
+io.github.dddplus.runtime.registry.InternalIndexer.domainAbilityDefMap set
+########io.github.dddplus.runtime.registry.InternalIndexer.domainAbilityDefMap made test fail######
+org.apache.logging.log4j.core.filter.StructuredDataFilter.threadLocalStringBuilder set
+########org.apache.logging.log4j.core.filter.StructuredDataFilter.threadLocalStringBuilder made test fail######
+io.github.dddplus.runtime.registry.InternalIndexer.domainStepDefMap deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : io.github.dddplus.runtime.registry.mock.step.BarStep$$EnhancerBySpringCGLIB$$3603e6f0
+class               : io.github.dddplus.runtime.registry.StepDef
+required-type       : io.github.dddplus.runtime.registry.StepDef
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /map/entry[2]/value/entry/value/stepBean
+class[1]            : java.util.HashMap
+required-type[1]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.github.dddplus.runtime.registry.InternalIndexer.domainStepDefMap made test fail######
+org.apache.logging.log4j.core.config.status.StatusConfiguration.DEFAULT_STREAM deserializeError: com.thoughtworks.xstream.converters.ConversionException: Invalid reference
+---- Debugging information ----
+message             : Invalid reference
+reference           : /java.io.PrintStream/charOut/se/cs
+referenced-type     : java.nio.charset.Charset
+referenceable       : false
+class               : sun.nio.cs.UTF_8$Encoder
+required-type       : sun.nio.cs.UTF_8$Encoder
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /java.io.PrintStream/charOut/se/encoder/charset
+class[1]            : sun.nio.cs.StreamEncoder
+required-type[1]    : sun.nio.cs.StreamEncoder
+class[2]            : java.io.OutputStreamWriter
+required-type[2]    : java.io.OutputStreamWriter
+class[3]            : java.io.PrintStream
+required-type[3]    : java.io.PrintStream
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.config.status.StatusConfiguration.DEFAULT_STREAM made test fail######
+org.aspectj.weaver.Lint.trace deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.aspectj.weaver.tools.Jdk14Trace/logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+class[4]            : org.aspectj.weaver.tools.Jdk14Trace
+required-type[4]    : org.aspectj.weaver.tools.Jdk14Trace
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.aspectj.weaver.Lint.trace made test fail######

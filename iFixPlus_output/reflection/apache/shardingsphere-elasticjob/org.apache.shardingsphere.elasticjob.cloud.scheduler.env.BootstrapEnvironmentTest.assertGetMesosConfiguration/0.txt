@@ -1,0 +1,876 @@
+*************************reflection on diffFieldAfter************************
+com.fasterxml.jackson.core.JsonFactory._recyclerRef set
+########com.fasterxml.jackson.core.JsonFactory._recyclerRef made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Unavailability_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Unavailability_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Destroy_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Destroy_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ResourceUsage_Executor_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_ResourceUsage_Executor_fieldAccessorTable made test fail######
+com.google.protobuf.TextFormat.logger set
+########com.google.protobuf.TextFormat.logger made test fail######
+org.apache.shardingsphere.elasticjob.restful.deserializer.RequestBodyDeserializerFactory.REQUEST_BODY_DESERIALIZERS set
+########org.apache.shardingsphere.elasticjob.restful.deserializer.RequestBodyDeserializerFactory.REQUEST_BODY_DESERIALIZERS made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Request_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Request_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Volume_Source_SandboxPath_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Volume_Source_SandboxPath_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_CommandInfo_URI_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_CommandInfo_URI_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ResourceStatistics_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_ResourceStatistics_descriptor made test fail######
+org.apache.shardingsphere.elasticjob.infra.json.GsonFactory.gson set
+########org.apache.shardingsphere.elasticjob.infra.json.GsonFactory.gson made test fail######
+org.apache.mesos.Protos.internal_static_mesos_MachineInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_MachineInfo_descriptor made test fail######
+org.yaml.snakeyaml.nodes.Tag.COMPATIBILITY_MAP set
+########org.yaml.snakeyaml.nodes.Tag.COMPATIBILITY_MAP made test fail######
+org.apache.mesos.Protos.internal_static_mesos_DiscoveryInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_DiscoveryInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_DurationInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_DurationInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Value_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Value_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Parameters_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Parameters_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Environment_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Environment_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_CommandInfo_URI_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_CommandInfo_URI_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Image_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Image_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Unreserve_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Unreserve_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Image_Docker_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Image_Docker_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Unreserve_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Unreserve_fieldAccessorTable made test fail######
+io.netty.buffer.PooledByteBufAllocator.DEFAULT deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.io.InvalidObjectException
+cause-message       : Proxy required
+method              : io.netty.util.internal.LongAdderCounter.readObject()
+class               : io.netty.util.internal.LongAdderCounter
+required-type       : io.netty.util.internal.LongAdderCounter
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /io.netty.buffer.PooledByteBufAllocator/directArenaMetrics/c/io.netty.buffer.PoolArena$DirectArena/activeBytesHuge/java.util.concurrent.atomic.LongAdder
+class[1]            : io.netty.buffer.PoolArena$DirectArena
+required-type[1]    : io.netty.buffer.PoolArena$DirectArena
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.ArrayList
+required-type[2]    : java.util.ArrayList
+converter-type[2]   : com.thoughtworks.xstream.converters.collections.CollectionConverter
+class[3]            : java.util.Collections$UnmodifiableList
+required-type[3]    : java.util.Collections$UnmodifiableList
+class[4]            : io.netty.buffer.PooledByteBufAllocator
+required-type[4]    : io.netty.buffer.PooledByteBufAllocator
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.netty.buffer.PooledByteBufAllocator.DEFAULT made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Ports_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Ports_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Environment_Variable_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Environment_Variable_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Attribute_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Attribute_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_HealthCheck_TCPCheckInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_HealthCheck_TCPCheckInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_RevocableInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_RevocableInfo_fieldAccessorTable made test fail######
+io.netty.handler.codec.http.HttpObjectEncoder.CRLF_BUF deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.io.InvalidObjectException
+cause-message       : Proxy required
+method              : io.netty.util.internal.LongAdderCounter.readObject()
+class               : io.netty.util.internal.LongAdderCounter
+required-type       : io.netty.util.internal.LongAdderCounter
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /io.netty.buffer.UnreleasableByteBuf/buf/alloc/metric/directCounter/java.util.concurrent.atomic.LongAdder
+class[1]            : io.netty.buffer.UnpooledByteBufAllocator$UnpooledByteBufAllocatorMetric
+required-type[1]    : io.netty.buffer.UnpooledByteBufAllocator$UnpooledByteBufAllocatorMetric
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : io.netty.buffer.UnpooledByteBufAllocator
+required-type[2]    : io.netty.buffer.UnpooledByteBufAllocator
+class[3]            : io.netty.buffer.UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeNoCleanerDirectByteBuf
+required-type[3]    : io.netty.buffer.UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeNoCleanerDirectByteBuf
+class[4]            : io.netty.buffer.UnreleasableByteBuf
+required-type[4]    : io.netty.buffer.UnreleasableByteBuf
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.netty.handler.codec.http.HttpObjectEncoder.CRLF_BUF made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_fieldAccessorTable made test fail######
+org.apache.shardingsphere.elasticjob.cloud.console.AbstractCloudControllerTest.regCenter deserializeError: com.thoughtworks.xstream.mapper.CannotResolveClassException: org.apache.shardingsphere.elasticjob.reg.base.CoordinatorRegistryCenter$MockitoMock$223160801
+########org.apache.shardingsphere.elasticjob.cloud.console.AbstractCloudControllerTest.regCenter made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ResourceUsage_Executor_Task_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_ResourceUsage_Executor_Task_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ExecutorInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_ExecutorInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Volume_Source_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Volume_Source_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_CapabilityInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_CapabilityInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TimeInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_TimeInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_MachineID_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_MachineID_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_DiscoveryInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_DiscoveryInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_FrameworkInfo_Capability_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_FrameworkInfo_Capability_fieldAccessorTable made test fail######
+org.mockito.internal.util.Primitives.PRIMITIVE_TYPES set
+########org.mockito.internal.util.Primitives.PRIMITIVE_TYPES made test fail######
+org.apache.mesos.Protos.internal_static_mesos_NetworkInfo_PortMapping_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_NetworkInfo_PortMapping_descriptor made test fail######
+com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_RFC1123 set
+########com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_RFC1123 made test fail######
+org.yaml.snakeyaml.external.com.google.gdata.util.common.base.UnicodeEscaper.DEST_TL set
+########org.yaml.snakeyaml.external.com.google.gdata.util.common.base.UnicodeEscaper.DEST_TL made test fail######
+io.netty.handler.codec.http.HttpObjectEncoder.ZERO_CRLF_CRLF_BUF deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.io.InvalidObjectException
+cause-message       : Proxy required
+method              : io.netty.util.internal.LongAdderCounter.readObject()
+class               : io.netty.util.internal.LongAdderCounter
+required-type       : io.netty.util.internal.LongAdderCounter
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /io.netty.buffer.UnreleasableByteBuf/buf/alloc/metric/directCounter/java.util.concurrent.atomic.LongAdder
+class[1]            : io.netty.buffer.UnpooledByteBufAllocator$UnpooledByteBufAllocatorMetric
+required-type[1]    : io.netty.buffer.UnpooledByteBufAllocator$UnpooledByteBufAllocatorMetric
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : io.netty.buffer.UnpooledByteBufAllocator
+required-type[2]    : io.netty.buffer.UnpooledByteBufAllocator
+class[3]            : io.netty.buffer.UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeNoCleanerDirectByteBuf
+required-type[3]    : io.netty.buffer.UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeNoCleanerDirectByteBuf
+class[4]            : io.netty.buffer.UnreleasableByteBuf
+required-type[4]    : io.netty.buffer.UnreleasableByteBuf
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.netty.handler.codec.http.HttpObjectEncoder.ZERO_CRLF_CRLF_BUF made test fail######
+org.apache.http.impl.conn.CPool.COUNTER set
+########org.apache.http.impl.conn.CPool.COUNTER made test fail######
+org.apache.mesos.Protos.internal_static_mesos_MachineInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_MachineInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Image_Docker_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Image_Docker_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Task_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Task_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Source_Path_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Source_Path_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_PerfStatistics_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_PerfStatistics_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_FrameworkID_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_FrameworkID_descriptor made test fail######
+org.apache.shardingsphere.elasticjob.cloud.console.controller.CloudAppController.regCenter deserializeError: com.thoughtworks.xstream.mapper.CannotResolveClassException: org.apache.shardingsphere.elasticjob.reg.base.CoordinatorRegistryCenter$MockitoMock$223160801
+########org.apache.shardingsphere.elasticjob.cloud.console.controller.CloudAppController.regCenter made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Source_Mount_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Source_Mount_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_SlaveInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_SlaveInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_NetworkInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_NetworkInfo_descriptor made test fail######
+io.netty.util.concurrent.DefaultThreadFactory.poolId set
+########io.netty.util.concurrent.DefaultThreadFactory.poolId made test fail######
+org.apache.mesos.Protos.internal_static_mesos_URL_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_URL_descriptor made test fail######
+org.mockito.internal.creation.instance.DefaultInstantiatorProvider.INSTANCE set
+########org.mockito.internal.creation.instance.DefaultInstantiatorProvider.INSTANCE made test fail######
+org.apache.mesos.Protos.internal_static_mesos_LinuxInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_LinuxInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Filters_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Filters_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_VersionInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_VersionInfo_descriptor made test fail######
+org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.EXCLUDES set
+########org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.EXCLUDES made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Reserve_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Reserve_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TimeInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_TimeInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Address_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Address_descriptor made test fail######
+com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_ISO8601_Z set
+########com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_ISO8601_Z made test fail######
+org.apache.mesos.Protos.internal_static_mesos_CommandInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_CommandInfo_fieldAccessorTable made test fail######
+com.google.gson.internal.Primitives.WRAPPER_TO_PRIMITIVE_TYPE set
+########com.google.gson.internal.Primitives.WRAPPER_TO_PRIMITIVE_TYPE made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_MesosInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_MesosInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_IcmpStatistics_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_IcmpStatistics_descriptor made test fail######
+org.apache.http.impl.client.DefaultHttpRequestRetryHandler.INSTANCE set
+########org.apache.http.impl.client.DefaultHttpRequestRetryHandler.INSTANCE made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ResourceUsage_Executor_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_ResourceUsage_Executor_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Role_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Role_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TcpStatistics_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_TcpStatistics_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TrafficControlStatistics_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_TrafficControlStatistics_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Value_Scalar_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Value_Scalar_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_VersionInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_VersionInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_FrameworkInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_FrameworkInfo_descriptor made test fail######
+org.mockito.internal.creation.bytebuddy.MockMethodDispatcher.INSTANCE deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : com.netflix.fenzo.TaskRequest$MockitoMock$325931849
+class               : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+required-type       : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /concurrent-hash-map/entry/value/interceptors/target/entry/value/handler/mockHandler/delegate/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.mockito.internal.invocation.InvocationMatcher
+required-type[1]    : org.mockito.internal.invocation.InvocationMatcher
+class[2]            : org.mockito.internal.stubbing.InvocationContainerImpl
+required-type[2]    : org.mockito.internal.stubbing.InvocationContainerImpl
+class[3]            : org.mockito.internal.handler.MockHandlerImpl
+required-type[3]    : org.mockito.internal.handler.MockHandlerImpl
+class[4]            : org.mockito.internal.handler.NullResultGuardian
+required-type[4]    : org.mockito.internal.handler.NullResultGuardian
+class[5]            : org.mockito.internal.handler.InvocationNotifierHandler
+required-type[5]    : org.mockito.internal.handler.InvocationNotifierHandler
+class[6]            : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+required-type[6]    : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+class[7]            : java.util.concurrent.ConcurrentHashMap
+required-type[7]    : java.util.concurrent.ConcurrentHashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[8]            : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+required-type[8]    : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+class[9]            : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+required-type[9]    : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.mockito.internal.creation.bytebuddy.MockMethodDispatcher.INSTANCE made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ResourceUsage_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_ResourceUsage_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Value_Ranges_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Value_Ranges_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ContainerStatus_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_ContainerStatus_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Source_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Source_fieldAccessorTable made test fail######
+com.google.common.util.concurrent.ListenerCallQueue.logger set
+########com.google.common.util.concurrent.ListenerCallQueue.logger made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Value_Text_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Value_Text_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_HealthCheck_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_HealthCheck_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Reserve_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Reserve_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Labels_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Labels_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_SNMPStatistics_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_SNMPStatistics_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_DockerInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_DockerInfo_fieldAccessorTable made test fail######
+org.quartz.simpl.RAMJobStore.ftrCtr set
+########org.quartz.simpl.RAMJobStore.ftrCtr made test fail######
+org.apache.mesos.Protos.internal_static_mesos_SNMPStatistics_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_SNMPStatistics_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Value_Scalar_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Value_Scalar_descriptor made test fail######
+org.mockito.internal.util.MockUtil.mockMaker deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : com.netflix.fenzo.TaskRequest$MockitoMock$325931849
+class               : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+required-type       : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker/bytecodeGenerator/bytecodeGenerator/advice/interceptors/target/entry/value/handler/mockHandler/delegate/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.mockito.internal.invocation.InvocationMatcher
+required-type[1]    : org.mockito.internal.invocation.InvocationMatcher
+class[2]            : org.mockito.internal.stubbing.InvocationContainerImpl
+required-type[2]    : org.mockito.internal.stubbing.InvocationContainerImpl
+class[3]            : org.mockito.internal.handler.MockHandlerImpl
+required-type[3]    : org.mockito.internal.handler.MockHandlerImpl
+class[4]            : org.mockito.internal.handler.NullResultGuardian
+required-type[4]    : org.mockito.internal.handler.NullResultGuardian
+class[5]            : org.mockito.internal.handler.InvocationNotifierHandler
+required-type[5]    : org.mockito.internal.handler.InvocationNotifierHandler
+class[6]            : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+required-type[6]    : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+class[7]            : java.util.concurrent.ConcurrentHashMap
+required-type[7]    : java.util.concurrent.ConcurrentHashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[8]            : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+required-type[8]    : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+class[9]            : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+required-type[9]    : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+class[10]           : org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator
+required-type[10]   : org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator
+class[11]           : org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator
+required-type[11]   : org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator
+class[12]           : org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker
+required-type[12]   : org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.mockito.internal.util.MockUtil.mockMaker made test fail######
+org.apache.mesos.Protos.internal_static_mesos_HealthCheck_HTTPCheckInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_HealthCheck_HTTPCheckInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TaskInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_TaskInfo_fieldAccessorTable made test fail######
+ch.qos.logback.core.util.StatusPrinter.ps deserializeError: com.thoughtworks.xstream.converters.ConversionException: Invalid reference
+---- Debugging information ----
+message             : Invalid reference
+reference           : /java.io.PrintStream/charOut/se/cs
+referenced-type     : java.nio.charset.Charset
+referenceable       : false
+class               : sun.nio.cs.UTF_8$Encoder
+required-type       : sun.nio.cs.UTF_8$Encoder
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /java.io.PrintStream/charOut/se/encoder/charset
+class[1]            : sun.nio.cs.StreamEncoder
+required-type[1]    : sun.nio.cs.StreamEncoder
+class[2]            : java.io.OutputStreamWriter
+required-type[2]    : java.io.OutputStreamWriter
+class[3]            : java.io.PrintStream
+required-type[3]    : java.io.PrintStream
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########ch.qos.logback.core.util.StatusPrinter.ps made test fail######
+org.apache.mesos.Protos.internal_static_mesos_NetworkInfo_IPAddress_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_NetworkInfo_IPAddress_descriptor made test fail######
+io.netty.util.ResourceLeakDetector$Record.BOTTOM set
+########io.netty.util.ResourceLeakDetector$Record.BOTTOM made test fail######
+com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_PLAIN set
+########com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_PLAIN made test fail######
+io.netty.buffer.ByteBufUtil.DEFAULT_ALLOCATOR deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.io.InvalidObjectException
+cause-message       : Proxy required
+method              : io.netty.util.internal.LongAdderCounter.readObject()
+class               : io.netty.util.internal.LongAdderCounter
+required-type       : io.netty.util.internal.LongAdderCounter
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /io.netty.buffer.PooledByteBufAllocator/directArenaMetrics/c/io.netty.buffer.PoolArena$DirectArena/activeBytesHuge/java.util.concurrent.atomic.LongAdder
+class[1]            : io.netty.buffer.PoolArena$DirectArena
+required-type[1]    : io.netty.buffer.PoolArena$DirectArena
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.ArrayList
+required-type[2]    : java.util.ArrayList
+converter-type[2]   : com.thoughtworks.xstream.converters.collections.CollectionConverter
+class[3]            : java.util.Collections$UnmodifiableList
+required-type[3]    : java.util.Collections$UnmodifiableList
+class[4]            : io.netty.buffer.PooledByteBufAllocator
+required-type[4]    : io.netty.buffer.PooledByteBufAllocator
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.netty.buffer.ByteBufUtil.DEFAULT_ALLOCATOR made test fail######
+org.apache.mesos.Protos.internal_static_mesos_NetworkInfo_IPAddress_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_NetworkInfo_IPAddress_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ExecutorID_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_ExecutorID_descriptor made test fail######
+org.apache.shardingsphere.elasticjob.cloud.scheduler.mesos.AppConstraintEvaluator.instance set
+########org.apache.shardingsphere.elasticjob.cloud.scheduler.mesos.AppConstraintEvaluator.instance made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Launch_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Launch_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_HealthCheck_HTTPCheckInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_HealthCheck_HTTPCheckInfo_fieldAccessorTable made test fail######
+org.apache.shardingsphere.elasticjob.cloud.scheduler.env.BootstrapEnvironment.INSTANCE set
+########org.apache.shardingsphere.elasticjob.cloud.scheduler.env.BootstrapEnvironment.INSTANCE made test success#######
+org.apache.mesos.Protos.internal_static_mesos_Value_Range_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Value_Range_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Credentials_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Credentials_descriptor made test fail######
+org.mockito.internal.progress.SequenceNumber.sequenceNumber set
+########org.mockito.internal.progress.SequenceNumber.sequenceNumber made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Value_Text_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Value_Text_descriptor made test fail######
+com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_ISO8601 set
+########com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_ISO8601 made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_LaunchGroup_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_LaunchGroup_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Volume_Source_DockerVolume_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Volume_Source_DockerVolume_descriptor made test fail######
+org.mockito.internal.configuration.plugins.Plugins.registry deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : com.netflix.fenzo.TaskRequest$MockitoMock$325931849
+class               : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+required-type       : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /org.mockito.internal.configuration.plugins.PluginRegistry/mockMaker/bytecodeGenerator/bytecodeGenerator/advice/interceptors/target/entry/value/handler/mockHandler/delegate/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.mockito.internal.invocation.InvocationMatcher
+required-type[1]    : org.mockito.internal.invocation.InvocationMatcher
+class[2]            : org.mockito.internal.stubbing.InvocationContainerImpl
+required-type[2]    : org.mockito.internal.stubbing.InvocationContainerImpl
+class[3]            : org.mockito.internal.handler.MockHandlerImpl
+required-type[3]    : org.mockito.internal.handler.MockHandlerImpl
+class[4]            : org.mockito.internal.handler.NullResultGuardian
+required-type[4]    : org.mockito.internal.handler.NullResultGuardian
+class[5]            : org.mockito.internal.handler.InvocationNotifierHandler
+required-type[5]    : org.mockito.internal.handler.InvocationNotifierHandler
+class[6]            : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+required-type[6]    : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+class[7]            : java.util.concurrent.ConcurrentHashMap
+required-type[7]    : java.util.concurrent.ConcurrentHashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[8]            : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+required-type[8]    : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+class[9]            : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+required-type[9]    : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+class[10]           : org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator
+required-type[10]   : org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator
+class[11]           : org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator
+required-type[11]   : org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator
+class[12]           : org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker
+required-type[12]   : org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker
+class[13]           : org.mockito.internal.configuration.plugins.PluginRegistry
+required-type[13]   : org.mockito.internal.configuration.plugins.PluginRegistry
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.mockito.internal.configuration.plugins.Plugins.registry made test fail######
+org.apache.mesos.Protos.internal_static_mesos_MasterInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_MasterInfo_fieldAccessorTable made test fail######
+org.apache.shardingsphere.elasticjob.cloud.console.controller.CloudOperationController.mesosStateService deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : org.apache.shardingsphere.elasticjob.reg.base.CoordinatorRegistryCenter$MockitoMock$223160801
+class               : org.apache.shardingsphere.elasticjob.cloud.scheduler.ha.FrameworkIDService
+required-type       : org.apache.shardingsphere.elasticjob.cloud.scheduler.ha.FrameworkIDService
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /org.apache.shardingsphere.elasticjob.cloud.scheduler.mesos.MesosStateService/frameworkIDService/regCenter
+class[1]            : org.apache.shardingsphere.elasticjob.cloud.scheduler.mesos.MesosStateService
+required-type[1]    : org.apache.shardingsphere.elasticjob.cloud.scheduler.mesos.MesosStateService
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.shardingsphere.elasticjob.cloud.console.controller.CloudOperationController.mesosStateService made test fail######
+org.apache.mesos.Protos.internal_static_mesos_CgroupInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_CgroupInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Source_Mount_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Source_Mount_fieldAccessorTable made test fail######
+com.google.protobuf.Descriptors.logger set
+########com.google.protobuf.Descriptors.logger made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Role_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Role_fieldAccessorTable made test fail######
+io.netty.util.internal.UnpaddedInternalThreadLocalMap.slowThreadLocalMap set
+########io.netty.util.internal.UnpaddedInternalThreadLocalMap.slowThreadLocalMap made test fail######
+org.apache.shardingsphere.elasticjob.cloud.console.controller.CloudJobController.regCenter deserializeError: com.thoughtworks.xstream.mapper.CannotResolveClassException: org.apache.shardingsphere.elasticjob.reg.base.CoordinatorRegistryCenter$MockitoMock$223160801
+########org.apache.shardingsphere.elasticjob.cloud.console.controller.CloudJobController.regCenter made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Destroy_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Destroy_descriptor made test fail######
+io.netty.buffer.ByteBufAllocator.DEFAULT deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.io.InvalidObjectException
+cause-message       : Proxy required
+method              : io.netty.util.internal.LongAdderCounter.readObject()
+class               : io.netty.util.internal.LongAdderCounter
+required-type       : io.netty.util.internal.LongAdderCounter
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /io.netty.buffer.PooledByteBufAllocator/directArenaMetrics/c/io.netty.buffer.PoolArena$DirectArena/activeBytesHuge/java.util.concurrent.atomic.LongAdder
+class[1]            : io.netty.buffer.PoolArena$DirectArena
+required-type[1]    : io.netty.buffer.PoolArena$DirectArena
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.ArrayList
+required-type[2]    : java.util.ArrayList
+converter-type[2]   : com.thoughtworks.xstream.converters.collections.CollectionConverter
+class[3]            : java.util.Collections$UnmodifiableList
+required-type[3]    : java.util.Collections$UnmodifiableList
+class[4]            : io.netty.buffer.PooledByteBufAllocator
+required-type[4]    : io.netty.buffer.PooledByteBufAllocator
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.netty.buffer.ByteBufAllocator.DEFAULT made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Label_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Label_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Source_Path_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Source_Path_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TaskGroupInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_TaskGroupInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_HealthCheck_TCPCheckInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_HealthCheck_TCPCheckInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Flag_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Flag_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Port_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Port_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_DurationInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_DurationInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ExecutorID_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_ExecutorID_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_fieldAccessorTable made test fail######
+org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker.INSTRUMENTATION deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : com.netflix.fenzo.TaskRequest$MockitoMock$325931849
+class               : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+required-type       : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /sun.instrument.InstrumentationImpl/mRetransfomableTransformerManager/mTransformerList/sun.instrument.TransformerManager$TransformerInfo/mTransformer/advice/interceptors/target/entry/value/handler/mockHandler/delegate/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.mockito.internal.invocation.InvocationMatcher
+required-type[1]    : org.mockito.internal.invocation.InvocationMatcher
+class[2]            : org.mockito.internal.stubbing.InvocationContainerImpl
+required-type[2]    : org.mockito.internal.stubbing.InvocationContainerImpl
+class[3]            : org.mockito.internal.handler.MockHandlerImpl
+required-type[3]    : org.mockito.internal.handler.MockHandlerImpl
+class[4]            : org.mockito.internal.handler.NullResultGuardian
+required-type[4]    : org.mockito.internal.handler.NullResultGuardian
+class[5]            : org.mockito.internal.handler.InvocationNotifierHandler
+required-type[5]    : org.mockito.internal.handler.InvocationNotifierHandler
+class[6]            : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+required-type[6]    : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+class[7]            : java.util.concurrent.ConcurrentHashMap
+required-type[7]    : java.util.concurrent.ConcurrentHashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[8]            : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+required-type[8]    : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+class[9]            : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+required-type[9]    : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+class[10]           : org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator
+required-type[10]   : org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator
+class[11]           : sun.instrument.TransformerManager$TransformerInfo
+required-type[11]   : sun.instrument.TransformerManager$TransformerInfo
+class[12]           : [Lsun.instrument.TransformerManager$TransformerInfo;
+required-type[12]   : [Lsun.instrument.TransformerManager$TransformerInfo;
+converter-type[2]   : com.thoughtworks.xstream.converters.collections.ArrayConverter
+class[13]           : sun.instrument.TransformerManager
+required-type[13]   : sun.instrument.TransformerManager
+class[14]           : sun.instrument.InstrumentationImpl
+required-type[14]   : sun.instrument.InstrumentationImpl
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker.INSTRUMENTATION made test fail######
+io.netty.buffer.CompositeByteBuf.EMPTY_NIO_BUFFER set
+########io.netty.buffer.CompositeByteBuf.EMPTY_NIO_BUFFER made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Create_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Create_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_DockerInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_DockerInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Label_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Label_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_KillPolicy_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_KillPolicy_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Source_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Source_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Port_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Port_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_CgroupInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_CgroupInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_DockerInfo_PortMapping_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_DockerInfo_PortMapping_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_MasterInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_MasterInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Image_Appc_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Image_Appc_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Value_Range_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Value_Range_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_FrameworkInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_FrameworkInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_FileInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_FileInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Address_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Address_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_InverseOffer_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_InverseOffer_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Volume_Source_SandboxPath_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Volume_Source_SandboxPath_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_DockerInfo_PortMapping_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_DockerInfo_PortMapping_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Volume_Source_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Volume_Source_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Image_Appc_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Image_Appc_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Unavailability_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Unavailability_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Labels_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Labels_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Flag_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Flag_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_CgroupInfo_NetCls_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_CgroupInfo_NetCls_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Parameters_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Parameters_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ContainerStatus_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_ContainerStatus_fieldAccessorTable made test fail######
+org.apache.shardingsphere.elasticjob.cloud.console.controller.CloudOperationController.reconcileService deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : org.apache.shardingsphere.elasticjob.reg.base.CoordinatorRegistryCenter$MockitoMock$223160801
+class               : org.apache.shardingsphere.elasticjob.cloud.scheduler.config.app.CloudAppConfigurationService
+required-type       : org.apache.shardingsphere.elasticjob.cloud.scheduler.config.app.CloudAppConfigurationService
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /org.apache.shardingsphere.elasticjob.cloud.scheduler.mesos.ReconcileService/facadeService/appConfigService/regCenter
+class[1]            : org.apache.shardingsphere.elasticjob.cloud.scheduler.mesos.FacadeService
+required-type[1]    : org.apache.shardingsphere.elasticjob.cloud.scheduler.mesos.FacadeService
+class[2]            : org.apache.shardingsphere.elasticjob.cloud.scheduler.mesos.ReconcileService
+required-type[2]    : org.apache.shardingsphere.elasticjob.cloud.scheduler.mesos.ReconcileService
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.shardingsphere.elasticjob.cloud.console.controller.CloudOperationController.reconcileService made test fail######
+org.apache.commons.logging.LogFactory.thisClassLoader deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.lang.ClassCastException
+cause-message       : java.lang.String cannot be cast to [B
+method              : java.security.CodeSource.readObject()
+class               : java.security.CodeSource
+required-type       : java.security.CodeSource
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /sun.misc.Launcher$AppClassLoader/parent/pdcache/entry/key/java.security.CodeSource
+class[1]            : java.util.HashMap
+required-type[1]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[2]            : sun.misc.Launcher$ExtClassLoader
+required-type[2]    : sun.misc.Launcher$ExtClassLoader
+converter-type[2]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[3]            : sun.misc.Launcher$AppClassLoader
+required-type[3]    : sun.misc.Launcher$AppClassLoader
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.commons.logging.LogFactory.thisClassLoader made test fail######
+org.apache.mesos.Protos.internal_static_mesos_IpStatistics_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_IpStatistics_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_RevocableInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_RevocableInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_InverseOffer_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_InverseOffer_fieldAccessorTable made test fail######
+io.netty.buffer.AbstractByteBuf.leakDetector set
+########io.netty.buffer.AbstractByteBuf.leakDetector made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_UdpStatistics_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_UdpStatistics_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Volume_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Volume_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_CgroupInfo_NetCls_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_CgroupInfo_NetCls_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TaskID_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_TaskID_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_CommandInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_CommandInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_SlaveID_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_SlaveID_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Metric_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Metric_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TaskStatus_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_TaskStatus_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TcpStatistics_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_TcpStatistics_descriptor made test fail######
+org.mockito.internal.util.Primitives.PRIMITIVE_OR_WRAPPER_DEFAULT_VALUES set
+########org.mockito.internal.util.Primitives.PRIMITIVE_OR_WRAPPER_DEFAULT_VALUES made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Metric_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Metric_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Persistence_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Persistence_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_RateLimit_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_RateLimit_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Filters_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Filters_descriptor made test fail######
+net.bytebuddy.agent.Installer.instrumentation deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : com.netflix.fenzo.TaskRequest$MockitoMock$325931849
+class               : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+required-type       : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /sun.instrument.InstrumentationImpl/mRetransfomableTransformerManager/mTransformerList/sun.instrument.TransformerManager$TransformerInfo/mTransformer/advice/interceptors/target/entry/value/handler/mockHandler/delegate/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.mockito.internal.invocation.InvocationMatcher
+required-type[1]    : org.mockito.internal.invocation.InvocationMatcher
+class[2]            : org.mockito.internal.stubbing.InvocationContainerImpl
+required-type[2]    : org.mockito.internal.stubbing.InvocationContainerImpl
+class[3]            : org.mockito.internal.handler.MockHandlerImpl
+required-type[3]    : org.mockito.internal.handler.MockHandlerImpl
+class[4]            : org.mockito.internal.handler.NullResultGuardian
+required-type[4]    : org.mockito.internal.handler.NullResultGuardian
+class[5]            : org.mockito.internal.handler.InvocationNotifierHandler
+required-type[5]    : org.mockito.internal.handler.InvocationNotifierHandler
+class[6]            : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+required-type[6]    : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+class[7]            : java.util.concurrent.ConcurrentHashMap
+required-type[7]    : java.util.concurrent.ConcurrentHashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[8]            : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+required-type[8]    : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+class[9]            : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+required-type[9]    : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+class[10]           : org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator
+required-type[10]   : org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator
+class[11]           : sun.instrument.TransformerManager$TransformerInfo
+required-type[11]   : sun.instrument.TransformerManager$TransformerInfo
+class[12]           : [Lsun.instrument.TransformerManager$TransformerInfo;
+required-type[12]   : [Lsun.instrument.TransformerManager$TransformerInfo;
+converter-type[2]   : com.thoughtworks.xstream.converters.collections.ArrayConverter
+class[13]           : sun.instrument.TransformerManager
+required-type[13]   : sun.instrument.TransformerManager
+class[14]           : sun.instrument.InstrumentationImpl
+required-type[14]   : sun.instrument.InstrumentationImpl
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########net.bytebuddy.agent.Installer.instrumentation made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_SharedInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_SharedInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TaskInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_TaskInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Credential_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Credential_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_URL_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_URL_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_KillPolicy_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_KillPolicy_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Request_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Request_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_WeightInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_WeightInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_MachineID_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_MachineID_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Parameter_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Parameter_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TaskStatus_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_TaskStatus_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TrafficControlStatistics_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_TrafficControlStatistics_fieldAccessorTable made test fail######
+org.yaml.snakeyaml.TypeDescription.log set
+########org.yaml.snakeyaml.TypeDescription.log made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Volume_Source_DockerVolume_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Volume_Source_DockerVolume_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Ports_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Ports_descriptor made test fail######
+com.google.gson.internal.Primitives.PRIMITIVE_TO_WRAPPER_TYPE set
+########com.google.gson.internal.Primitives.PRIMITIVE_TO_WRAPPER_TYPE made test fail######
+org.apache.mesos.Protos.internal_static_mesos_FileInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_FileInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ExecutorInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_ExecutorInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ContainerID_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_ContainerID_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Parameter_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Parameter_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_OfferID_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_OfferID_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Credentials_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Credentials_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_WeightInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_WeightInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Value_Set_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Value_Set_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Value_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Value_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_RateLimits_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_RateLimits_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_UdpStatistics_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_UdpStatistics_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Attribute_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Attribute_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_IpStatistics_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_IpStatistics_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Image_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Image_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Volume_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Volume_fieldAccessorTable made test fail######
+org.apache.shardingsphere.elasticjob.cloud.scheduler.mesos.MesosStateService.stateUrl set
+########org.apache.shardingsphere.elasticjob.cloud.scheduler.mesos.MesosStateService.stateUrl made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Value_Ranges_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Value_Ranges_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_PerfStatistics_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_PerfStatistics_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_IcmpStatistics_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_IcmpStatistics_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_SlaveID_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_SlaveID_descriptor made test fail######
+org.apache.shardingsphere.elasticjob.restful.serializer.ResponseBodySerializerFactory.RESPONSE_BODY_SERIALIZERS set
+########org.apache.shardingsphere.elasticjob.restful.serializer.ResponseBodySerializerFactory.RESPONSE_BODY_SERIALIZERS made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ResourceStatistics_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_ResourceStatistics_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_CapabilityInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_CapabilityInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TaskID_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_TaskID_descriptor made test fail######
+org.quartz.impl.jdbcjobstore.JobStoreSupport.ftrCtr set
+########org.quartz.impl.jdbcjobstore.JobStoreSupport.ftrCtr made test fail######
+org.apache.mesos.Protos.internal_static_mesos_RateLimit_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_RateLimit_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_FrameworkID_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_FrameworkID_fieldAccessorTable made test fail######
+io.netty.channel.DefaultChannelId.nextSequence set
+########io.netty.channel.DefaultChannelId.nextSequence made test fail######
+io.netty.util.concurrent.GlobalEventExecutor.INSTANCE set
+########io.netty.util.concurrent.GlobalEventExecutor.INSTANCE made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ResourceUsage_Executor_Task_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_ResourceUsage_Executor_Task_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Launch_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Launch_fieldAccessorTable made test fail######
+org.apache.shardingsphere.elasticjob.cloud.console.controller.CloudOperationController.lastReconcileTime set
+########org.apache.shardingsphere.elasticjob.cloud.console.controller.CloudOperationController.lastReconcileTime made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Environment_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Environment_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_RateLimits_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_RateLimits_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_MesosInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_ContainerInfo_MesosInfo_descriptor made test fail######
+com.google.common.util.concurrent.AbstractScheduledService.logger set
+########com.google.common.util.concurrent.AbstractScheduledService.logger made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_SharedInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_SharedInfo_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Persistence_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_DiskInfo_Persistence_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_NetworkInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_NetworkInfo_fieldAccessorTable made test fail######
+com.google.common.base.Platform.logger set
+########com.google.common.base.Platform.logger made test fail######
+org.apache.mesos.Protos.internal_static_mesos_TaskGroupInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_TaskGroupInfo_fieldAccessorTable made test fail######
+ch.qos.logback.core.util.StatusPrinter.cachingDateFormat set
+########ch.qos.logback.core.util.StatusPrinter.cachingDateFormat made test fail######
+org.apache.mesos.Protos.internal_static_mesos_HealthCheck_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_HealthCheck_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ResourceUsage_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_ResourceUsage_fieldAccessorTable made test fail######
+org.apache.http.impl.conn.ManagedHttpClientConnectionFactory.COUNTER set
+########org.apache.http.impl.conn.ManagedHttpClientConnectionFactory.COUNTER made test fail######
+org.apache.mesos.Protos.descriptor set
+########org.apache.mesos.Protos.descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_NetworkInfo_PortMapping_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_NetworkInfo_PortMapping_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_SlaveInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_SlaveInfo_descriptor made test fail######
+io.netty.buffer.EmptyByteBuf.EMPTY_BYTE_BUFFER set
+########io.netty.buffer.EmptyByteBuf.EMPTY_BYTE_BUFFER made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_LaunchGroup_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_LaunchGroup_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Value_Set_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Value_Set_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Task_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Task_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_ContainerID_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_ContainerID_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_LinuxInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_LinuxInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Credential_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Credential_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Environment_Variable_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Environment_Variable_descriptor made test fail######
+com.google.common.eventbus.EventBus.logger set
+########com.google.common.eventbus.EventBus.logger made test fail######
+org.apache.mesos.Protos.internal_static_mesos_OfferID_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_OfferID_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Create_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Offer_Operation_Create_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_FrameworkInfo_Capability_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_FrameworkInfo_Capability_descriptor made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_ReservationInfo_fieldAccessorTable set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_ReservationInfo_fieldAccessorTable made test fail######
+org.apache.mesos.Protos.internal_static_mesos_Resource_ReservationInfo_descriptor set
+########org.apache.mesos.Protos.internal_static_mesos_Resource_ReservationInfo_descriptor made test fail######

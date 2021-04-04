@@ -1,0 +1,32 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions-maven-plugin/2.7/versions-maven-plugin-2.7.pom
+Progress (1): 2.7/17 kBProgress (1): 5.5/17 kBProgress (1): 8.2/17 kBProgress (1): 11/17 kB Progress (1): 14/17 kBProgress (1): 16/17 kBProgress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions-maven-plugin/2.7/versions-maven-plugin-2.7.pom (17 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions-maven-plugin/2.7/versions-maven-plugin-2.7.jar
+Progress (1): 2.7/310 kBProgress (1): 5.5/310 kBProgress (1): 8.2/310 kBProgress (1): 11/310 kB Progress (1): 14/310 kBProgress (1): 16/310 kBProgress (1): 19/310 kBProgress (1): 22/310 kBProgress (1): 25/310 kBProgress (1): 27/310 kBProgress (1): 30/310 kBProgress (1): 33/310 kBProgress (1): 36/310 kBProgress (1): 38/310 kBProgress (1): 41/310 kBProgress (1): 44/310 kBProgress (1): 47/310 kBProgress (1): 49/310 kBProgress (1): 52/310 kBProgress (1): 55/310 kBProgress (1): 58/310 kBProgress (1): 60/310 kBProgress (1): 63/310 kBProgress (1): 66/310 kBProgress (1): 69/310 kBProgress (1): 71/310 kBProgress (1): 74/310 kBProgress (1): 77/310 kBProgress (1): 80/310 kBProgress (1): 82/310 kBProgress (1): 85/310 kBProgress (1): 88/310 kBProgress (1): 90/310 kBProgress (1): 93/310 kBProgress (1): 96/310 kBProgress (1): 99/310 kBProgress (1): 101/310 kBProgress (1): 104/310 kBProgress (1): 107/310 kBProgress (1): 110/310 kBProgress (1): 112/310 kBProgress (1): 115/310 kBProgress (1): 118/310 kBProgress (1): 121/310 kBProgress (1): 123/310 kBProgress (1): 126/310 kBProgress (1): 129/310 kBProgress (1): 132/310 kBProgress (1): 134/310 kBProgress (1): 137/310 kBProgress (1): 140/310 kBProgress (1): 143/310 kBProgress (1): 145/310 kBProgress (1): 148/310 kBProgress (1): 151/310 kBProgress (1): 154/310 kBProgress (1): 156/310 kBProgress (1): 159/310 kBProgress (1): 162/310 kBProgress (1): 165/310 kBProgress (1): 167/310 kBProgress (1): 170/310 kBProgress (1): 173/310 kBProgress (1): 175/310 kBProgress (1): 178/310 kBProgress (1): 181/310 kBProgress (1): 184/310 kBProgress (1): 186/310 kBProgress (1): 189/310 kBProgress (1): 192/310 kBProgress (1): 195/310 kBProgress (1): 197/310 kBProgress (1): 200/310 kBProgress (1): 203/310 kBProgress (1): 206/310 kBProgress (1): 208/310 kBProgress (1): 211/310 kBProgress (1): 214/310 kBProgress (1): 217/310 kBProgress (1): 219/310 kBProgress (1): 222/310 kBProgress (1): 225/310 kBProgress (1): 228/310 kBProgress (1): 230/310 kBProgress (1): 233/310 kBProgress (1): 236/310 kBProgress (1): 239/310 kBProgress (1): 241/310 kBProgress (1): 244/310 kBProgress (1): 247/310 kBProgress (1): 250/310 kBProgress (1): 252/310 kBProgress (1): 255/310 kBProgress (1): 258/310 kBProgress (1): 260/310 kBProgress (1): 263/310 kBProgress (1): 266/310 kBProgress (1): 269/310 kBProgress (1): 271/310 kBProgress (1): 274/310 kBProgress (1): 277/310 kBProgress (1): 280/310 kBProgress (1): 282/310 kBProgress (1): 285/310 kBProgress (1): 288/310 kBProgress (1): 291/310 kBProgress (1): 293/310 kBProgress (1): 296/310 kBProgress (1): 299/310 kBProgress (1): 302/310 kBProgress (1): 304/310 kBProgress (1): 307/310 kBProgress (1): 310/310 kBProgress (1): 310 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/versions-maven-plugin/2.7/versions-maven-plugin-2.7.jar (310 kB at 404 kB/s)
+[INFO] 
+[INFO] -------------------------< com.networknt:body >-------------------------
+[INFO] Building body 2.0.22-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) > test-compile @ body >>>
+[WARNING] The POM for com.networknt:config:jar:2.0.22-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for com.networknt:utility:jar:2.0.22-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for com.networknt:status:jar:2.0.22-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for com.networknt:exception:jar:2.0.22-SNAPSHOT is missing, no dependency information available
+[WARNING] The POM for com.networknt:client:jar:2.0.22-SNAPSHOT is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.029 s
+[INFO] Finished at: 2021-03-28T19:35:33+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project body: Could not resolve dependencies for project com.networknt:body:jar:2.0.22-SNAPSHOT: The following artifacts could not be resolved: com.networknt:config:jar:2.0.22-SNAPSHOT, com.networknt:utility:jar:2.0.22-SNAPSHOT, com.networknt:status:jar:2.0.22-SNAPSHOT, com.networknt:exception:jar:2.0.22-SNAPSHOT, com.networknt:client:jar:2.0.22-SNAPSHOT: Could not find artifact com.networknt:config:jar:2.0.22-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

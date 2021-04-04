@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+Downloading from vaadin-prereleases: https://maven.vaadin.com/vaadin-prereleases/edu/illinois/cs/testrunner-maven-plugin/1.2-SNAPSHOT/maven-metadata.xml
+Downloading from vaadin-prereleases: https://maven.vaadin.com/vaadin-prereleases/edu/illinois/cs/testrunner/1.2-SNAPSHOT/maven-metadata.xml
+[INFO] 
+[INFO] ------------------< com.vaadin:flow-polymer-template >------------------
+[INFO] Building Flow Polymer Templates Support 6.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> testrunner-maven-plugin:1.2-SNAPSHOT:testplugin (default-cli) > test-compile @ flow-polymer-template >>>
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:parse-version (parse-version) @ flow-polymer-template ---
+[INFO] 
+[INFO] --- directory-maven-plugin:0.1:highest-basedir (set-root-dir-for-common-lifecycle) @ flow-polymer-template ---
+[INFO] Highest basedir set to: /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/vaadin/flow
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (check-logging-imports) @ flow-polymer-template ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ flow-polymer-template ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/vaadin/flow/flow-polymer-template/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ flow-polymer-template ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 39 source files to /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/vaadin/flow/flow-polymer-template/target/classes
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/vaadin/flow/flow-polymer-template/src/main/java/com/vaadin/flow/component/polymertemplate/AbstractTemplate.java: Some input files use or override a deprecated API.
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/vaadin/flow/flow-polymer-template/src/main/java/com/vaadin/flow/component/polymertemplate/AbstractTemplate.java: Recompile with -Xlint:deprecation for details.
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/vaadin/flow/flow-polymer-template/src/main/java/com/vaadin/flow/templatemodel/BasicComplexModelType.java: Some input files use unchecked or unsafe operations.
+[INFO] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/vaadin/flow/flow-polymer-template/src/main/java/com/vaadin/flow/templatemodel/BasicComplexModelType.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/vaadin/flow/flow-polymer-template/src/main/java/com/vaadin/flow/component/polymertemplate/NpmTemplateParser.java:[201,47] method getApplicationResource in interface com.vaadin.flow.di.ResourceProvider cannot be applied to given types;
+  required: java.lang.String
+  found: com.vaadin.flow.server.VaadinService,java.lang.String
+  reason: actual and formal argument lists differ in length
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.978 s
+[INFO] Finished at: 2021-03-28T19:33:46+08:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile (default-compile) on project flow-polymer-template: Compilation failure
+[ERROR] /home/lichengpeng/spring-holiday/iFixPlus/scripts_new/projectsInstall/projects/vaadin/flow/flow-polymer-template/src/main/java/com/vaadin/flow/component/polymertemplate/NpmTemplateParser.java:[201,47] method getApplicationResource in interface com.vaadin.flow.di.ResourceProvider cannot be applied to given types;
+[ERROR]   required: java.lang.String
+[ERROR]   found: com.vaadin.flow.server.VaadinService,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
