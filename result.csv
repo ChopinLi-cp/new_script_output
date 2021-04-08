@@ -81,8 +81,8 @@ jnr/jnr-posix,jnr.posix.NlLanginfoTest.testNlLanginfo,doublevictim,AfterOneFail,
 jnr/jnr-posix,jnr.posix.SpawnTest.validPid,wrongjsonfail,null,null,null,null,null
 jnr/jnr-posix,jnr.posix.SpawnTest.outputPipe,doublevictim,AfterOneFail,153.485,1446,1446,2094,2094,33
 winder/Universal-G-Code-Sender,com.willwinder.ugs.nbp.S3FileSystemViewTest.testGetFiles,doublevictim,136.942,1030,1030,1114,1114,null
-winder/Universal-G-Code-Sender,com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerWithKnownErrorShouldWriteMessageToConsole,null,null,null,null,null
-winder/Universal-G-Code-Sender,com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerWithUnknownErrorShouldWriteGenericMessageToConsole,null,null,null,null,null
-winder/Universal-G-Code-Sender,com.willwinder.universalgcodesender.GrblControllerTest.testGetGrblVersion,null,null,null,null,null
-winder/Universal-G-Code-Sender,com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerOnErrorWithNoSentCommandsShouldSendMessageToConsole,null,null,null,null,null
-winder/Universal-G-Code-Sender,com.willwinder.universalgcodesender.GrblControllerTest.testIsReadyToStreamFile,null,null,null,null,null
+winder/Universal-G-Code-Sender,com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerWithKnownErrorShouldWriteMessageToConsole,doublevictim,AfterOneSuccess,537.943,979,979,2053,2053,30
+winder/Universal-G-Code-Sender,com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerWithUnknownErrorShouldWriteGenericMessageToConsole,doublevictim,AfterOneSuccess,536.748,979,979,2056,2056,30
+winder/Universal-G-Code-Sender,com.willwinder.universalgcodesender.GrblControllerTest.testGetGrblVersion,doublevictim,AfterOneSuccess,731.94,378,378,2710,2710,20
+winder/Universal-G-Code-Sender,com.willwinder.universalgcodesender.GrblControllerTest.rawResponseHandlerOnErrorWithNoSentCommandsShouldSendMessageToConsole,doublevictim,AfterOneSuccess,496.495,972,972,2056,2056,26
+winder/Universal-G-Code-Sender,com.willwinder.universalgcodesender.GrblControllerTest.testIsReadyToStreamFile,doublevictim,AfterOneSuccess,494.872,378,378,2056,2056,20
