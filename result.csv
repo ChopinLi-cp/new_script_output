@@ -1,4 +1,4 @@
-funkygao/cp-ddd-framework,io.github.dddplus.runtime.registry.ContainerTest.jarNotExist,doublevictim,apache/cayenne,org.apache.cayenne.CayenneContextClientChannelEventsIT.testSyncToOneRelationship,doublevictim,AfterOneFail,1863.499,2359,2276,656,656,144
+apache/cayenne,org.apache.cayenne.CayenneContextClientChannelEventsIT.testSyncToOneRelationship,doublevictim,AfterOneFail,1863.499,2359,2276,656,656,144
 apache/shardingsphere-elasticjob,org.apache.shardingsphere.elasticjob.cloud.scheduler.mesos.AppConstraintEvaluatorTest.assertExistExecutorOnS0,doublevictim,AfterOneFail,812.36,1315,1300,3940,3821,20
 apache/shardingsphere-elasticjob,org.apache.shardingsphere.elasticjob.cloud.scheduler.env.BootstrapEnvironmentTest.assertWithoutEventTraceRdbConfiguration,doublevictim,AfterOneSuccess,465.668,202,199,3680,3563,4
 apache/shardingsphere-elasticjob,org.apache.shardingsphere.elasticjob.cloud.scheduler.env.BootstrapEnvironmentTest.assertGetMesosConfiguration,passorder,AfterOneSuccess,3566.975,3372,3322,3903,3785,267
