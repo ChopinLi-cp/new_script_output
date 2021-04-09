@@ -1,0 +1,59 @@
+*************************reflection on diffFieldAfter************************
+com.google.auth.oauth2.GoogleCredentials.defaultCredentialsProvider set
+########com.google.auth.oauth2.GoogleCredentials.defaultCredentialsProvider made test success#######
+com.google.auth.oauth2.ComputeEngineCredentials.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.google.auth.oauth2.ComputeEngineCredentials.LOGGER made test fail######
+com.google.auth.appengine.AppEngineCredentials.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Failed calling method
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/handlers/java.util.concurrent.CopyOnWriteArrayList/com.google.auth.appengine.AppEngineCredentialsTest$LogHandler/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.Logger
+required-type[1]    : java.util.logging.Logger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.google.auth.appengine.AppEngineCredentials.LOGGER made test fail######
+com.google.auth.oauth2.DefaultCredentialsProvider.LOGGER deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.google.auth.oauth2.DefaultCredentialsProvider.LOGGER made test fail######

@@ -1,0 +1,114 @@
+*************************reflection on diffFieldAfter************************
+hudson.remoting.RemoteInvocationHandler.logger set
+########hudson.remoting.RemoteInvocationHandler.logger made test fail######
+hudson.remoting.ChannelBuilder.LOGGER set
+########hudson.remoting.ChannelBuilder.LOGGER made test fail######
+hudson.remoting.SynchronousCommandTransport.LOGGER set
+########hudson.remoting.SynchronousCommandTransport.LOGGER made test fail######
+org.jenkinsci.remoting.protocol.impl.NIONetworkLayer.LOGGER set
+########org.jenkinsci.remoting.protocol.impl.NIONetworkLayer.LOGGER made test fail######
+org.jenkinsci.remoting.protocol.ProtocolStack$Builder.id set
+########org.jenkinsci.remoting.protocol.ProtocolStack$Builder.id made test fail######
+org.jenkinsci.remoting.protocol.IOHub.LOGGER set
+########org.jenkinsci.remoting.protocol.IOHub.LOGGER made test fail######
+org.jenkinsci.remoting.protocol.ProtocolStackImplTest.keys set
+########org.jenkinsci.remoting.protocol.ProtocolStackImplTest.keys made test fail######
+org.jenkinsci.remoting.protocol.ProtocolStackImplTest.certificate set
+########org.jenkinsci.remoting.protocol.ProtocolStackImplTest.certificate made test fail######
+hudson.remoting.Channel.jarLoaderProxy set
+########hudson.remoting.Channel.jarLoaderProxy made test fail######
+org.jenkinsci.remoting.protocol.ProtocolStackImplTest.context deserializeError: com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$DuplicateFieldException: Duplicate field endEntityChecker
+---- Debugging information ----
+message             : Duplicate field endEntityChecker
+field               : endEntityChecker
+class               : sun.security.validator.PKIXValidator
+required-type       : sun.security.validator.PKIXValidator
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /org.jenkinsci.remoting.protocol.cert.SSLContextRule/context/contextSpi/trustManager/clientValidator/endEntityChecker[2]
+class[1]            : sun.security.ssl.X509TrustManagerImpl
+required-type[1]    : sun.security.ssl.X509TrustManagerImpl
+class[2]            : sun.security.ssl.SSLContextImpl$TLSContext
+required-type[2]    : sun.security.ssl.SSLContextImpl$TLSContext
+class[3]            : javax.net.ssl.SSLContext
+required-type[3]    : javax.net.ssl.SSLContext
+class[4]            : org.jenkinsci.remoting.protocol.cert.SSLContextRule
+required-type[4]    : org.jenkinsci.remoting.protocol.cert.SSLContextRule
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.jenkinsci.remoting.protocol.ProtocolStackImplTest.context made test fail######
+org.jenkinsci.remoting.util.AnonymousClassWarnings.LOGGER set
+########org.jenkinsci.remoting.util.AnonymousClassWarnings.LOGGER made test fail######
+org.jenkinsci.remoting.util.SettableFuture.LOGGER set
+########org.jenkinsci.remoting.util.SettableFuture.LOGGER made test fail######
+hudson.remoting.AbstractByteBufferCommandTransport.LOGGER set
+########hudson.remoting.AbstractByteBufferCommandTransport.LOGGER made test fail######
+hudson.remoting.JarLoaderImpl.LOGGER set
+########hudson.remoting.JarLoaderImpl.LOGGER made test fail######
+hudson.remoting.RemoteInvocationHandler.UNEXPORTER set
+########hudson.remoting.RemoteInvocationHandler.UNEXPORTER made test fail######
+hudson.remoting.Channel.CURRENT set
+########hudson.remoting.Channel.CURRENT made test fail######
+org.jenkinsci.remoting.protocol.impl.BIONetworkLayer.LOGGER set
+########org.jenkinsci.remoting.protocol.impl.BIONetworkLayer.LOGGER made test fail######
+org.jenkinsci.remoting.protocol.IOHub.nextId set
+########org.jenkinsci.remoting.protocol.IOHub.nextId made test fail######
+org.jenkinsci.remoting.protocol.NetworkLayer.LOGGER set
+########org.jenkinsci.remoting.protocol.NetworkLayer.LOGGER made test fail######
+hudson.remoting.Request.nextId set
+########hudson.remoting.Request.nextId made test fail######
+hudson.remoting.Request.logger set
+########hudson.remoting.Request.logger made test fail######
+org.bouncycastle.crypto.CryptoServicesRegistrar.threadProperties set
+########org.bouncycastle.crypto.CryptoServicesRegistrar.threadProperties made test fail######
+org.jenkinsci.remoting.protocol.ProtocolStack.LOGGER set
+########org.jenkinsci.remoting.protocol.ProtocolStack.LOGGER made test fail######
+hudson.remoting.Channel.ACTIVE_CHANNELS set
+########hudson.remoting.Channel.ACTIVE_CHANNELS made test fail######
+hudson.remoting.Channel.logger set
+########hudson.remoting.Channel.logger made test fail######
+hudson.remoting.PipeWindow.LOGGER set
+########hudson.remoting.PipeWindow.LOGGER made test fail######
+org.jenkinsci.remoting.protocol.ApplicationLayer.LOGGER set
+########org.jenkinsci.remoting.protocol.ApplicationLayer.LOGGER made test fail######
+hudson.remoting.SingleLaneExecutorService.LOGGER set
+########hudson.remoting.SingleLaneExecutorService.LOGGER made test fail######
+org.jenkinsci.remoting.protocol.RepeatRule.LOGGER set
+########org.jenkinsci.remoting.protocol.RepeatRule.LOGGER made test fail######
+org.jenkinsci.remoting.protocol.ProtocolStackImplTest.staticCtx deserializeError: com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$DuplicateFieldException: Duplicate field endEntityChecker
+---- Debugging information ----
+message             : Duplicate field endEntityChecker
+field               : endEntityChecker
+class               : sun.security.validator.PKIXValidator
+required-type       : sun.security.validator.PKIXValidator
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /org.junit.rules.RuleChain/rulesStartingWithInnerMost/org.jenkinsci.remoting.protocol.cert.SSLContextRule/context/contextSpi/trustManager/clientValidator/endEntityChecker[2]
+class[1]            : sun.security.ssl.X509TrustManagerImpl
+required-type[1]    : sun.security.ssl.X509TrustManagerImpl
+class[2]            : sun.security.ssl.SSLContextImpl$TLSContext
+required-type[2]    : sun.security.ssl.SSLContextImpl$TLSContext
+class[3]            : javax.net.ssl.SSLContext
+required-type[3]    : javax.net.ssl.SSLContext
+class[4]            : org.jenkinsci.remoting.protocol.cert.SSLContextRule
+required-type[4]    : org.jenkinsci.remoting.protocol.cert.SSLContextRule
+class[5]            : java.util.ArrayList
+required-type[5]    : java.util.ArrayList
+converter-type[1]   : com.thoughtworks.xstream.converters.collections.CollectionConverter
+class[6]            : org.junit.rules.RuleChain
+required-type[6]    : org.junit.rules.RuleChain
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.jenkinsci.remoting.protocol.ProtocolStackImplTest.staticCtx made test fail######
+hudson.remoting.Request.CURRENT set
+########hudson.remoting.Request.CURRENT made test fail######
+hudson.remoting.DaemonThreadFactory.LOGGER set
+########hudson.remoting.DaemonThreadFactory.LOGGER made test fail######
+org.jenkinsci.remoting.protocol.impl.AckFilterLayer.LOGGER set
+########org.jenkinsci.remoting.protocol.impl.AckFilterLayer.LOGGER made test fail######
+hudson.remoting.FlightRecorderInputStream.LOGGER set
+########hudson.remoting.FlightRecorderInputStream.LOGGER made test fail######
+org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer.LOGGER set
+########org.jenkinsci.remoting.protocol.impl.ConnectionHeadersFilterLayer.LOGGER made test fail######
+org.jenkinsci.remoting.protocol.FilterLayer.LOGGER set
+########org.jenkinsci.remoting.protocol.FilterLayer.LOGGER made test fail######
+org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.LOGGER set
+########org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.LOGGER made test fail######

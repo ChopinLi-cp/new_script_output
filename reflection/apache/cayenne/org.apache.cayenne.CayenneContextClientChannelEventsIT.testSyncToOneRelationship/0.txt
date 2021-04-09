@@ -1,0 +1,459 @@
+*************************reflection on diffFieldAfter************************
+com.caucho.hessian.io.UnsafeSerializer.log deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.caucho.hessian.io.UnsafeSerializer.log made test fail######
+org.hsqldb.map.ValuePool.poolList set
+########org.hsqldb.map.ValuePool.poolList made test fail######
+com.caucho.hessian.io.JavaSerializer.log deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.caucho.hessian.io.JavaSerializer.log made test fail######
+org.apache.cayenne.exp.ExpressionFactory.autoAliasId set
+########org.apache.cayenne.exp.ExpressionFactory.autoAliasId made test fail######
+org.hsqldb.HsqlDateTime.sdfts set
+########org.hsqldb.HsqlDateTime.sdfts made test fail######
+org.apache.cayenne.reflect.PropertyUtils.PATH_ACCESSORS set
+########org.apache.cayenne.reflect.PropertyUtils.PATH_ACCESSORS made test fail######
+org.slf4j.impl.StaticLoggerBinder.SINGLETON set
+########org.slf4j.impl.StaticLoggerBinder.SINGLETON made test fail######
+org.apache.cayenne.cache.NestedQueryCache.currentId set
+########org.apache.cayenne.cache.NestedQueryCache.currentId made test fail######
+com.caucho.hessian.io.UnsafeDeserializer.log deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.caucho.hessian.io.UnsafeDeserializer.log made test fail######
+org.apache.cayenne.BaseContext.threadObjectContext set
+########org.apache.cayenne.BaseContext.threadObjectContext made test fail######
+org.hsqldb.HsqlException.noDataCondition set
+########org.hsqldb.HsqlException.noDataCondition made test fail######
+org.hsqldb.rights.Right.fullRightsSet set
+########org.hsqldb.rights.Right.fullRightsSet made test fail######
+org.hsqldb.lib.ArrayUtil.classCodeMap set
+########org.hsqldb.lib.ArrayUtil.classCodeMap made test fail######
+org.apache.cayenne.access.flush.operation.DbRowOpMerger.INSTANCE set
+########org.apache.cayenne.access.flush.operation.DbRowOpMerger.INSTANCE made test fail######
+org.slf4j.impl.SimpleLogger.START_TIME set
+########org.slf4j.impl.SimpleLogger.START_TIME made test fail######
+com.caucho.hessian.io.RemoteDeserializer.log deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.caucho.hessian.io.RemoteDeserializer.log made test fail######
+com.caucho.hessian.io.UnsafeSerializer._serializerMap set
+########com.caucho.hessian.io.UnsafeSerializer._serializerMap made test fail######
+org.hsqldb.DatabaseManager.memDatabaseMap deserializeError: com.thoughtworks.xstream.converters.ConversionException: Invalid reference
+---- Debugging information ----
+message             : Invalid reference
+reference           : /org.hsqldb.lib.HashMap/objectValueTable/org.hsqldb.Database/persistentStoreCollection/rowStoreMap/objectValueTable/org.hsqldb.persist.RowStoreAVLMemory[4]/indexList
+referenced-type     : [Lorg.hsqldb.index.Index;
+referenceable       : true
+class               : org.hsqldb.Table
+required-type       : org.hsqldb.Table
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /org.hsqldb.lib.HashMap/objectValueTable/org.hsqldb.Database/persistentStoreCollection/rowStoreMap/objectValueTable/org.hsqldb.persist.RowStoreAVLMemory[4]/indexList/org.hsqldb.index.IndexAVLMemory/table/indexList
+class[1]            : org.hsqldb.index.IndexAVLMemory
+required-type[1]    : org.hsqldb.index.IndexAVLMemory
+class[2]            : [Lorg.hsqldb.index.Index;
+required-type[2]    : [Lorg.hsqldb.index.Index;
+converter-type[1]   : com.thoughtworks.xstream.converters.collections.ArrayConverter
+class[3]            : org.hsqldb.persist.RowStoreAVLMemory
+required-type[3]    : org.hsqldb.persist.RowStoreAVLMemory
+class[4]            : [Ljava.lang.Object;
+required-type[4]    : [Ljava.lang.Object;
+class[5]            : org.hsqldb.lib.LongKeyHashMap
+required-type[5]    : org.hsqldb.lib.LongKeyHashMap
+class[6]            : org.hsqldb.persist.PersistentStoreCollectionDatabase
+required-type[6]    : org.hsqldb.persist.PersistentStoreCollectionDatabase
+class[7]            : org.hsqldb.Database
+required-type[7]    : org.hsqldb.Database
+class[8]            : org.hsqldb.lib.HashMap
+required-type[8]    : org.hsqldb.lib.HashMap
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.hsqldb.DatabaseManager.memDatabaseMap made test fail######
+org.hsqldb.DatabaseManager.databaseIDMap deserializeError: com.thoughtworks.xstream.converters.ConversionException: Invalid reference
+---- Debugging information ----
+message             : Invalid reference
+reference           : /org.hsqldb.lib.IntKeyHashMap/objectValueTable/org.hsqldb.Database/persistentStoreCollection/rowStoreMap/objectValueTable/org.hsqldb.persist.RowStoreAVLMemory[4]/indexList
+referenced-type     : [Lorg.hsqldb.index.Index;
+referenceable       : true
+class               : org.hsqldb.Table
+required-type       : org.hsqldb.Table
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /org.hsqldb.lib.IntKeyHashMap/objectValueTable/org.hsqldb.Database/persistentStoreCollection/rowStoreMap/objectValueTable/org.hsqldb.persist.RowStoreAVLMemory[4]/indexList/org.hsqldb.index.IndexAVLMemory/table/indexList
+class[1]            : org.hsqldb.index.IndexAVLMemory
+required-type[1]    : org.hsqldb.index.IndexAVLMemory
+class[2]            : [Lorg.hsqldb.index.Index;
+required-type[2]    : [Lorg.hsqldb.index.Index;
+converter-type[1]   : com.thoughtworks.xstream.converters.collections.ArrayConverter
+class[3]            : org.hsqldb.persist.RowStoreAVLMemory
+required-type[3]    : org.hsqldb.persist.RowStoreAVLMemory
+class[4]            : [Ljava.lang.Object;
+required-type[4]    : [Ljava.lang.Object;
+class[5]            : org.hsqldb.lib.LongKeyHashMap
+required-type[5]    : org.hsqldb.lib.LongKeyHashMap
+class[6]            : org.hsqldb.persist.PersistentStoreCollectionDatabase
+required-type[6]    : org.hsqldb.persist.PersistentStoreCollectionDatabase
+class[7]            : org.hsqldb.Database
+required-type[7]    : org.hsqldb.Database
+class[8]            : org.hsqldb.lib.IntKeyHashMap
+required-type[8]    : org.hsqldb.lib.IntKeyHashMap
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.hsqldb.DatabaseManager.databaseIDMap made test fail######
+org.hsqldb.map.ValuePool.intPool set
+########org.hsqldb.map.ValuePool.intPool made test fail######
+org.hsqldb.map.ValuePool.longPool set
+########org.hsqldb.map.ValuePool.longPool made test fail######
+org.apache.cayenne.map.EntityResolver.incrementer set
+########org.apache.cayenne.map.EntityResolver.incrementer made test fail######
+com.caucho.hessian.io.FieldDeserializer2Factory.log deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.caucho.hessian.io.FieldDeserializer2Factory.log made test fail######
+org.apache.cayenne.reflect.PropertyUtils.SEGMENT_ACCESSORS set
+########org.apache.cayenne.reflect.PropertyUtils.SEGMENT_ACCESSORS made test fail######
+com.caucho.hessian.io.SerializerFactory.log deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.caucho.hessian.io.SerializerFactory.log made test fail######
+org.hsqldb.lib.FrameworkLogger.loggerInstances deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /map/entry/value/jdkLogger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+class[4]            : org.hsqldb.lib.FrameworkLogger
+required-type[4]    : org.hsqldb.lib.FrameworkLogger
+class[5]            : java.util.HashMap
+required-type[5]    : java.util.HashMap
+converter-type[2]   : edu.illinois.cs.diaper.CustomMapConverter
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.hsqldb.lib.FrameworkLogger.loggerInstances made test fail######
+org.hsqldb.HsqlDateTime.sdftsSys set
+########org.hsqldb.HsqlDateTime.sdftsSys made test fail######
+org.hsqldb.HsqlDateTime.tempCalDefault set
+########org.hsqldb.HsqlDateTime.tempCalDefault made test fail######
+com.caucho.hessian.io.JavaUnsharedSerializer.log deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.caucho.hessian.io.JavaUnsharedSerializer.log made test fail######
+org.apache.cayenne.configuration.CayenneRuntime.threadInjector set
+########org.apache.cayenne.configuration.CayenneRuntime.threadInjector made test fail######
+org.apache.cayenne.unit.di.client.ClientCaseContextsSync.injector deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.ArrayBlockingQueue.readObject()
+class               : java.util.concurrent.ArrayBlockingQueue
+required-type       : java.util.concurrent.ArrayBlockingQueue
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.apache.cayenne.di.spi.DefaultInjector/bindings/entry[3]/value/scoped/instance/dataSourceFactory/dataSources/entry/value/dataSource/available/java.util.concurrent.ArrayBlockingQueue/default/items/org.apache.cayenne.datasource.PoolAwareConnection/connection/sessionProxy/currentSchema/owner/granteeManager/database/persistentStoreCollection/rowStoreMap/objectValueTable/org.hsqldb.persist.RowStoreAVLMemory[4]/indexList/org.hsqldb.index.IndexAVLMemory/table/indexList
+class[1]            : org.apache.cayenne.datasource.UnmanagedPoolingDataSource
+required-type[1]    : org.apache.cayenne.datasource.UnmanagedPoolingDataSource
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : org.apache.cayenne.datasource.ManagedPoolingDataSource
+required-type[2]    : org.apache.cayenne.datasource.ManagedPoolingDataSource
+class[3]            : java.util.HashMap
+required-type[3]    : java.util.HashMap
+converter-type[2]   : edu.illinois.cs.diaper.CustomMapConverter
+class[4]            : org.apache.cayenne.unit.di.server.ServerCaseDataSourceFactory
+required-type[4]    : org.apache.cayenne.unit.di.server.ServerCaseDataSourceFactory
+class[5]            : org.apache.cayenne.unit.di.server.SchemaBuilder
+required-type[5]    : org.apache.cayenne.unit.di.server.SchemaBuilder
+class[6]            : org.apache.cayenne.di.spi.DefaultScopeProvider
+required-type[6]    : org.apache.cayenne.di.spi.DefaultScopeProvider
+class[7]            : org.apache.cayenne.di.spi.Binding
+required-type[7]    : org.apache.cayenne.di.spi.Binding
+class[8]            : org.apache.cayenne.di.spi.DefaultInjector
+required-type[8]    : org.apache.cayenne.di.spi.DefaultInjector
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.cayenne.unit.di.client.ClientCaseContextsSync.injector made test fail######
+org.apache.cayenne.graph.ChildDiffLoader.childDiffProcessing set
+########org.apache.cayenne.graph.ChildDiffLoader.childDiffProcessing made test fail######
+org.hsqldb.HsqlDateTime.sdfd set
+########org.hsqldb.HsqlDateTime.sdfd made test fail######
+com.caucho.hessian.io.SerializerFactory._systemClassLoader deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.lang.IndexOutOfBoundsException
+cause-message       : Index: 2, Size: 2
+method              : java.security.CodeSource.readObject()
+class               : java.security.CodeSource
+required-type       : java.security.CodeSource
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /sun.misc.Launcher$AppClassLoader/pdcache/entry/key/java.security.CodeSource
+class[1]            : java.util.HashMap
+required-type[1]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[2]            : sun.misc.Launcher$AppClassLoader
+required-type[2]    : sun.misc.Launcher$AppClassLoader
+converter-type[2]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.caucho.hessian.io.SerializerFactory._systemClassLoader made test fail######
+com.caucho.hessian.io.AbstractSerializer.log deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.caucho.hessian.io.AbstractSerializer.log made test fail######
+org.hsqldb.lib.FileUtil.LOG deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.hsqldb.lib.FrameworkLogger/jdkLogger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+class[4]            : org.hsqldb.lib.FrameworkLogger
+required-type[4]    : org.hsqldb.lib.FrameworkLogger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.hsqldb.lib.FileUtil.LOG made test fail######
+com.caucho.hessian.io.ContextSerializerFactory._contextRefMap set
+########com.caucho.hessian.io.ContextSerializerFactory._contextRefMap made test fail######
+com.caucho.hessian.io.ContextSerializerFactory._systemClassLoader deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.lang.IndexOutOfBoundsException
+cause-message       : Index: 2, Size: 2
+method              : java.security.CodeSource.readObject()
+class               : java.security.CodeSource
+required-type       : java.security.CodeSource
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /sun.misc.Launcher$AppClassLoader/pdcache/entry/key/java.security.CodeSource
+class[1]            : java.util.HashMap
+required-type[1]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[2]            : sun.misc.Launcher$AppClassLoader
+required-type[2]    : sun.misc.Launcher$AppClassLoader
+converter-type[2]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.caucho.hessian.io.ContextSerializerFactory._systemClassLoader made test fail######
+org.hsqldb.HsqlDateTime.sysDate set
+########org.hsqldb.HsqlDateTime.sysDate made test fail######
+com.caucho.hessian.io.JavaSerializer._serializerMap set
+########com.caucho.hessian.io.JavaSerializer._serializerMap made test fail######
+com.caucho.hessian.io.FieldDeserializer2FactoryUnsafe.log deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.caucho.hessian.io.FieldDeserializer2FactoryUnsafe.log made test fail######
+org.hsqldb.types.Types.illegalParameterClasses set
+########org.hsqldb.types.Types.illegalParameterClasses made test fail######
+org.apache.cayenne.DataRow.currentVersion set
+########org.apache.cayenne.DataRow.currentVersion made test fail######
+org.hsqldb.HsqlDateTime.tempCalGMT set
+########org.hsqldb.HsqlDateTime.tempCalGMT made test fail######
+org.apache.cayenne.di.spi.DefaultListBuilder.incrementer set
+########org.apache.cayenne.di.spi.DefaultListBuilder.incrementer made test fail######
+com.caucho.hessian.io.ContextSerializerFactory.log deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.caucho.hessian.io.ContextSerializerFactory.log made test fail######
+org.hsqldb.HsqlDateTime.sdft set
+########org.hsqldb.HsqlDateTime.sdft made test fail######
+com.caucho.hessian.io.UnsafeUnsharedSerializer.log deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : java.util.concurrent.CopyOnWriteArrayList.readObject()
+class               : java.util.concurrent.CopyOnWriteArrayList
+required-type       : java.util.concurrent.CopyOnWriteArrayList
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.util.logging.Logger/manager/rootLogger/handlers/java.util.concurrent.CopyOnWriteArrayList/java.util.logging.ConsoleHandler/output/charOut/se/encoder/charset
+class[1]            : java.util.logging.LogManager$RootLogger
+required-type[1]    : java.util.logging.LogManager$RootLogger
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[2]            : java.util.logging.LogManager
+required-type[2]    : java.util.logging.LogManager
+class[3]            : java.util.logging.Logger
+required-type[3]    : java.util.logging.Logger
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########com.caucho.hessian.io.UnsafeUnsharedSerializer.log made test fail######
+org.hsqldb.lib.FileUtil.fileUtil set
+########org.hsqldb.lib.FileUtil.fileUtil made test fail######

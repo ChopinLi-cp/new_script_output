@@ -1,0 +1,152 @@
+*************************reflection on diffFieldAfter************************
+org.mockito.internal.configuration.plugins.Plugins.registry deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : com.netflix.fenzo.TaskRequest$MockitoMock$1621300636
+class               : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+required-type       : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /org.mockito.internal.configuration.plugins.PluginRegistry/mockMaker/bytecodeGenerator/bytecodeGenerator/advice/interceptors/target/entry/value/handler/mockHandler/delegate/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.mockito.internal.invocation.InvocationMatcher
+required-type[1]    : org.mockito.internal.invocation.InvocationMatcher
+class[2]            : org.mockito.internal.stubbing.InvocationContainerImpl
+required-type[2]    : org.mockito.internal.stubbing.InvocationContainerImpl
+class[3]            : org.mockito.internal.handler.MockHandlerImpl
+required-type[3]    : org.mockito.internal.handler.MockHandlerImpl
+class[4]            : org.mockito.internal.handler.NullResultGuardian
+required-type[4]    : org.mockito.internal.handler.NullResultGuardian
+class[5]            : org.mockito.internal.handler.InvocationNotifierHandler
+required-type[5]    : org.mockito.internal.handler.InvocationNotifierHandler
+class[6]            : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+required-type[6]    : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+class[7]            : java.util.concurrent.ConcurrentHashMap
+required-type[7]    : java.util.concurrent.ConcurrentHashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[8]            : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+required-type[8]    : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+class[9]            : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+required-type[9]    : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+class[10]           : org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator
+required-type[10]   : org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator
+class[11]           : org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator
+required-type[11]   : org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator
+class[12]           : org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker
+required-type[12]   : org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker
+class[13]           : org.mockito.internal.configuration.plugins.PluginRegistry
+required-type[13]   : org.mockito.internal.configuration.plugins.PluginRegistry
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.mockito.internal.configuration.plugins.Plugins.registry made test fail######
+org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.EXCLUDES set
+########org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator.EXCLUDES made test fail######
+com.fasterxml.jackson.core.JsonFactory._recyclerRef set
+########com.fasterxml.jackson.core.JsonFactory._recyclerRef made test fail######
+com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_ISO8601_Z set
+########com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_ISO8601_Z made test fail######
+org.mockito.internal.util.Primitives.PRIMITIVE_TYPES set
+########org.mockito.internal.util.Primitives.PRIMITIVE_TYPES made test fail######
+org.mockito.internal.util.MockUtil.mockMaker deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : com.netflix.fenzo.TaskRequest$MockitoMock$1621300636
+class               : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+required-type       : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker/bytecodeGenerator/bytecodeGenerator/advice/interceptors/target/entry/value/handler/mockHandler/delegate/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.mockito.internal.invocation.InvocationMatcher
+required-type[1]    : org.mockito.internal.invocation.InvocationMatcher
+class[2]            : org.mockito.internal.stubbing.InvocationContainerImpl
+required-type[2]    : org.mockito.internal.stubbing.InvocationContainerImpl
+class[3]            : org.mockito.internal.handler.MockHandlerImpl
+required-type[3]    : org.mockito.internal.handler.MockHandlerImpl
+class[4]            : org.mockito.internal.handler.NullResultGuardian
+required-type[4]    : org.mockito.internal.handler.NullResultGuardian
+class[5]            : org.mockito.internal.handler.InvocationNotifierHandler
+required-type[5]    : org.mockito.internal.handler.InvocationNotifierHandler
+class[6]            : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+required-type[6]    : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+class[7]            : java.util.concurrent.ConcurrentHashMap
+required-type[7]    : java.util.concurrent.ConcurrentHashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[8]            : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+required-type[8]    : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+class[9]            : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+required-type[9]    : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+class[10]           : org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator
+required-type[10]   : org.mockito.internal.creation.bytebuddy.InlineBytecodeGenerator
+class[11]           : org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator
+required-type[11]   : org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator
+class[12]           : org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker
+required-type[12]   : org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.mockito.internal.util.MockUtil.mockMaker made test fail######
+com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_RFC1123 set
+########com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_RFC1123 made test fail######
+ch.qos.logback.core.util.StatusPrinter.ps deserializeError: com.thoughtworks.xstream.converters.ConversionException: Invalid reference
+---- Debugging information ----
+message             : Invalid reference
+reference           : /java.io.PrintStream/charOut/se/cs
+referenced-type     : java.nio.charset.Charset
+referenceable       : false
+class               : sun.nio.cs.UTF_8$Encoder
+required-type       : sun.nio.cs.UTF_8$Encoder
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /java.io.PrintStream/charOut/se/encoder/charset
+class[1]            : sun.nio.cs.StreamEncoder
+required-type[1]    : sun.nio.cs.StreamEncoder
+class[2]            : java.io.OutputStreamWriter
+required-type[2]    : java.io.OutputStreamWriter
+class[3]            : java.io.PrintStream
+required-type[3]    : java.io.PrintStream
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########ch.qos.logback.core.util.StatusPrinter.ps made test fail######
+org.mockito.internal.configuration.GlobalConfiguration.GLOBAL_CONFIGURATION set
+########org.mockito.internal.configuration.GlobalConfiguration.GLOBAL_CONFIGURATION made test fail######
+org.mockito.internal.creation.bytebuddy.MockMethodDispatcher.INSTANCE deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : com.netflix.fenzo.TaskRequest$MockitoMock$1621300636
+class               : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+required-type       : org.mockito.internal.creation.bytebuddy.InterceptedInvocation
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /concurrent-hash-map/entry/value/interceptors/target/entry/value/handler/mockHandler/delegate/invocationContainerImpl/invocationForStubbing/invocation/mock
+class[1]            : org.mockito.internal.invocation.InvocationMatcher
+required-type[1]    : org.mockito.internal.invocation.InvocationMatcher
+class[2]            : org.mockito.internal.stubbing.InvocationContainerImpl
+required-type[2]    : org.mockito.internal.stubbing.InvocationContainerImpl
+class[3]            : org.mockito.internal.handler.MockHandlerImpl
+required-type[3]    : org.mockito.internal.handler.MockHandlerImpl
+class[4]            : org.mockito.internal.handler.NullResultGuardian
+required-type[4]    : org.mockito.internal.handler.NullResultGuardian
+class[5]            : org.mockito.internal.handler.InvocationNotifierHandler
+required-type[5]    : org.mockito.internal.handler.InvocationNotifierHandler
+class[6]            : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+required-type[6]    : org.mockito.internal.creation.bytebuddy.MockMethodInterceptor
+class[7]            : java.util.concurrent.ConcurrentHashMap
+required-type[7]    : java.util.concurrent.ConcurrentHashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[8]            : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+required-type[8]    : org.mockito.internal.util.concurrent.WeakConcurrentMap$WithInlinedExpunction
+class[9]            : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+required-type[9]    : org.mockito.internal.creation.bytebuddy.MockMethodAdvice
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.mockito.internal.creation.bytebuddy.MockMethodDispatcher.INSTANCE made test fail######
+org.mockito.internal.progress.SequenceNumber.sequenceNumber set
+########org.mockito.internal.progress.SequenceNumber.sequenceNumber made test fail######
+org.mockito.internal.progress.ThreadSafeMockingProgress.MOCKING_PROGRESS_PROVIDER set
+########org.mockito.internal.progress.ThreadSafeMockingProgress.MOCKING_PROGRESS_PROVIDER made test fail######
+com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_PLAIN set
+########com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_PLAIN made test fail######
+com.google.common.base.Platform.logger set
+########com.google.common.base.Platform.logger made test fail######
+com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_ISO8601 set
+########com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_ISO8601 made test fail######
+org.mockito.internal.util.Primitives.PRIMITIVE_OR_WRAPPER_DEFAULT_VALUES set
+########org.mockito.internal.util.Primitives.PRIMITIVE_OR_WRAPPER_DEFAULT_VALUES made test fail######
+ch.qos.logback.core.util.StatusPrinter.cachingDateFormat set
+########ch.qos.logback.core.util.StatusPrinter.cachingDateFormat made test fail######
+org.mockito.internal.creation.instance.DefaultInstantiatorProvider.INSTANCE set
+########org.mockito.internal.creation.instance.DefaultInstantiatorProvider.INSTANCE made test fail######

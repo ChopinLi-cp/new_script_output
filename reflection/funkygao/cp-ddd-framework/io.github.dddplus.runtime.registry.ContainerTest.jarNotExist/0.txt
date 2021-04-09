@@ -1,0 +1,86 @@
+*************************reflection on diffFieldAfter************************
+io.github.dddplus.runtime.registry.Container.containerClassLoader deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.lang.IndexOutOfBoundsException
+cause-message       : Index: 2, Size: 2
+method              : java.security.CodeSource.readObject()
+class               : java.security.CodeSource
+required-type       : java.security.CodeSource
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /sun.misc.Launcher$AppClassLoader/parent/pdcache/entry/key/java.security.CodeSource
+class[1]            : java.util.HashMap
+required-type[1]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[2]            : sun.misc.Launcher$ExtClassLoader
+required-type[2]    : sun.misc.Launcher$ExtClassLoader
+converter-type[2]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[3]            : sun.misc.Launcher$AppClassLoader
+required-type[3]    : sun.misc.Launcher$AppClassLoader
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.github.dddplus.runtime.registry.Container.containerClassLoader made test fail######
+io.github.dddplus.testing.LogAssert.reader set
+########io.github.dddplus.testing.LogAssert.reader made test fail######
+org.apache.logging.log4j.core.util.CronExpression.MIN_CAL set
+########org.apache.logging.log4j.core.util.CronExpression.MIN_CAL made test fail######
+io.github.dddplus.runtime.registry.Container.jdkClassLoader deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : java.lang.IndexOutOfBoundsException
+cause-message       : Index: 2, Size: 2
+method              : java.security.CodeSource.readObject()
+class               : java.security.CodeSource
+required-type       : java.security.CodeSource
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /java.net.URLClassLoader/parent/pdcache/entry/key/java.security.CodeSource
+class[1]            : java.util.HashMap
+required-type[1]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[2]            : sun.misc.Launcher$ExtClassLoader
+required-type[2]    : sun.misc.Launcher$ExtClassLoader
+converter-type[2]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+class[3]            : java.net.URLClassLoader
+required-type[3]    : java.net.URLClassLoader
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.github.dddplus.runtime.registry.Container.jdkClassLoader made test fail######
+org.apache.logging.log4j.core.config.plugins.convert.TypeConverterRegistry.INSTANCE set
+########org.apache.logging.log4j.core.config.plugins.convert.TypeConverterRegistry.INSTANCE made test fail######
+org.apache.logging.log4j.util.PropertiesUtil.LOG4J_PROPERTIES set
+########org.apache.logging.log4j.util.PropertiesUtil.LOG4J_PROPERTIES made test fail######
+org.apache.logging.log4j.message.ParameterFormatter.threadLocalSimpleDateFormat set
+########org.apache.logging.log4j.message.ParameterFormatter.threadLocalSimpleDateFormat made test fail######
+org.apache.logging.log4j.core.layout.GelfLayout.timestampStringBuilder set
+########org.apache.logging.log4j.core.layout.GelfLayout.timestampStringBuilder made test fail######
+org.apache.logging.log4j.core.async.AsyncLoggerConfig.ASYNC_LOGGER_ENTERED set
+########org.apache.logging.log4j.core.async.AsyncLoggerConfig.ASYNC_LOGGER_ENTERED made test fail######
+org.apache.logging.log4j.core.layout.GelfLayout.messageStringBuilder set
+########org.apache.logging.log4j.core.layout.GelfLayout.messageStringBuilder made test fail######
+org.apache.logging.log4j.core.LoggerContext.NULL_CONFIGURATION set
+########org.apache.logging.log4j.core.LoggerContext.NULL_CONFIGURATION made test fail######
+org.apache.logging.log4j.core.util.CronExpression.MIN_DATE set
+########org.apache.logging.log4j.core.util.CronExpression.MIN_DATE made test fail######
+org.apache.logging.log4j.core.filter.StructuredDataFilter.threadLocalStringBuilder set
+########org.apache.logging.log4j.core.filter.StructuredDataFilter.threadLocalStringBuilder made test fail######
+org.apache.logging.log4j.core.config.status.StatusConfiguration.DEFAULT_STREAM deserializeError: com.thoughtworks.xstream.converters.ConversionException: Invalid reference
+---- Debugging information ----
+message             : Invalid reference
+reference           : /java.io.PrintStream/charOut/se/cs
+referenced-type     : java.nio.charset.Charset
+referenceable       : false
+class               : sun.nio.cs.UTF_8$Encoder
+required-type       : sun.nio.cs.UTF_8$Encoder
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /java.io.PrintStream/charOut/se/encoder/charset
+class[1]            : sun.nio.cs.StreamEncoder
+required-type[1]    : sun.nio.cs.StreamEncoder
+class[2]            : java.io.OutputStreamWriter
+required-type[2]    : java.io.OutputStreamWriter
+class[3]            : java.io.PrintStream
+required-type[3]    : java.io.PrintStream
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.apache.logging.log4j.core.config.status.StatusConfiguration.DEFAULT_STREAM made test fail######
+org.apache.logging.log4j.status.StatusLogger.PROPS set
+########org.apache.logging.log4j.status.StatusLogger.PROPS made test fail######

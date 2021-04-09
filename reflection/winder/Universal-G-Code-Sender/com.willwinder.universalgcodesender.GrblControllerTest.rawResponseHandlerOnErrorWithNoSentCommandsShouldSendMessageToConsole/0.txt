@@ -1,0 +1,53 @@
+*************************reflection on diffFieldAfter************************
+net.bytebuddy.description.type.TypeDescription$ForLoadedType.TYPE_CACHE set
+########net.bytebuddy.description.type.TypeDescription$ForLoadedType.TYPE_CACHE made test fail######
+com.willwinder.universalgcodesender.i18n.Localization.englishKeyCount set
+########com.willwinder.universalgcodesender.i18n.Localization.englishKeyCount made test fail######
+com.willwinder.universalgcodesender.i18n.Localization.region set
+########com.willwinder.universalgcodesender.i18n.Localization.region made test fail######
+com.willwinder.universalgcodesender.utils.GUIHelpers.LOGGER set
+########com.willwinder.universalgcodesender.utils.GUIHelpers.LOGGER made test fail######
+com.willwinder.universalgcodesender.AbstractController.logger set
+########com.willwinder.universalgcodesender.AbstractController.logger made test fail######
+net.bytebuddy.description.type.TypeDescription$Generic$OfNonGenericType$ForLoadedType.TYPE_CACHE set
+########net.bytebuddy.description.type.TypeDescription$Generic$OfNonGenericType$ForLoadedType.TYPE_CACHE made test fail######
+com.willwinder.universalgcodesender.GrblController.logger set
+########com.willwinder.universalgcodesender.GrblController.logger made test fail######
+com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettings.LOGGER set
+########com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettings.LOGGER made test fail######
+com.willwinder.universalgcodesender.utils.GcodeStreamTest.tempDir set
+########com.willwinder.universalgcodesender.utils.GcodeStreamTest.tempDir made test fail######
+org.mockito.internal.progress.SequenceNumber.sequenceNumber set
+########org.mockito.internal.progress.SequenceNumber.sequenceNumber made test fail######
+org.mockito.internal.progress.ThreadSafeMockingProgress.MOCKING_PROGRESS_PROVIDER set
+########org.mockito.internal.progress.ThreadSafeMockingProgress.MOCKING_PROGRESS_PROVIDER made test fail######
+com.willwinder.universalgcodesender.utils.Settings.logger set
+########com.willwinder.universalgcodesender.utils.Settings.logger made test fail######
+org.mockito.internal.util.Primitives.PRIMITIVE_OR_WRAPPER_DEFAULT_VALUES set
+########org.mockito.internal.util.Primitives.PRIMITIVE_OR_WRAPPER_DEFAULT_VALUES made test fail######
+org.mockito.internal.configuration.plugins.Plugins.registry set
+########org.mockito.internal.configuration.plugins.Plugins.registry made test fail######
+org.mockito.internal.util.Primitives.PRIMITIVE_TYPES set
+########org.mockito.internal.util.Primitives.PRIMITIVE_TYPES made test fail######
+org.mockito.internal.util.MockUtil.mockMaker set
+########org.mockito.internal.util.MockUtil.mockMaker made test fail######
+org.apache.commons.lang3.SystemUtils.USER_TIMEZONE set
+########org.apache.commons.lang3.SystemUtils.USER_TIMEZONE made test fail######
+com.willwinder.universalgcodesender.i18n.Localization.logger set
+########com.willwinder.universalgcodesender.i18n.Localization.logger made test fail######
+org.mockito.internal.configuration.GlobalConfiguration.GLOBAL_CONFIGURATION set
+########org.mockito.internal.configuration.GlobalConfiguration.GLOBAL_CONFIGURATION made test fail######
+com.willwinder.universalgcodesender.StatusPollTimer.LOGGER set
+########com.willwinder.universalgcodesender.StatusPollTimer.LOGGER made test fail######
+com.willwinder.universalgcodesender.GrblControllerTest.tempDir set
+########com.willwinder.universalgcodesender.GrblControllerTest.tempDir made test fail######
+com.willwinder.universalgcodesender.BufferedCommunicator.logger set
+########com.willwinder.universalgcodesender.BufferedCommunicator.logger made test fail######
+com.willwinder.universalgcodesender.AbstractCommunicator.logger set
+########com.willwinder.universalgcodesender.AbstractCommunicator.logger made test fail######
+org.mockito.internal.creation.instance.DefaultInstantiatorProvider.INSTANCE set
+########org.mockito.internal.creation.instance.DefaultInstantiatorProvider.INSTANCE made test fail######
+com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener.logger set
+########com.willwinder.universalgcodesender.firmware.grbl.GrblFirmwareSettingsCommunicatorListener.logger made test fail######
+com.willwinder.universalgcodesender.i18n.Localization.bundle set
+########com.willwinder.universalgcodesender.i18n.Localization.bundle made test success#######

@@ -1,0 +1,126 @@
+*************************reflection on diffFieldAfter************************
+org.springframework.beans.factory.support.DefaultListableBeanFactory.serializableFactories set
+########org.springframework.beans.factory.support.DefaultListableBeanFactory.serializableFactories made test fail######
+org.springframework.core.annotation.AnnotationsScanner.declaredAnnotationCache set
+########org.springframework.core.annotation.AnnotationsScanner.declaredAnnotationCache made test fail######
+org.springframework.util.ClassUtils.primitiveWrapperTypeMap set
+########org.springframework.util.ClassUtils.primitiveWrapperTypeMap made test fail######
+configuration.SlangEntitiesSpringConfig.applicationContext deserializeError: com.thoughtworks.xstream.converters.ConversionException: Invalid reference
+---- Debugging information ----
+message             : Invalid reference
+reference           : /org.springframework.context.support.GenericApplicationContext/applicationEventMulticaster/beanClassLoader/parent/ucp/lmap/entry[4]/value/jar/zc/cs
+referenced-type     : java.nio.charset.Charset
+referenceable       : false
+class               : sun.nio.cs.UTF_8$Encoder
+required-type       : sun.nio.cs.UTF_8$Encoder
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /org.springframework.context.support.GenericApplicationContext/applicationEventMulticaster/beanClassLoader/parent/ucp/lmap/entry[4]/value/jar/zc/enc/charset
+class[1]            : java.util.zip.ZipCoder
+required-type[1]    : java.util.zip.ZipCoder
+class[2]            : java.util.jar.JarFile
+required-type[2]    : java.util.jar.JarFile
+class[3]            : sun.misc.URLClassPath$JarLoader
+required-type[3]    : sun.misc.URLClassPath$JarLoader
+class[4]            : java.util.HashMap
+required-type[4]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[5]            : sun.misc.URLClassPath
+required-type[5]    : sun.misc.URLClassPath
+class[6]            : sun.misc.Launcher$ExtClassLoader
+required-type[6]    : sun.misc.Launcher$ExtClassLoader
+class[7]            : sun.misc.Launcher$AppClassLoader
+required-type[7]    : sun.misc.Launcher$AppClassLoader
+class[8]            : org.springframework.context.event.SimpleApplicationEventMulticaster
+required-type[8]    : org.springframework.context.event.SimpleApplicationEventMulticaster
+class[9]            : org.springframework.context.support.GenericApplicationContext
+required-type[9]    : org.springframework.context.support.GenericApplicationContext
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########configuration.SlangEntitiesSpringConfig.applicationContext made test fail######
+org.springframework.util.ReflectionUtils.declaredMethodsCache set
+########org.springframework.util.ReflectionUtils.declaredMethodsCache made test fail######
+org.springframework.core.annotation.TypeMappedAnnotation.EMPTY_ARRAYS set
+########org.springframework.core.annotation.TypeMappedAnnotation.EMPTY_ARRAYS made test fail######
+io.cloudslang.lang.entities.encryption.EncryptionProvider.encryptor deserializeError: com.thoughtworks.xstream.converters.ConversionException: 
+---- Debugging information ----
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : io.cloudslang.fortest.SensitiveValueTest$SensitiveValueTestConfig$$EnhancerBySpringCGLIB$$e7cc557e
+class               : io.cloudslang.fortest.SensitiveValueTest$SensitiveValueTestConfig$1
+required-type       : io.cloudslang.fortest.SensitiveValueTest$SensitiveValueTestConfig$1
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /java.util.concurrent.atomic.AtomicReference/value/outer-class
+class[1]            : java.util.concurrent.atomic.AtomicReference
+required-type[1]    : java.util.concurrent.atomic.AtomicReference
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########io.cloudslang.lang.entities.encryption.EncryptionProvider.encryptor made test fail######
+org.springframework.core.annotation.AttributeMethods.cache set
+########org.springframework.core.annotation.AttributeMethods.cache made test fail######
+org.springframework.cglib.core.AbstractClassGenerator.CACHE set
+########org.springframework.cglib.core.AbstractClassGenerator.CACHE made test fail######
+org.springframework.core.annotation.OrderUtils.orderCache set
+########org.springframework.core.annotation.OrderUtils.orderCache made test fail######
+org.springframework.cglib.core.ClassEmitter.hookCounter set
+########org.springframework.cglib.core.ClassEmitter.hookCounter made test fail######
+org.springframework.beans.factory.support.ConstructorResolver.currentInjectionPoint set
+########org.springframework.beans.factory.support.ConstructorResolver.currentInjectionPoint made test fail######
+org.springframework.beans.BeanUtils.DEFAULT_TYPE_VALUES set
+########org.springframework.beans.BeanUtils.DEFAULT_TYPE_VALUES made test fail######
+org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.defaultContextCache deserializeError: com.thoughtworks.xstream.converters.ConversionException: Failed calling method
+---- Debugging information ----
+message             : Failed calling method
+cause-exception     : com.thoughtworks.xstream.converters.ConversionException
+cause-message       : Invalid reference
+method              : org.springframework.test.context.cache.DefaultContextCache$LruCache.readObject()
+class               : org.springframework.test.context.cache.DefaultContextCache$LruCache
+required-type       : org.springframework.test.context.cache.DefaultContextCache$LruCache
+converter-type      : com.thoughtworks.xstream.converters.reflection.SerializableConverter
+path                : /org.springframework.test.context.cache.DefaultContextCache/contextMap/java.util.Collections$SynchronizedMap/default/m/map/org.springframework.context.support.GenericApplicationContext/applicationEventMulticaster/beanClassLoader/parent/ucp/lmap/entry[4]/value/jar/zc/enc/charset
+class[1]            : java.util.Collections$SynchronizedMap
+required-type[1]    : java.util.Collections$SynchronizedMap
+class[2]            : org.springframework.test.context.cache.DefaultContextCache
+required-type[2]    : org.springframework.test.context.cache.DefaultContextCache
+converter-type[1]   : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.defaultContextCache made test fail######
+org.springframework.core.annotation.RepeatableContainers$StandardRepeatableContainers.cache set
+########org.springframework.core.annotation.RepeatableContainers$StandardRepeatableContainers.cache made test fail######
+org.springframework.util.ClassUtils.primitiveTypeToWrapperMap set
+########org.springframework.util.ClassUtils.primitiveTypeToWrapperMap made test fail######
+org.springframework.beans.factory.support.SimpleInstantiationStrategy.currentlyInvokedFactoryMethod set
+########org.springframework.beans.factory.support.SimpleInstantiationStrategy.currentlyInvokedFactoryMethod made test fail######
+org.springframework.util.ClassUtils.javaLanguageInterfaces set
+########org.springframework.util.ClassUtils.javaLanguageInterfaces made test fail######
+org.springframework.cglib.core.ReflectUtils.defaultLoader deserializeError: com.thoughtworks.xstream.converters.ConversionException: Invalid reference
+---- Debugging information ----
+message             : Invalid reference
+reference           : /sun.misc.Launcher_-AppClassLoader/parent/ucp/lmap/entry[4]/value/jar/zc/cs
+referenced-type     : java.nio.charset.Charset
+referenceable       : false
+class               : sun.nio.cs.UTF_8$Encoder
+required-type       : sun.nio.cs.UTF_8$Encoder
+converter-type      : com.thoughtworks.xstream.converters.reflection.ReflectionConverter
+path                : /sun.misc.Launcher$AppClassLoader/parent/ucp/lmap/entry[4]/value/jar/zc/enc/charset
+class[1]            : java.util.zip.ZipCoder
+required-type[1]    : java.util.zip.ZipCoder
+class[2]            : java.util.jar.JarFile
+required-type[2]    : java.util.jar.JarFile
+class[3]            : sun.misc.URLClassPath$JarLoader
+required-type[3]    : sun.misc.URLClassPath$JarLoader
+class[4]            : java.util.HashMap
+required-type[4]    : java.util.HashMap
+converter-type[1]   : edu.illinois.cs.diaper.CustomMapConverter
+class[5]            : sun.misc.URLClassPath
+required-type[5]    : sun.misc.URLClassPath
+class[6]            : sun.misc.Launcher$ExtClassLoader
+required-type[6]    : sun.misc.Launcher$ExtClassLoader
+class[7]            : sun.misc.Launcher$AppClassLoader
+required-type[7]    : sun.misc.Launcher$AppClassLoader
+version             : 1.5.0-SNAPSHOT
+-------------------------------
+########org.springframework.cglib.core.ReflectUtils.defaultLoader made test fail######
+org.springframework.cglib.core.AbstractClassGenerator.CURRENT set
+########org.springframework.cglib.core.AbstractClassGenerator.CURRENT made test fail######
+org.springframework.util.ReflectionUtils.declaredFieldsCache set
+########org.springframework.util.ReflectionUtils.declaredFieldsCache made test fail######

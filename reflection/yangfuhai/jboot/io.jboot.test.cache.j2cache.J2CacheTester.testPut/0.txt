@@ -1,0 +1,29 @@
+*************************reflection on diffFieldAfter************************
+io.jboot.components.cache.JbootCacheManager.me set
+########io.jboot.components.cache.JbootCacheManager.me made test success#######
+com.google.common.cache.LocalCache.logger set
+########com.google.common.cache.LocalCache.logger made test fail######
+com.alibaba.nacos.client.monitor.MetricsMonitor.NACOS_CLIENT_REQUEST_HISTOGRAM set
+########com.alibaba.nacos.client.monitor.MetricsMonitor.NACOS_CLIENT_REQUEST_HISTOGRAM made test fail######
+io.prometheus.client.Striped64.rng set
+########io.prometheus.client.Striped64.rng made test fail######
+com.google.common.cache.CacheBuilder.logger set
+########com.google.common.cache.CacheBuilder.logger made test fail######
+com.google.common.collect.Platform.logger set
+########com.google.common.collect.Platform.logger made test fail######
+io.prometheus.client.CollectorRegistry.defaultRegistry set
+########io.prometheus.client.CollectorRegistry.defaultRegistry made test fail######
+com.fasterxml.jackson.databind.util.StdDateFormat.CALENDAR set
+########com.fasterxml.jackson.databind.util.StdDateFormat.CALENDAR made test fail######
+com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_RFC1123 set
+########com.fasterxml.jackson.databind.util.StdDateFormat.DATE_FORMAT_RFC1123 made test fail######
+com.alibaba.nacos.client.config.impl.ServerListManager$ServerAddressIterator$RandomizedServerAddress.random set
+########com.alibaba.nacos.client.config.impl.ServerListManager$ServerAddressIterator$RandomizedServerAddress.random made test fail######
+io.jboot.app.config.JbootConfigManager.argMap set
+########io.jboot.app.config.JbootConfigManager.argMap made test fail######
+com.google.common.util.concurrent.AbstractFuture.log set
+########com.google.common.util.concurrent.AbstractFuture.log made test fail######
+com.google.common.base.Platform.logger set
+########com.google.common.base.Platform.logger made test fail######
+io.jboot.utils.StrUtil.log set
+########io.jboot.utils.StrUtil.log made test fail######
